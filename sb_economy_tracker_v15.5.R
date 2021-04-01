@@ -15,7 +15,6 @@ library(sf)
 library(tigris)
 library(tidycensus)
 
-library(economiccomplexity) # for computing economic complexity
 library(networkD3)
 
 library(png)
