@@ -1,0 +1,254 @@
+msa_fips,msa_name,industry_code,industry_title,bls_employment,year,qtr,two_digit_industry_code,ici
+C4378,"South Bend-Mishawaka, IN-MI",1111,Oilseed and grain farming,139,2019,4,11,-1.1258492111206182
+C4378,"South Bend-Mishawaka, IN-MI",1112,Vegetable and melon farming,0,2019,4,11,-1.418886153124403
+C4378,"South Bend-Mishawaka, IN-MI",1113,Fruit and tree nut farming,0,2019,4,11,-1.4751127073099626
+C4378,"South Bend-Mishawaka, IN-MI",1114,Greenhouse and nursery production,53,2019,4,11,-1.080583550920658
+C4378,"South Bend-Mishawaka, IN-MI",1119,Other crop farming,22,2019,4,11,-1.2121674164540197
+C4378,"South Bend-Mishawaka, IN-MI",1121,Cattle ranching and farming,0,2019,4,11,-1.2669658770421377
+C4378,"South Bend-Mishawaka, IN-MI",1122,Hog and pig farming,67,2019,4,11,-0.5628733842184307
+C4378,"South Bend-Mishawaka, IN-MI",1123,Poultry and egg production,0,2019,4,11,-0.02205219537832721
+C4378,"South Bend-Mishawaka, IN-MI",1129,Other animal production,0,2019,4,11,-0.6557069915563958
+C4378,"South Bend-Mishawaka, IN-MI",1133,Logging,0,2019,4,11,-0.940454404079971
+C4378,"South Bend-Mishawaka, IN-MI",1151,Support activities for crop production,10,2019,4,11,-1.3208626527426492
+C4378,"South Bend-Mishawaka, IN-MI",1152,Support activities for animal production,0,2019,4,11,-0.6426821495695106
+C4378,"South Bend-Mishawaka, IN-MI",1153,Support activities for forestry,0,2019,4,11,-0.4502455791321016
+C4378,"South Bend-Mishawaka, IN-MI",2123,Nonmetallic mineral mining and quarrying,0,2019,4,21,-0.7741929566715928
+C4378,"South Bend-Mishawaka, IN-MI",2131,Support activities for mining,0,2019,4,21,-0.7516733103589319
+C4378,"South Bend-Mishawaka, IN-MI",2211,Power generation and supply,288,2019,4,22,-0.348763017544497
+C4378,"South Bend-Mishawaka, IN-MI",2212,Natural gas distribution,0,2019,4,22,0.5772460690906783
+C4378,"South Bend-Mishawaka, IN-MI",2213,"Water, sewage and other systems",0,2019,4,22,-0.8475228492337491
+C4378,"South Bend-Mishawaka, IN-MI",2361,Residential building construction,570,2019,4,23,-1.0455294152916759
+C4378,"South Bend-Mishawaka, IN-MI",2362,Nonresidential building construction,530,2019,4,23,-0.9627517521347618
+C4378,"South Bend-Mishawaka, IN-MI",2371,Utility system construction,0,2019,4,23,-0.8619240666410107
+C4378,"South Bend-Mishawaka, IN-MI",2372,Land subdivision,0,2019,4,23,-0.14030072059186557
+C4378,"South Bend-Mishawaka, IN-MI",2373,"Highway, street, and bridge construction",0,2019,4,23,-0.6516633682650346
+C4378,"South Bend-Mishawaka, IN-MI",2379,Other heavy construction,0,2019,4,23,-0.26262192212578434
+C4378,"South Bend-Mishawaka, IN-MI",2381,Building foundation and exterior contractors,773,2019,4,23,-1.1378637269257144
+C4378,"South Bend-Mishawaka, IN-MI",2382,Building equipment contractors,2146,2019,4,23,-0.9915637924295634
+C4378,"South Bend-Mishawaka, IN-MI",2383,Building finishing contractors,587,2019,4,23,-0.9467111678815718
+C4378,"South Bend-Mishawaka, IN-MI",2389,Other specialty trade contractors,250,2019,4,23,-1.1181838485879536
+C4378,"South Bend-Mishawaka, IN-MI",3111,Animal food manufacturing,0,2019,4,31,-0.7278721131701201
+C4378,"South Bend-Mishawaka, IN-MI",3112,Grain and oilseed milling,0,2019,4,31,0.08723753969954895
+C4378,"South Bend-Mishawaka, IN-MI",3113,Sugar and confectionery product manufacturing,0,2019,4,31,0.3967168873285617
+C4378,"South Bend-Mishawaka, IN-MI",3115,Dairy product manufacturing,0,2019,4,31,0.04778556094982789
+C4378,"South Bend-Mishawaka, IN-MI",3118,Bakeries and tortilla manufacturing,0,2019,4,31,-0.08748396995220711
+C4378,"South Bend-Mishawaka, IN-MI",3119,Other food manufacturing,0,2019,4,31,-0.003590556918626542
+C4378,"South Bend-Mishawaka, IN-MI",3121,Beverage manufacturing,109,2019,4,31,-0.8704099169964659
+C4378,"South Bend-Mishawaka, IN-MI",3131,"Fiber, yarn, and thread mills",0,2019,4,31,0.9622961306096378
+C4378,"South Bend-Mishawaka, IN-MI",3149,Other textile product mills,228,2019,4,31,0.16469641656992415
+C4378,"South Bend-Mishawaka, IN-MI",3152,Cut and sew apparel manufacturing,0,2019,4,31,1.1347438858583634
+C4378,"South Bend-Mishawaka, IN-MI",3162,Footwear manufacturing,0,2019,4,31,2.214328987324079
+C4378,"South Bend-Mishawaka, IN-MI",3212,Plywood and engineered wood product mfg.,0,2019,4,32,0.4687596928510569
+C4378,"South Bend-Mishawaka, IN-MI",3219,Other wood product manufacturing,0,2019,4,32,-0.4955445509483966
+C4378,"South Bend-Mishawaka, IN-MI",3222,Converted paper product manufacturing,574,2019,4,32,-0.4198862521126607
+C4378,"South Bend-Mishawaka, IN-MI",3231,Printing and related support activities,0,2019,4,32,-0.48755326453318404
+C4378,"South Bend-Mishawaka, IN-MI",3241,Petroleum and coal products manufacturing,0,2019,4,32,0.6433171049382549
+C4378,"South Bend-Mishawaka, IN-MI",3251,Basic chemical manufacturing,0,2019,4,32,0.08663092759527136
+C4378,"South Bend-Mishawaka, IN-MI",3252,"Resin, rubber, and artificial fibers mfg.",0,2019,4,32,0.4927565484681985
+C4378,"South Bend-Mishawaka, IN-MI",3254,Pharmaceutical and medicine manufacturing,0,2019,4,32,0.9120212361033404
+C4378,"South Bend-Mishawaka, IN-MI",3255,"Paint, coating, and adhesive manufacturing",0,2019,4,32,0.5820943287964888
+C4378,"South Bend-Mishawaka, IN-MI",3256,"Soap, cleaning compound, and toiletry mfg.",91,2019,4,32,1.0321457636646396
+C4378,"South Bend-Mishawaka, IN-MI",3259,Other chemical product and preparation mfg.,0,2019,4,32,0.3339735116093336
+C4378,"South Bend-Mishawaka, IN-MI",3261,Plastics product manufacturing,0,2019,4,32,-0.2105902183989238
+C4378,"South Bend-Mishawaka, IN-MI",3262,Rubber product manufacturing,0,2019,4,32,0.8192340946847514
+C4378,"South Bend-Mishawaka, IN-MI",3271,Clay product and refractory manufacturing,0,2019,4,32,1.4450661498700283
+C4378,"South Bend-Mishawaka, IN-MI",3272,Glass and glass product manufacturing,0,2019,4,32,0.904176965585787
+C4378,"South Bend-Mishawaka, IN-MI",3273,Cement and concrete product manufacturing,100,2019,4,32,-0.6588327000107147
+C4378,"South Bend-Mishawaka, IN-MI",3279,Other nonmetallic mineral products,0,2019,4,32,0.1619411578944187
+C4378,"South Bend-Mishawaka, IN-MI",3312,Steel product mfg. from purchased steel,0,2019,4,33,1.3821814836871986
+C4378,"South Bend-Mishawaka, IN-MI",3313,Alumina and aluminum production,518,2019,4,33,1.176803397621378
+C4378,"South Bend-Mishawaka, IN-MI",3315,Foundries,0,2019,4,33,0.1831696478506504
+C4378,"South Bend-Mishawaka, IN-MI",3321,Forging and stamping,484,2019,4,33,0.5910395387703782
+C4378,"South Bend-Mishawaka, IN-MI",3323,Architectural and structural metals mfg.,0,2019,4,33,-0.913762004645015
+C4378,"South Bend-Mishawaka, IN-MI",3324,"Boiler, tank, and shipping container mfg.",0,2019,4,33,0.1294865585981044
+C4378,"South Bend-Mishawaka, IN-MI",3326,Spring and wire product manufacturing,0,2019,4,33,0.8693298919356128
+C4378,"South Bend-Mishawaka, IN-MI",3327,Machine shops and threaded product mfg.,974,2019,4,33,-0.7934527963471327
+C4378,"South Bend-Mishawaka, IN-MI",3328,"Coating, engraving, and heat treating metals",564,2019,4,33,-0.08857307999933327
+C4378,"South Bend-Mishawaka, IN-MI",3329,Other fabricated metal product manufacturing,242,2019,4,33,-0.30119672652378165
+C4378,"South Bend-Mishawaka, IN-MI",3331,"Ag., construction, and mining machinery mfg.",0,2019,4,33,-0.9781414349755927
+C4378,"South Bend-Mishawaka, IN-MI",3332,Industrial machinery manufacturing,0,2019,4,33,-0.047870496107954116
+C4378,"South Bend-Mishawaka, IN-MI",3333,Commercial and service industry machinery,0,2019,4,33,0.8861410439047279
+C4378,"South Bend-Mishawaka, IN-MI",3334,HVAC and commercial refrigeration equipment,0,2019,4,33,0.9432427377836271
+C4378,"South Bend-Mishawaka, IN-MI",3335,Metalworking machinery manufacturing,0,2019,4,33,-0.519821479657989
+C4378,"South Bend-Mishawaka, IN-MI",3336,Turbine and power transmission equipment mfg.,0,2019,4,33,0.7554654404104931
+C4378,"South Bend-Mishawaka, IN-MI",3339,Other general purpose machinery manufacturing,289,2019,4,33,-0.39574706504390694
+C4378,"South Bend-Mishawaka, IN-MI",3341,Computer and peripheral equipment mfg.,0,2019,4,33,0.8284376589557824
+C4378,"South Bend-Mishawaka, IN-MI",3342,Communications equipment manufacturing,0,2019,4,33,0.5391323750636783
+C4378,"South Bend-Mishawaka, IN-MI",3343,Audio and video equipment manufacturing,0,2019,4,33,1.7672761657376974
+C4378,"South Bend-Mishawaka, IN-MI",3344,Semiconductor and electronic component mfg.,307,2019,4,33,0.5565348082227352
+C4378,"South Bend-Mishawaka, IN-MI",3345,Electronic instrument manufacturing,0,2019,4,33,0.4463954849754125
+C4378,"South Bend-Mishawaka, IN-MI",3351,Electric lighting equipment manufacturing,0,2019,4,33,2.4922346007841747
+C4378,"South Bend-Mishawaka, IN-MI",3353,Electrical equipment manufacturing,0,2019,4,33,0.7994357329843454
+C4378,"South Bend-Mishawaka, IN-MI",3359,Other electrical equipment and component mfg.,0,2019,4,33,0.9309220768681818
+C4378,"South Bend-Mishawaka, IN-MI",3361,Motor vehicle manufacturing,0,2019,4,33,2.271136270866565
+C4378,"South Bend-Mishawaka, IN-MI",3362,Motor vehicle body and trailer manufacturing,82,2019,4,33,-0.20723871018160853
+C4378,"South Bend-Mishawaka, IN-MI",3363,Motor vehicle parts manufacturing,0,2019,4,33,-0.27833956350754724
+C4378,"South Bend-Mishawaka, IN-MI",3364,Aerospace product and parts manufacturing,830,2019,4,33,0.4615304569771384
+C4378,"South Bend-Mishawaka, IN-MI",3369,Other transportation equipment manufacturing,0,2019,4,33,1.216311637041301
+C4378,"South Bend-Mishawaka, IN-MI",3371,Household and institutional furniture mfg.,0,2019,4,33,-0.4524841292133238
+C4378,"South Bend-Mishawaka, IN-MI",3372,Office furniture and fixtures manufacturing,0,2019,4,33,0.833654144511475
+C4378,"South Bend-Mishawaka, IN-MI",3379,Other furniture related product manufacturing,0,2019,4,33,2.0126024979284076
+C4378,"South Bend-Mishawaka, IN-MI",3391,Medical equipment and supplies manufacturing,786,2019,4,33,-0.09143773705121078
+C4378,"South Bend-Mishawaka, IN-MI",3399,Other miscellaneous manufacturing,293,2019,4,33,-0.3565399550648284
+C4378,"South Bend-Mishawaka, IN-MI",4231,Motor vehicle and parts merchant wholesalers,0,2019,4,42,-0.7032244507758931
+C4378,"South Bend-Mishawaka, IN-MI",4232,Furniture and furnishing merchant wholesalers,0,2019,4,42,0.5422451184855034
+C4378,"South Bend-Mishawaka, IN-MI",4233,Lumber and const. supply merchant wholesalers,0,2019,4,42,-0.580958374288892
+C4378,"South Bend-Mishawaka, IN-MI",4234,Commercial equip. merchant wholesalers,0,2019,4,42,0.18339454857854678
+C4378,"South Bend-Mishawaka, IN-MI",4235,Metal and mineral merchant wholesalers,0,2019,4,42,-0.12311623246808974
+C4378,"South Bend-Mishawaka, IN-MI",4236,Appliance and electric goods merchant whls.,244,2019,4,42,0.026722351499075245
+C4378,"South Bend-Mishawaka, IN-MI",4237,Hardware and plumbing merchant wholesalers,174,2019,4,42,-0.5572957231407452
+C4378,"South Bend-Mishawaka, IN-MI",4238,Machinery and supply merchant wholesalers,559,2019,4,42,-0.9545045719395232
+C4378,"South Bend-Mishawaka, IN-MI",4239,Misc. durable goods merchant wholesalers,0,2019,4,42,-0.6442227645073557
+C4378,"South Bend-Mishawaka, IN-MI",4241,Paper and paper product merchant wholesalers,0,2019,4,42,0.1633951815568482
+C4378,"South Bend-Mishawaka, IN-MI",4242,Druggists' goods merchant wholesalers,145,2019,4,42,0.7288016681458247
+C4378,"South Bend-Mishawaka, IN-MI",4243,Apparel and piece goods merchant wholesalers,0,2019,4,42,0.8041868022640883
+C4378,"South Bend-Mishawaka, IN-MI",4244,Grocery and related product wholesalers,0,2019,4,42,-0.75359459568514775
+C4378,"South Bend-Mishawaka, IN-MI",4245,Farm product raw material merch. whls.,0,2019,4,42,-1.106865943032403
+C4378,"South Bend-Mishawaka, IN-MI",4246,Chemical merchant wholesalers,0,2019,4,42,-0.1381711903459207
+C4378,"South Bend-Mishawaka, IN-MI",4247,Petroleum merchant wholesalers,0,2019,4,42,-0.9345008043775985
+C4378,"South Bend-Mishawaka, IN-MI",4248,Alcoholic beverage merchant wholesalers,0,2019,4,42,-0.09831015062572541
+C4378,"South Bend-Mishawaka, IN-MI",4249,Misc. nondurable goods merchant wholesalers,0,2019,4,42,-0.8541729172327567
+C4378,"South Bend-Mishawaka, IN-MI",4251,Electronic markets and agents and brokers,581,2019,4,42,-0.3941191490660937
+C4378,"South Bend-Mishawaka, IN-MI",4411,Automobile dealers,0,2019,4,44,-1.106563536015364
+C4378,"South Bend-Mishawaka, IN-MI",4412,Other motor vehicle dealers,0,2019,4,44,-1.1863663393442023
+C4378,"South Bend-Mishawaka, IN-MI",4413,"Auto parts, accessories, and tire stores",0,2019,4,44,-1.0803578457929353
+C4378,"South Bend-Mishawaka, IN-MI",4421,Furniture stores,0,2019,4,44,-0.9627855842451017
+C4378,"South Bend-Mishawaka, IN-MI",4422,Home furnishings stores,173,2019,4,44,-0.7890211211160538
+C4378,"South Bend-Mishawaka, IN-MI",4431,Electronics and appliance stores,0,2019,4,44,-0.9354889859053469
+C4378,"South Bend-Mishawaka, IN-MI",4441,Building material and supplies dealers,1388,2019,4,44,-1.0223850815374647
+C4378,"South Bend-Mishawaka, IN-MI",4442,Lawn and garden equipment and supplies stores,99,2019,4,44,-1.1312798563006448
+C4378,"South Bend-Mishawaka, IN-MI",4451,Grocery stores,2301,2019,4,44,-1.1305534832575272
+C4378,"South Bend-Mishawaka, IN-MI",4452,Specialty food stores,93,2019,4,44,-0.9635526504559008
+C4378,"South Bend-Mishawaka, IN-MI",4453,"Beer, wine, and liquor stores",184,2019,4,44,-0.851363290592523
+C4378,"South Bend-Mishawaka, IN-MI",4461,Health and personal care stores,0,2019,4,44,-1.1099343498285097
+C4378,"South Bend-Mishawaka, IN-MI",4471,Gasoline stations,754,2019,4,44,-1.2194478500109982
+C4378,"South Bend-Mishawaka, IN-MI",4481,Clothing stores,0,2019,4,44,-0.8882904002405083
+C4378,"South Bend-Mishawaka, IN-MI",4482,Shoe stores,0,2019,4,44,-0.8719030250269244
+C4378,"South Bend-Mishawaka, IN-MI",4483,"Jewelry, luggage, and leather goods stores",139,2019,4,44,-0.9324727231450368
+C4378,"South Bend-Mishawaka, IN-MI",4511,Sporting goods and musical instrument stores,0,2019,4,45,-0.6879850487496633
+C4378,"South Bend-Mishawaka, IN-MI",4512,Book stores and news dealers,0,2019,4,45,-0.6657316587794961
+C4378,"South Bend-Mishawaka, IN-MI",4522,NA,0,2019,4,45,-1.0756931312004239
+C4378,"South Bend-Mishawaka, IN-MI",4523,NA,0,2019,4,45,-1.134115744229324
+C4378,"South Bend-Mishawaka, IN-MI",4531,Florists,0,2019,4,45,-0.9278871236413203
+C4378,"South Bend-Mishawaka, IN-MI",4532,"Office supplies, stationery, and gift stores",0,2019,4,45,-0.8657824413841467
+C4378,"South Bend-Mishawaka, IN-MI",4533,Used merchandise stores,0,2019,4,45,-0.8538573085950397
+C4378,"South Bend-Mishawaka, IN-MI",4539,Other miscellaneous store retailers,0,2019,4,45,-1.1390792223808377
+C4378,"South Bend-Mishawaka, IN-MI",4541,Electronic shopping and mail-order houses,0,2019,4,45,0.4473132105419073
+C4378,"South Bend-Mishawaka, IN-MI",4542,Vending machine operators,0,2019,4,45,0.1684934203380798
+C4378,"South Bend-Mishawaka, IN-MI",4543,Direct selling establishments,0,2019,4,45,-0.8172283946944146
+C4378,"South Bend-Mishawaka, IN-MI",4811,Scheduled air transportation,194,2019,4,48,2.3667889210544946
+C4378,"South Bend-Mishawaka, IN-MI",4831,"Sea, coastal, and Great Lakes transportation",0,2019,4,48,0.9557359188029878
+C4378,"South Bend-Mishawaka, IN-MI",4841,General freight trucking,1346,2019,4,48,-1.1145916828696745
+C4378,"South Bend-Mishawaka, IN-MI",4842,Specialized freight trucking,212,2019,4,48,-1.1440109503980325
+C4378,"South Bend-Mishawaka, IN-MI",4853,Taxi and limousine service,0,2019,4,48,-0.22115477985835857
+C4378,"South Bend-Mishawaka, IN-MI",4854,School and employee bus transportation,0,2019,4,48,-0.2914562490275371
+C4378,"South Bend-Mishawaka, IN-MI",4855,Charter bus industry,0,2019,4,48,1.173911580245955
+C4378,"South Bend-Mishawaka, IN-MI",4859,Other ground passenger transportation,0,2019,4,48,-0.05464728073841687
+C4378,"South Bend-Mishawaka, IN-MI",4869,Other pipeline transportation,0,2019,4,48,1.7718655979699978
+C4378,"South Bend-Mishawaka, IN-MI",4881,Support activities for air transportation,240,2019,4,48,-0.19194191186189277
+C4378,"South Bend-Mishawaka, IN-MI",4883,Support activities for water transportation,0,2019,4,48,-0.3244329511287343
+C4378,"South Bend-Mishawaka, IN-MI",4884,Support activities for road transportation,0,2019,4,48,-0.6649176061553158
+C4378,"South Bend-Mishawaka, IN-MI",4885,Freight transportation arrangement,0,2019,4,48,0.829296947240781
+C4378,"South Bend-Mishawaka, IN-MI",4889,Other support activities for transportation,0,2019,4,48,1.1370795790480164
+C4378,"South Bend-Mishawaka, IN-MI",4911,Postal service,0,2019,4,49,0.6519499238737323
+C4378,"South Bend-Mishawaka, IN-MI",4921,Couriers and express delivery services,995,2019,4,49,-0.14617477934671147
+C4378,"South Bend-Mishawaka, IN-MI",4922,Local messengers and local delivery,151,2019,4,49,-0.00380230334348163
+C4378,"South Bend-Mishawaka, IN-MI",4931,Warehousing and storage,497,2019,4,49,-0.2584005264728185
+C4378,"South Bend-Mishawaka, IN-MI",5111,"Newspaper, book, and directory publishers",0,2019,4,51,-0.3196076404767908
+C4378,"South Bend-Mishawaka, IN-MI",5112,Software publishers,0,2019,4,51,0.37330894701951983
+C4378,"South Bend-Mishawaka, IN-MI",5121,Motion picture and video industries,0,2019,4,51,0.5201355268136902
+C4378,"South Bend-Mishawaka, IN-MI",5151,Radio and television broadcasting,405,2019,4,51,-0.7772581931860314
+C4378,"South Bend-Mishawaka, IN-MI",5173,NAICS02 5173 Telecommunications resellers,0,2019,4,51,0.1190940440662167
+C4378,"South Bend-Mishawaka, IN-MI",5174,Satellite telecommunications,0,2019,4,51,1.7435207720213457
+C4378,"South Bend-Mishawaka, IN-MI",5179,Other telecommunications,0,2019,4,51,0.46512517784780677
+C4378,"South Bend-Mishawaka, IN-MI",5182,"Data processing, hosting and related services",157,2019,4,51,0.9548801320231154
+C4378,"South Bend-Mishawaka, IN-MI",5191,Other information services,16,2019,4,51,0.2828900533247291
+C4378,"South Bend-Mishawaka, IN-MI",5221,Depository credit intermediation,0,2019,4,52,-1.1183612424084635
+C4378,"South Bend-Mishawaka, IN-MI",5222,Nondepository credit intermediation,95,2019,4,52,-0.06737828020053102
+C4378,"South Bend-Mishawaka, IN-MI",5223,Activities related to credit intermediation,0,2019,4,52,0.6691880228800469
+C4378,"South Bend-Mishawaka, IN-MI",5231,Securities and commodity contracts brokerage,256,2019,4,52,0.33051350405074614
+C4378,"South Bend-Mishawaka, IN-MI",5239,Other financial investment activities,143,2019,4,52,0.2284930828851912
+C4378,"South Bend-Mishawaka, IN-MI",5241,Insurance carriers,158,2019,4,52,-0.08185132578051442
+C4378,"South Bend-Mishawaka, IN-MI",5242,Insurance agencies and brokerages,1498,2019,4,52,-0.5060356281178202
+C4378,"South Bend-Mishawaka, IN-MI",5251,Insurance and employee benefit funds,0,2019,4,52,1.0488552773498243
+C4378,"South Bend-Mishawaka, IN-MI",5259,Other investment pools and funds,0,2019,4,52,1.3511903715806817
+C4378,"South Bend-Mishawaka, IN-MI",5311,Lessors of real estate,0,2019,4,53,-0.9699214151038998
+C4378,"South Bend-Mishawaka, IN-MI",5312,Offices of real estate agents and brokers,352,2019,4,53,-0.7197123286501234
+C4378,"South Bend-Mishawaka, IN-MI",5313,Activities related to real estate,0,2019,4,53,-0.23782473599914575
+C4378,"South Bend-Mishawaka, IN-MI",5321,Automotive equipment rental and leasing,113,2019,4,53,-0.3500956241507973
+C4378,"South Bend-Mishawaka, IN-MI",5322,Consumer goods rental,76,2019,4,53,-0.8123709080494205
+C4378,"South Bend-Mishawaka, IN-MI",5323,General rental centers,0,2019,4,53,0.034339686630348226
+C4378,"South Bend-Mishawaka, IN-MI",5324,Machinery and equipment rental and leasing,35,2019,4,53,-0.32693983952847117
+C4378,"South Bend-Mishawaka, IN-MI",5331,Lessors of nonfinancial intangible assets,0,2019,4,53,0.6309582586898804
+C4378,"South Bend-Mishawaka, IN-MI",5411,Legal services,533,2019,4,54,-0.22438695299556558
+C4378,"South Bend-Mishawaka, IN-MI",5412,Accounting and bookkeeping services,811,2019,4,54,-0.49820119966872933
+C4378,"South Bend-Mishawaka, IN-MI",5413,Architectural and engineering services,961,2019,4,54,-0.5052186418001559
+C4378,"South Bend-Mishawaka, IN-MI",5414,Specialized design services,0,2019,4,54,0.07484609159939236
+C4378,"South Bend-Mishawaka, IN-MI",5415,Computer systems design and related services,0,2019,4,54,0.19326155343569915
+C4378,"South Bend-Mishawaka, IN-MI",5416,Management and technical consulting services,549,2019,4,54,0.23697576295897815
+C4378,"South Bend-Mishawaka, IN-MI",5417,Scientific research and development services,67,2019,4,54,-0.07132457111291411
+C4378,"South Bend-Mishawaka, IN-MI",5418,"Advertising, PR, and related services",0,2019,4,54,0.736257413547292
+C4378,"South Bend-Mishawaka, IN-MI",5419,Other professional and technical services,1328,2019,4,54,-0.9134779568710697
+C4378,"South Bend-Mishawaka, IN-MI",5511,Management of companies and enterprises,0,2019,4,55,-0.3371198978709512
+C4378,"South Bend-Mishawaka, IN-MI",5611,Office administrative services,0,2019,4,56,-0.4030099910752549
+C4378,"South Bend-Mishawaka, IN-MI",5612,Facilities support services,0,2019,4,56,-0.14054497423322912
+C4378,"South Bend-Mishawaka, IN-MI",5613,Employment services,0,2019,4,56,-0.45520001961497913
+C4378,"South Bend-Mishawaka, IN-MI",5614,Business support services,0,2019,4,56,-0.5981424365539363
+C4378,"South Bend-Mishawaka, IN-MI",5615,Travel arrangement and reservation services,91,2019,4,56,0.11859900694960576
+C4378,"South Bend-Mishawaka, IN-MI",5616,Investigation and security services,0,2019,4,56,-0.2626527259073666
+C4378,"South Bend-Mishawaka, IN-MI",5617,Services to buildings and dwellings,1379,2019,4,56,-0.8851475628016536
+C4378,"South Bend-Mishawaka, IN-MI",5619,Other support services,144,2019,4,56,-0.4203894751804448
+C4378,"South Bend-Mishawaka, IN-MI",5621,Waste collection,0,2019,4,56,-0.5603744451816829
+C4378,"South Bend-Mishawaka, IN-MI",5622,Waste treatment and disposal,0,2019,4,56,0.011812564131066714
+C4378,"South Bend-Mishawaka, IN-MI",5629,Remediation and other waste services,0,2019,4,56,-0.4387213213622957
+C4378,"South Bend-Mishawaka, IN-MI",6111,Elementary and secondary schools,0,2019,4,61,-0.5723737720253536
+C4378,"South Bend-Mishawaka, IN-MI",6113,Colleges and universities,0,2019,4,61,0.24885613326363532
+C4378,"South Bend-Mishawaka, IN-MI",6114,"Business, computer and management training",0,2019,4,61,0.05179066768480201
+C4378,"South Bend-Mishawaka, IN-MI",6115,Technical and trade schools,92,2019,4,61,-0.6089497374903557
+C4378,"South Bend-Mishawaka, IN-MI",6116,Other schools and instruction,208,2019,4,61,-0.5107008158867001
+C4378,"South Bend-Mishawaka, IN-MI",6117,Educational support services,0,2019,4,61,0.0700061124800287
+C4378,"South Bend-Mishawaka, IN-MI",6211,Offices of physicians,0,2019,4,62,-1.101922196335451
+C4378,"South Bend-Mishawaka, IN-MI",6212,Offices of dentists,1146,2019,4,62,-1.1287376689438258
+C4378,"South Bend-Mishawaka, IN-MI",6213,Offices of other health practitioners,774,2019,4,62,-1.0725921698701717
+C4378,"South Bend-Mishawaka, IN-MI",6214,Outpatient care centers,692,2019,4,62,-1.112667321897064
+C4378,"South Bend-Mishawaka, IN-MI",6215,Medical and diagnostic laboratories,565,2019,4,62,-0.3692236368901034
+C4378,"South Bend-Mishawaka, IN-MI",6216,Home health care services,0,2019,4,62,-0.9755834435280696
+C4378,"South Bend-Mishawaka, IN-MI",6219,Other ambulatory health care services,171,2019,4,62,-0.8707237275639829
+C4378,"South Bend-Mishawaka, IN-MI",6221,General medical and surgical hospitals,0,2019,4,62,0.10626812542460326
+C4378,"South Bend-Mishawaka, IN-MI",6223,Other hospitals,0,2019,4,62,1.4094448650458924
+C4378,"South Bend-Mishawaka, IN-MI",6231,"Nursing care facilities, skilled nursing",2114,2019,4,62,-1.0846838134233157
+C4378,"South Bend-Mishawaka, IN-MI",6232,Residential mental health facilities,477,2019,4,62,-0.8945831254461069
+C4378,"South Bend-Mishawaka, IN-MI",6233,"Continuing care, assisted living facilities",973,2019,4,62,-0.985159539553935
+C4378,"South Bend-Mishawaka, IN-MI",6239,Other residential care facilities,239,2019,4,62,-0.3609945793497742
+C4378,"South Bend-Mishawaka, IN-MI",6241,Individual and family services,0,2019,4,62,-1.048946221847829
+C4378,"South Bend-Mishawaka, IN-MI",6242,Emergency and other relief services,0,2019,4,62,-0.6998474383523215
+C4378,"South Bend-Mishawaka, IN-MI",6243,Vocational rehabilitation services,1055,2019,4,62,-0.6205024804775388
+C4378,"South Bend-Mishawaka, IN-MI",6244,Child day care services,0,2019,4,62,-0.944339560605558
+C4378,"South Bend-Mishawaka, IN-MI",7111,Performing arts companies,0,2019,4,71,0.2961928864280441
+C4378,"South Bend-Mishawaka, IN-MI",7112,Spectator sports,41,2019,4,71,0.5928108271878141
+C4378,"South Bend-Mishawaka, IN-MI",7113,Promoters of performing arts and sports,15,2019,4,71,0.6850787048597304
+C4378,"South Bend-Mishawaka, IN-MI",7114,Agents and managers for public figures,0,2019,4,71,1.2751867959489305
+C4378,"South Bend-Mishawaka, IN-MI",7115,"Independent artists, writers, and performers",7,2019,4,71,0.08601182363486823
+C4378,"South Bend-Mishawaka, IN-MI",7121,"Museums, historical sites, zoos, and parks",0,2019,4,71,-0.5233297038885155
+C4378,"South Bend-Mishawaka, IN-MI",7131,Amusement parks and arcades,0,2019,4,71,0.15499213706586154
+C4378,"South Bend-Mishawaka, IN-MI",7132,Gambling industries,0,2019,4,71,0.07756155614231611
+C4378,"South Bend-Mishawaka, IN-MI",7139,Other amusement and recreation industries,0,2019,4,71,-0.6654054983087639
+C4378,"South Bend-Mishawaka, IN-MI",7211,Traveler accommodation,998,2019,4,72,-1.0350047899177333
+C4378,"South Bend-Mishawaka, IN-MI",7212,RV parks and recreational camps,44,2019,4,72,-0.9009942393790769
+C4378,"South Bend-Mishawaka, IN-MI",7223,Special food services,0,2019,4,72,-0.5823831556517549
+C4378,"South Bend-Mishawaka, IN-MI",7224,"Drinking places, alcoholic beverages",0,2019,4,72,-1.080546501211013
+C4378,"South Bend-Mishawaka, IN-MI",7225,Restaurants and other eating places,10412,2019,4,72,-1.173945696262116
+C4378,"South Bend-Mishawaka, IN-MI",8111,Automotive repair and maintenance,854,2019,4,81,-1.1212001586659004
+C4378,"South Bend-Mishawaka, IN-MI",8112,Electronic equipment repair and maintenance,0,2019,4,81,-0.4189021872193174
+C4378,"South Bend-Mishawaka, IN-MI",8113,Commercial machinery repair and maintenance,230,2019,4,81,-0.9957191326615017
+C4378,"South Bend-Mishawaka, IN-MI",8114,Household goods repair and maintenance,0,2019,4,81,-0.5795039720853677
+C4378,"South Bend-Mishawaka, IN-MI",8121,Personal care services,646,2019,4,81,-0.7399832989072785
+C4378,"South Bend-Mishawaka, IN-MI",8122,Death care services,189,2019,4,81,-1.192525155637546
+C4378,"South Bend-Mishawaka, IN-MI",8123,Drycleaning and laundry services,0,2019,4,81,-0.6307374272787523
+C4378,"South Bend-Mishawaka, IN-MI",8129,Other personal services,0,2019,4,81,-0.4300757266648717
+C4378,"South Bend-Mishawaka, IN-MI",8131,Religious organizations,0,2019,4,81,-0.6213604438687058
+C4378,"South Bend-Mishawaka, IN-MI",8132,Grantmaking and giving services,0,2019,4,81,-0.30125629942856214
+C4378,"South Bend-Mishawaka, IN-MI",8133,Social advocacy organizations,0,2019,4,81,-0.8260839850641306
+C4378,"South Bend-Mishawaka, IN-MI",8134,Civic and social organizations,0,2019,4,81,-0.8418418937548436
+C4378,"South Bend-Mishawaka, IN-MI",8139,Professional and similar organizations,460,2019,4,81,-1.0268781750611606
+C4378,"South Bend-Mishawaka, IN-MI",8141,Private households,117,2019,4,81,-0.9636244313109857

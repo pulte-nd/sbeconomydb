@@ -1,0 +1,21 @@
+msa_fips,msa_name,industry_code,industry_title,bls_employment,year,qtr
+C4378,"South Bend-Mishawaka, IN-MI",11,"Agriculture, forestry, fishing and hunting",0,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",21,"Mining, quarrying, and oil and gas extraction",0,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",22,Utilities,0,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",23,Construction,5652,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",31-33,Manufacturing,17117,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",42,Wholesale trade,6003,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",44-45,Retail trade,15408,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",48-49,Transportation and warehousing,0,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",51,Information,1318,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",52,Finance and insurance,3771,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",53,Real estate and rental and leasing,1607,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",54,Professional and technical services,5032,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",55,Management of companies and enterprises,0,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",56,Administrative and waste services,0,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",61,Educational services,0,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",62,Health care and social assistance,0,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",71,"Arts, entertainment, and recreation",1844,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",72,Accommodation and food services,12388,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",81,"Other services, except public administration",4331,2019,4
+C4378,"South Bend-Mishawaka, IN-MI",99,Unclassified,52,2019,4

@@ -1,0 +1,13 @@
+name: sbeconomydb
+title: sbeconomydb
+username:
+account: swapnilkm
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3755247
+bundleId: 4328056
+url: https://swapnilkm.shinyapps.io/sbeconomydb/
+when: 1615414554.66457
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: sb_economy_tracker_v14.0.R
