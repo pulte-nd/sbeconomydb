@@ -1,0 +1,12 @@
+name: sbeconomydb
+title: sbeconomydb
+username:
+account: pulte
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3897108
+bundleId: 4433903
+url: https://pulte.shinyapps.io/sbeconomydb/
+when: 1617639570.3277
+asMultiple: FALSE
+asStatic: FALSE
