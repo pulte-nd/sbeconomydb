@@ -15,6 +15,7 @@ library(sf)
 library(tigris)
 library(tidycensus)
 
+library(economiccomplexity) # for computing economic complexity
 library(networkD3)
 
 library(png)
@@ -49,6 +50,10 @@ pal_select <- colorBin(palette = "viridis", domain = c(0,1), n = 2)
 # #conomic Complexity files
 selected_msa <- "South Bend-Mishawaka, IN-MI"
 sb_mi_msa <- read_rds("sb_mi_msa.Rds")
+
+# business licenses
+sb_business_licenses <- read_rds("sb_business_licenses.Rds")
+
 
 #setwd("C:/Users/Swapnil PC/OneDrive - nd.edu/notre dame research/citi foundation grant/Economic complexity/ECI Dashboard (shared with CRC)/data and code/")
 
@@ -100,6 +105,7 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                 menuSubItem("Employment and Unemployment", tabName = "emp_unemp", icon = icon("briefcase")),
                                 menuSubItem("UI Claims", tabName = "ui_claims", icon = icon("money")),
                                 menuSubItem("Housing", tabName = "housing", icon = icon("home")),
+                                menuSubItem("Business Activity", tabName = "business_activity", icon = icon("business-time")),
                                 menuSubItem("Structural Indicators", tabName = "structural", icon = icon("database"))
                                 ),
                        menuItem("Economic Complexity", tabName = "economic_complexity", icon = icon("compress-arrows-alt"), startExpanded = TRUE,
@@ -340,6 +346,37 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                             width=6),
                                         box(plotlyOutput(outputId = 'evictionPlot'),width=6)
                                )),
+                       tabItem(tabName = "business_activity",
+                               fluidRow(
+                                 column(
+                                   h1("Business Activity",
+                                      style="text-align:justify;color:white;background-color:darkblue;padding:15px;border-radius:10px"),br(),
+                                   width=12)
+                               ),
+                               #fluidRow(
+                              #   valueBoxOutput("totalbuildingbox", width = 3),
+                               #  valueBoxOutput("buildingchangebox", width = 3),
+                              #   valueBoxOutput("totalevictionbox", width = 3),
+                              #   valueBoxOutput("evictionchangebox", width = 3)
+                              # ),
+                               
+                               fluidRow(
+                                 #column(
+                                   #br(),
+                                   #p("",
+                                   #  style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),
+                                   #width=6),
+                                 column(
+                                   br(),
+                                   p("The graph shows the number of business licenses issued in South Bend, IN.", 
+                                     style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),
+                                   width=6)
+                               ),
+                               
+                               fluidRow(box(plotlyOutput(outputId = 'businessactivityPlot'),
+                                            width=6)#,
+                                        #box(plotlyOutput(outputId = ),width=6)
+                               )),
                        tabItem(tabName = "structural",
                                fluidRow(
                                  column(
@@ -550,7 +587,8 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                      "U.S. Census Bureau (https://www.census.gov/)",br(),
                                      "Hoosiers by the Numbers (http://www.hoosierdata.in.gov/)",br(),
                                      "Indiana Department of Workforce Development (https://www.in.gov/dwd/)",br(),
-                                     "The Eviction Lab (https://evictionlab.org/",
+                                     "The Eviction Lab (https://evictionlab.org/)",br(),
+                                     "The City of South Bend",
                   
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),
                                    width=12)
@@ -922,6 +960,32 @@ server = function(input, output, session) {
       fig <- fig%>% 
         layout(yaxis = list(tickformat = "%"))
     }
+    
+    fig
+  })
+  
+  output$businessactivityPlot <- renderPlotly({
+    fig <- sb_business_licenses %>%
+      filter(mnth>=ymd("2015-02-01"),
+             #var==input$ind,
+      ) %>%
+      plot_ly(x=~mnth, y=~issues,#y=~get(input$abs_per), 
+              type="scatter",mode="lines",
+              line = list(shape = 'spline'), # more data would make this look nicer
+              hoverinfo = 'text',
+              text=~paste('</br> Month: ', mnth,
+                          '</br> Licenses Issued: ', `issues`)) %>% 
+      layout(showlegend = FALSE,
+             title = "Business Licenses isssued (new and renewals) in South Bend, IN",
+             xaxis = list(title = ""), # use zeroline = FALSE to remove zero line :)
+             yaxis = list(title=""),
+             margin = list(l = 50, r = 50, t = 60, b = 60),
+             annotations = list(text = "Source: City of South Bend",
+                                font = list(size = 12),
+                                showarrow = FALSE,
+                                xref = 'paper', x = -0.03,
+                                yref = 'paper', y = -0.2)
+      )
     
     fig
   })
