@@ -560,6 +560,8 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                      "The Economic Complexity Analysis was originally developed by Hausmann et al. (2014) to understand growth potential for countries. The methodology was adapted for metro areas by Escobari et al. (2019). 
                                      The website design is influenced by Atlas of Economic Complexity (https://atlas.cid.harvard.edu/)",
                                      br(),br(),
+                                     "All the data and the code is available here: https://github.com/pulte-nd/sbeconomydb",
+                                     br(),br(),
                                      "References",
                                      br(),
                                      "   Hausmann, R., Hidalgo, C. A., Bustos, S., Coscia, M., and Simoes, A. (2014). The atlas of economic complexity: Mapping paths to prosperity. MIT Press.",
