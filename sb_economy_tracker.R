@@ -197,7 +197,11 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                                     "Bachelor's Degree"="Bachelor's Degree",
                                                     "Associate's Degree"="Associate's Degree",
                                                     "Master's Degree"="Master's Degree")), width = 6)
-                                 )
+                                 ),
+                               fluidRow(
+                                 box(plotlyOutput(outputId = 'indjobsPlot'), width = 6),
+                                 box(plotlyOutput(outputId = 'candoccgrpPlot'), width = 6)
+                               )
                        ),
                        tabItem(tabName = "ui_claims",
                                fluidRow(
@@ -557,6 +561,10 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                      br(),br(),
                                      "All the data and the code is available ",tags$a(href = "https://github.com/pulte-nd/sbeconomydb", "here"),
                                      br(),br(),
+                                     "Download newsletter ",tags$a(href = "my-report.pdf", "here"),
+                                     #br(),br(),
+                                     #a(href="my-report.pdf", "Download PDF", download=NA, target="_blank"),
+                                     br(),br(),
                                      "References",
                                      br(),
                                      "   Hausmann, R., Hidalgo, C. A., Bustos, S., Coscia, M., and Simoes, A. (2014). The atlas of economic complexity: Mapping paths to prosperity. MIT Press.",
@@ -694,6 +702,35 @@ server = function(input, output, session) {
     
   })
   
+  output$indjobsPlot <- renderPlotly({
+    
+    latest_date=max(df$dt)
+    
+    fig <- df %>%
+      filter(dt==max(dt), indicator=="industry") %>%
+      mutate(per=`Job Openings`/sum(`Job Openings`)) %>%
+      plot_ly(
+        labels = ~ paste0(var," (",round(per*100,0),"%",")"),
+        parents = NA,
+        values = ~ `Job Openings`,
+        type = 'treemap',
+        hovertemplate = "%{label}<br>Job openings: %{value}<extra></extra>"#,
+        #text=~paste('Total Jobs =', bls_employment,
+        #'<br>Percentage =',paste(round(per_jobs*100,0),"%"))
+      ) %>%
+      layout(autosize = TRUE,
+             title = paste0("Job Openings by Industry in South Bend-Mishawaka MSA as of ",format(latest_date,"%b %d, %Y")),
+             margin = list(l = 0, r = 0, t = 30, b = 30),
+             annotations = list(text = "Source: www.indianacareerconnect.com",
+                                font = list(size = 12),
+                                showarrow = FALSE,
+                                xref = 'paper', x = 0.01,
+                                yref = 'paper', y = -0.05))
+    
+    
+    fig
+  })
+  
   output$candidatePlot <- renderPlotly({
     
     fig <- df_cand %>%
@@ -725,6 +762,36 @@ server = function(input, output, session) {
     
     fig
   })
+  
+  output$candoccgrpPlot <- renderPlotly({
+    
+    latest_date=max(df_cand$dt)
+    
+    fig <- df_cand %>%
+      filter(dt==max(dt), indicator=="Occupation Group") %>%
+      mutate(per=Candidates/sum(Candidates)) %>%
+      plot_ly(
+        labels = ~ paste0(var," (",round(per*100,0),"%",")"),
+        parents = NA,
+        values = ~ Candidates,
+        type = 'treemap',
+        hovertemplate = "%{label}<br>Candidates: %{value}<extra></extra>"#,
+        #text=~paste('Total Jobs =', bls_employment,
+        #'<br>Percentage =',paste(round(per_jobs*100,0),"%"))
+      ) %>%
+      layout(autosize = TRUE,
+             title = paste0("Candidates by Occupation in South Bend-Mishawaka MSA as of ",format(latest_date,"%b %d, %Y")),
+             margin = list(l = 0, r = 0, t = 30, b = 30),
+             annotations = list(text = "Source: www.indianacareerconnect.com",
+                                font = list(size = 12),
+                                showarrow = FALSE,
+                                xref = 'paper', x = 0.01,
+                                yref = 'paper', y = -0.05))
+    
+    
+    fig
+  })
+  
   
   output$cesPlot <- renderPlotly({
     fig <- sb_ces_sup %>%
