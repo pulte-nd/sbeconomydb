@@ -23,6 +23,8 @@ state_code,area_code,measure,area,dt,value,last_yr_value,change,per_change
 18,IM1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-10-01,6.7,3.4,3.3000000000000003,0.9705882352941178
 18,IM1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-11-01,6.1,3.4,2.6999999999999997,0.7941176470588235
 18,IM1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-12-01,5,3.4,1.6,0.4705882352941177
+18,IM1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2021-01-01,5.6,4,1.5999999999999996,0.3999999999999999
+18,IM1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2021-02-01,5.4,3.6,1.8000000000000003,0.5000000000000001
 18,IM1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2019-01-01,6065,NA,NA,NA
 18,IM1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2019-02-01,5561,NA,NA,NA
 18,IM1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2019-03-01,5285,NA,NA,NA
@@ -47,6 +49,8 @@ state_code,area_code,measure,area,dt,value,last_yr_value,change,per_change
 18,IM1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-10-01,8823,4651,4172,0.897011395398839
 18,IM1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-11-01,7941,4673,3268,0.6993366145944789
 18,IM1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-12-01,6479,4573,1906,0.4167942269844741
+18,IM1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2021-01-01,7459,5423,2036,0.37543794947446063
+18,IM1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2021-02-01,7126,4943,2183,0.44163463483714344
 18,IM1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2019-01-01,131472,NA,NA,NA
 18,IM1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2019-02-01,131833,NA,NA,NA
 18,IM1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2019-03-01,131990,NA,NA,NA
@@ -71,6 +75,8 @@ state_code,area_code,measure,area,dt,value,last_yr_value,change,per_change
 18,IM1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-10-01,122689,131444,-8755,-0.06660631143300569
 18,IM1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-11-01,121557,131458,-9901,-0.07531683123126778
 18,IM1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-12-01,123986,130711,-6725,-0.05144938069481528
+18,IM1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2021-01-01,125445,130498,-5053,-0.03872089993716379
+18,IM1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2021-02-01,124525,132156,-7631,-0.057742365083688976
 18,IM1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2019-01-01,137537,NA,NA,NA
 18,IM1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2019-02-01,137394,NA,NA,NA
 18,IM1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2019-03-01,137275,NA,NA,NA
@@ -95,6 +101,8 @@ state_code,area_code,measure,area,dt,value,last_yr_value,change,per_change
 18,IM1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-10-01,131512,136095,-4583,-0.03367500642933245
 18,IM1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-11-01,129498,136131,-6633,-0.04872512506335809
 18,IM1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2020-12-01,130465,135284,-4819,-0.03562135951036338
+18,IM1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2021-01-01,132904,135921,-3017,-0.022196717210732703
+18,IM1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)",2021-02-01,131651,137099,-5448,-0.03973770778780297
 18,MT1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-01-01,4.5,NA,NA,NA
 18,MT1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-02-01,4.2,NA,NA,NA
 18,MT1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-03-01,4,NA,NA,NA
@@ -119,6 +127,8 @@ state_code,area_code,measure,area,dt,value,last_yr_value,change,per_change
 18,MT1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-10-01,6.4,3.4,3.0000000000000004,0.8823529411764708
 18,MT1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-11-01,5.9,3.4,2.5000000000000004,0.735294117647059
 18,MT1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-12-01,4.9,3.4,1.5000000000000004,0.44117647058823545
+18,MT1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2021-01-01,5.7,4.1,1.6000000000000005,0.39024390243902457
+18,MT1843780000000,Unemployment Rate,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2021-02-01,5.4,3.7,1.7000000000000002,0.4594594594594595
 18,MT1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-01-01,7367,NA,NA,NA
 18,MT1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-02-01,6741,NA,NA,NA
 18,MT1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-03-01,6479,NA,NA,NA
@@ -143,6 +153,8 @@ state_code,area_code,measure,area,dt,value,last_yr_value,change,per_change
 18,MT1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-10-01,10021,5484,4537,0.8273158278628738
 18,MT1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-11-01,8986,5463,3523,0.6448837634999085
 18,MT1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-12-01,7534,5445,2089,0.38365472910927456
+18,MT1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2021-01-01,8925,6559,2366,0.3607257203842049
+18,MT1843780000000,Unemployment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2021-02-01,8431,5911,2520,0.42632380307900525
 18,MT1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-01-01,154841,NA,NA,NA
 18,MT1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-02-01,155454,NA,NA,NA
 18,MT1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-03-01,155566,NA,NA,NA
@@ -167,6 +179,8 @@ state_code,area_code,measure,area,dt,value,last_yr_value,change,per_change
 18,MT1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-10-01,145420,154843,-9423,-0.060855188804143555
 18,MT1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-11-01,144239,155061,-10822,-0.06979188835361567
 18,MT1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-12-01,146120,154171,-8051,-0.052221234862587645
+18,MT1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2021-01-01,147826,153795,-5969,-0.03881140479209337
+18,MT1843780000000,Employment,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2021-02-01,146685,156012,-9327,-0.05978386277978617
 18,MT1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-01-01,162208,NA,NA,NA
 18,MT1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-02-01,162195,NA,NA,NA
 18,MT1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2019-03-01,162045,NA,NA,NA
@@ -191,3 +205,5 @@ state_code,area_code,measure,area,dt,value,last_yr_value,change,per_change
 18,MT1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-10-01,155441,160327,-4886,-0.030475216276734423
 18,MT1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-11-01,153225,160524,-7299,-0.045469836286162815
 18,MT1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2020-12-01,153654,159616,-5962,-0.03735214514835605
+18,MT1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2021-01-01,156751,160354,-3603,-0.02246903725507315
+18,MT1843780000000,Labor Force,"South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",2021-02-01,155116,161923,-6807,-0.04203849978075999
