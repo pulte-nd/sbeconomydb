@@ -162,7 +162,11 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                    width=8),
                                  valueBoxOutput("candidatestojobbox", width = 4)
                                  ),
-                               
+                               fluidRow(selectInput(
+                                 inputId = "select_msa",
+                                 label = "Select MSA",
+                                 choices = c("South Bend - Mishawaka", "Elkhart - Goshen")
+                               )),
                                fluidRow(
                                  box(plotlyOutput(outputId = 'jobPlot'), 
                                      radioButtons("abs_per", "Select Y axis",
@@ -672,7 +676,7 @@ server = function(input, output, session) {
     
     fig <- df %>%
       filter(var==input$ind,
-             msa=="South Bend - Mishawaka") %>%
+             msa==input$select_msa) %>%
       plot_ly(x=~dt, y=~get(input$abs_per), 
               type="scatter",mode="lines",
               line = list(shape = 'spline'), # more data would make this look nicer
@@ -681,7 +685,7 @@ server = function(input, output, session) {
                           '</br> Job Openings: ', `Job Openings`,
                           '</br> Percentage Change: ', paste(round(per_change*100,2),"%"))) %>% 
       layout(showlegend = FALSE,
-             title = "Job Openings in South Bend-Mishawaka, IN-MI Metropolitan Statistical Area",
+             title = paste0("Job Openings in ",input$select_msa," Metropolitan Statistical Area"),
              xaxis = list(title = "",range(mdy("06.25.20"),Sys.Date())), # use zeroline = FALSE to remove zero line :)
              yaxis = list(title=""),
              margin = list(l = 50, r = 50, t = 60, b = 60),
@@ -707,7 +711,9 @@ server = function(input, output, session) {
     latest_date=max(df$dt)
     
     fig <- df %>%
-      filter(dt==max(dt), indicator=="industry") %>%
+      filter(indicator=="industry",
+             msa==input$select_msa) %>%
+      filter(dt==max(dt)) %>%
       mutate(per=`Job Openings`/sum(`Job Openings`)) %>%
       plot_ly(
         labels = ~ paste0(var," (",round(per*100,0),"%",")"),
@@ -719,7 +725,7 @@ server = function(input, output, session) {
         #'<br>Percentage =',paste(round(per_jobs*100,0),"%"))
       ) %>%
       layout(autosize = TRUE,
-             title = paste0("Job Openings by Industry in South Bend-Mishawaka MSA as of ",format(latest_date,"%b %d, %Y")),
+             title = paste0("Job Openings by Industry in ",input$select_msa," as of ",format(latest_date,"%b %d, %Y")),
              margin = list(l = 0, r = 0, t = 30, b = 30),
              annotations = list(text = "Source: www.indianacareerconnect.com",
                                 font = list(size = 12),
@@ -735,7 +741,7 @@ server = function(input, output, session) {
     
     fig <- df_cand %>%
       filter(var==input$cand,
-             msa=="South Bend - Mishawaka")  %>%
+             msa==input$select_msa)  %>%
       plot_ly(x=~dt, y=~get(input$abs_per_cand),
               type="scatter",mode="lines",
               line = list(shape = 'spline'),
@@ -744,7 +750,7 @@ server = function(input, output, session) {
                 '</br> Candidates: ', Candidates,
                           '</br> Percentage Change: ', paste(round(per_change*100,2),"%")))%>% 
       layout(showlegend = FALSE,
-             title = "Candidates in South Bend-Mishawaka, IN-MI Metropolitan Statistical Area",
+             title = paste0("Candidates in ",input$select_msa," Metropolitan Statistical Area"),
              xaxis = list(title = "",range(mdy("06.25.20"),Sys.Date())), # use zeroline = FALSE to remove zero line :)
              yaxis = list(title=""),
              margin = list(l = 50, r = 50, t = 60, b = 60),
@@ -768,7 +774,9 @@ server = function(input, output, session) {
     latest_date=max(df_cand$dt)
     
     fig <- df_cand %>%
-      filter(dt==max(dt), indicator=="Occupation Group") %>%
+      filter(indicator=="Occupation Group",
+             msa==input$select_msa) %>%
+      filter(dt==max(dt)) %>%
       mutate(per=Candidates/sum(Candidates)) %>%
       plot_ly(
         labels = ~ paste0(var," (",round(per*100,0),"%",")"),
@@ -780,7 +788,7 @@ server = function(input, output, session) {
         #'<br>Percentage =',paste(round(per_jobs*100,0),"%"))
       ) %>%
       layout(autosize = TRUE,
-             title = paste0("Candidates by Occupation in South Bend-Mishawaka MSA as of ",format(latest_date,"%b %d, %Y")),
+             title = paste0("Candidates by Occupation in ",input$select_msa," as of ",format(latest_date,"%b %d, %Y")),
              margin = list(l = 0, r = 0, t = 30, b = 30),
              annotations = list(text = "Source: www.indianacareerconnect.com",
                                 font = list(size = 12),
@@ -1322,7 +1330,7 @@ output$myImage2 <- renderImage({
   output$totaljobbox = renderValueBox({
     recent_date = max(df$dt)
     my_query = "Total Jobs as of SAMPLE"
-    med_trips = df$`Job Openings`[ df$indicator=="Total Openings" & df$dt==recent_date & df$msa=="South Bend - Mishawaka" ]
+    med_trips = df$`Job Openings`[ df$indicator=="Total Openings" & df$dt==recent_date & df$msa==input$select_msa ]
     valueBox(
       paste0(med_trips), sub("SAMPLE",format(recent_date,"%b %d, %Y"),my_query), icon = icon("fas fa-briefcase"),
       color = "yellow")
@@ -1330,7 +1338,7 @@ output$myImage2 <- renderImage({
   output$jobchangebox = renderValueBox({
     recent_date = max(df$dt)
     my_query = "Percent change as of SAMPLE"
-    shl_trips = paste0(round(df$per_change[ df$indicator=="Total Openings" & df$dt==recent_date & df$msa=="South Bend - Mishawaka"]*100,2),"%")
+    shl_trips = paste0(round(df$per_change[ df$indicator=="Total Openings" & df$dt==recent_date & df$msa==input$select_msa]*100,2),"%")
     valueBox(
       paste0(shl_trips), sub("SAMPLE",format(recent_date,"%b %d, %Y"),my_query), icon = icon("fas fa-percent"),
       color = "green")
@@ -1338,7 +1346,7 @@ output$myImage2 <- renderImage({
   output$totalcandidatebox = renderValueBox({ 
     recent_date = max(df_cand$dt)
     my_query = "Total Candidates as of SAMPLE"
-    ubers_etc = df_cand$`Candidates`[ df_cand$indicator=="Total Candidates" & df_cand$dt==recent_date & df_cand$msa=="South Bend - Mishawaka"]
+    ubers_etc = df_cand$`Candidates`[ df_cand$indicator=="Total Candidates" & df_cand$dt==recent_date & df_cand$msa==input$select_msa]
     valueBox(
       paste0(ubers_etc), sub("SAMPLE",format(recent_date,"%b %d, %Y"),my_query), icon = icon("fas fa-user-graduate"),
       color = "maroon")
@@ -1346,7 +1354,7 @@ output$myImage2 <- renderImage({
   output$candidatechangebox = renderValueBox({ 
     recent_date = max(df_cand$dt)
     my_query = "Percent change as of SAMPLE"
-    ubers_etc = paste0(round(df_cand$per_change[ df_cand$indicator=="Total Candidates" & df_cand$dt==recent_date & df_cand$msa=="South Bend - Mishawaka"]*100,2),"%")
+    ubers_etc = paste0(round(df_cand$per_change[ df_cand$indicator=="Total Candidates" & df_cand$dt==recent_date & df_cand$msa==input$select_msa]*100,2),"%")
     valueBox(
       paste0(ubers_etc), sub("SAMPLE",format(recent_date,"%b %d, %Y"),my_query), icon = icon("fas fa-percent"),
       color = "purple")
@@ -1355,7 +1363,7 @@ output$myImage2 <- renderImage({
   output$candidatestojobbox = renderValueBox({ 
     recent_date = max(df_cand$dt)
     my_query = "Number of candidates per job as of SAMPLE"
-    candidates = df_cand$`Candidates`[ df_cand$indicator=="Total Candidates" & df_cand$dt==recent_date & df_cand$msa=="South Bend - Mishawaka"]
+    candidates = df_cand$`Candidates`[ df_cand$indicator=="Total Candidates" & df_cand$dt==recent_date & df_cand$msa==input$select_msa]
     jobs= df$`Job Openings`[ df$indicator=="Total Openings" & df$dt==recent_date & df$msa=="South Bend - Mishawaka" ]
     cand_per_job=round(candidates/jobs,2)
     valueBox(

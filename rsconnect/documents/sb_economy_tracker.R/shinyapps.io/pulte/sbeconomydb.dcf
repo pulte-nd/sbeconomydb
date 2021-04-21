@@ -5,9 +5,8 @@ account: pulte
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3897108
-bundleId: 4461799
+bundleId: 4501801
 url: https://pulte.shinyapps.io/sbeconomydb/
-when: 1618245056.73023
+when: 1619036871.6894
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: data_manipulation_for_app.R
