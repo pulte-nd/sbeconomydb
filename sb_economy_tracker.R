@@ -24,7 +24,7 @@ library(png)
 
 # http://www.incontext.indiana.edu/2005/november/7.asp#:~:text=The%20best%20way%20to%20distinguish,establishment%20taken%20from%20payroll%20records.
 
-#setwd("C:/Users/Swapnil PC/OneDrive - nd.edu/Data/Job postings/Job Postings App/")
+#setwd("C:/Users/Swapnil PC/OneDrive - nd.edu/notre dame research/sbeconomydb/")
 
 df <- read_csv("df.csv")
 df_cand <- read_csv("df_cand.csv")
@@ -33,8 +33,8 @@ employers_jobs <- read_rds("employers_jobs.Rds")
 all_claims <- read_csv("all_claims.csv")
 sb_naics_sector <- read_csv("sb_naics_sector.csv")
 sb_oes <- read_csv("sb_oes.csv")
-sb_ces_sup <- read_csv("sb_ces_sup.csv")
-laus_sb <- read_csv("laus_sb.csv")
+sb_elk_ces_sup <- read_csv("sb_elk_ces_sup.csv")
+laus_select <- read_csv("laus_select.csv")
 housing_sb <- read_csv("housing_sb.csv")
 sb_weekly_evictions <- read_rds("sb_weekly_evictions.Rds")
 
@@ -279,13 +279,17 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                  valueBoxOutput("totallaborforce", width = 3),
                                  valueBoxOutput("unemploymentbox", width = 3)
                                ),
-                               
+                               fluidRow(selectInput(
+                                 inputId = "select_msa_emp",
+                                 label = "Select MSA",
+                                 choices = c("South Bend - Mishawaka", "Elkhart - Goshen")
+                               )),
                                fluidRow(
                                  column(
                                    br(),
                                    p("The graph shows the employment by industry in the SB-Mishawaka MSA.", "As compared to a year before, total employment is down by",
-                                     format(sb_ces_sup$change[ sb_ces_sup$industry_name=="Total Nonfarm" & sb_ces_sup$dt==max(sb_ces_sup$dt) ]*-1,big.mark=",",scientific=FALSE),"or",
-                                     paste0(round(sb_ces_sup$per_change[ sb_ces_sup$industry_name=="Total Nonfarm" & sb_ces_sup$dt==max(sb_ces_sup$dt) ]*100,2),"%"),
+                                     format(sb_elk_ces_sup$change[ sb_elk_ces_sup$industry_name=="Total Nonfarm" & sb_elk_ces_sup$dt==max(sb_elk_ces_sup$dt) & sb_elk_ces_sup$msa_name=="South Bend - Mishawaka"]*-1,big.mark=",",scientific=FALSE),"or",
+                                     paste0(round(sb_elk_ces_sup$per_change[ sb_elk_ces_sup$industry_name=="Total Nonfarm" & sb_elk_ces_sup$dt==max(sb_elk_ces_sup$dt) & sb_elk_ces_sup$msa_name=="South Bend - Mishawaka"]*100,2),"%"),
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),
                                  width=6),
                                  column(
@@ -293,8 +297,8 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                    p("The graph shows the number of people in labor force and employed in SB-Mishawaka MSA and St. Joseph county. 
                                      The gap between the labor force and employment is the number of unemployed.",
                                      "As compared to a year before, number of unemployed is up by",
-                                     format(laus_sb$change[ laus_sb$measure=="Unemployment" & laus_sb$dt==max(laus_sb$dt) & laus_sb$area_code=="IM1843780000000"],big.mark=",",scientific=FALSE), "or",
-                                     paste0(round(laus_sb$per_change[ laus_sb$measure=="Unemployment" & laus_sb$dt==max(sb_ces_sup$dt) & laus_sb$area_code=="IM1843780000000"]*100,2),"%"),
+                                     format(laus_select$change[ laus_select$measure=="Unemployment" & laus_select$dt==max(laus_select$dt) & laus_select$msa_name=="South Bend - Mishawaka"],big.mark=",",scientific=FALSE), "or",
+                                     paste0(round(laus_select$per_change[ laus_select$measure=="Unemployment" & laus_select$dt==max(laus_select$dt) & laus_select$msa_name=="South Bend - Mishawaka"]*100,2),"%"),
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),
                                    width=6)
                                ),
@@ -315,10 +319,7 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                         box(plotlyOutput(outputId = 'lausPlot'),
                                             radioButtons("abs_per_laus", "Select Y axis",
                                                          c("Total"="value",
-                                                           "Percentage Change"="per_change"), inline = T),
-                                            radioButtons("laus", "Select Area",
-                                                         c("South Bend - Mishawaka MSA"="South Bend-Mishawaka, IN-MI Metropolitan Statistical Area (U)",
-                                                           "St. Joseph County"="South Bend-Mishawaka, IN-MI Metropolitan Statistical Area, IN part (U)")), width = 6))),
+                                                           "Percentage Change"="per_change"), inline = T), width = 6))),
                        tabItem(tabName = "housing",
                                fluidRow(
                                  column(
@@ -563,7 +564,8 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                      "The Economic Complexity Analysis was originally developed by Hausmann et al. (2014) to understand growth potential for countries. The methodology was adapted for metro areas by Escobari et al. (2019). 
                                      The website design is influenced by ",tags$a(href = "https://atlas.cid.harvard.edu/", "Atlas of Economic Complexity"),
                                      br(),br(),
-                                     "All the data and the code is available ",tags$a(href = "https://github.com/pulte-nd/sbeconomydb", "here"),
+                                     "All the data and the code is available ",tags$a(href = "https://github.com/pulte-nd/sbeconomydb", "here."),
+                                     "For any feedback/questions, please ",tags$a(href = "mailto:smotghare@nd.edu", "contact us."),
                                      #br(),br(),
                                      #"Download newsletter ",tags$a(href = "my-report.pdf", "here"),
                                      #br(),br(),
@@ -802,15 +804,16 @@ server = function(input, output, session) {
   
   
   output$cesPlot <- renderPlotly({
-    fig <- sb_ces_sup %>%
-      filter(industry_name==input$ces) %>% # filter(industry==input$ces) %>%
+    fig <- sb_elk_ces_sup %>%
+      filter(industry_name==input$ces,
+             msa_name==input$select_msa_emp) %>%
       plot_ly(x=~dt, y=~get(input$abs_per_ces),
               type="scatter",mode="lines", line = list(shape = 'spline'),
               hoverinfo = 'text',
               text=~paste('</br> Date: ', dt,
                           '</br> Employment: ', total_employment,
                           '</br> Percentage Change: ', paste(round(per_change*100,2),"%"))) %>% 
-      layout(title = "Employment by Industry in SB-Mishawaka MSA",
+      layout(title = paste0("Employment by Industry in ",input$select_msa_emp," MSA"),
              xaxis = list(title = ""),
              yaxis = list(title=""),
              margin = list(l = 50, r = 50, t = 60, b = 60),
@@ -829,8 +832,8 @@ server = function(input, output, session) {
   })
   
   output$lausPlot <- renderPlotly({
-    fig <- laus_sb %>%
-      filter(area==input$laus,
+    fig <- laus_select %>%
+      filter(msa_name==input$select_msa_emp,
              (measure=="Labor Force" | measure=="Employment")) %>%
       plot_ly(x=~dt, y=~get(input$abs_per_laus), 
               split = ~measure,
@@ -1101,7 +1104,7 @@ server = function(input, output, session) {
                     y0 = 0, y1 = 100, yref = "y"),
                list(type = "rect",
                     fillcolor = "yellow", line = list(color = "yellow"), opacity = 0.3,
-                    x0 = "2020-09-04", x1 = "2020-12-31", xref = "x",
+                    x0 = "2020-09-04", x1 = "2021-06-30", xref = "x",
                     y0 = 0, y1 = 100, yref = "y"))
       )
     
@@ -1377,17 +1380,17 @@ output$myImage2 <- renderImage({
   
   # ces data
   output$totalemploymentbox = renderValueBox({
-    recent_date = max(sb_ces_sup$dt)
+    recent_date = max(sb_elk_ces_sup$dt)
     my_query = "Total Employment as of SAMPLE"
-    employment = sb_ces_sup$total_employment[ sb_ces_sup$industry_name=="Total Nonfarm" & sb_ces_sup$dt==recent_date ]
+    employment = sb_elk_ces_sup$total_employment[ sb_elk_ces_sup$industry_name=="Total Nonfarm" & sb_elk_ces_sup$dt==recent_date & sb_elk_ces_sup$msa_name==input$select_msa_emp ]
     valueBox(
       format(employment,big.mark=",",scientific=FALSE), sub("SAMPLE",format(recent_date,"%b %d, %Y"),my_query), icon = icon("fas fa-briefcase"),
       color = "yellow")
   }) 
   output$employmentchangebox = renderValueBox({
-    recent_date = max(sb_ces_sup$dt)
-    emp_change = sb_ces_sup$change[ sb_ces_sup$industry_name=="Total Nonfarm" & sb_ces_sup$dt==recent_date ]
-    emp_change_per = round(sb_ces_sup$per_change[ sb_ces_sup$industry_name=="Total Nonfarm" & sb_ces_sup$dt==recent_date ]*100,2)
+    recent_date = max(sb_elk_ces_sup$dt)
+    emp_change = sb_elk_ces_sup$change[ sb_elk_ces_sup$industry_name=="Total Nonfarm" & sb_elk_ces_sup$dt==recent_date & sb_elk_ces_sup$msa_name==input$select_msa_emp]
+    emp_change_per = round(sb_elk_ces_sup$per_change[ sb_elk_ces_sup$industry_name=="Total Nonfarm" & sb_elk_ces_sup$dt==recent_date & sb_elk_ces_sup$msa_name==input$select_msa_emp]*100,2)
     valueBox(
       #emp_change, 
       paste0(format(emp_change,big.mark=",",scientific=FALSE),"(",emp_change_per,"%)"),
@@ -1397,18 +1400,18 @@ output$myImage2 <- renderImage({
   
   # laus data
   output$totallaborforce = renderValueBox({ 
-    recent_date = max(laus_sb$dt)
+    recent_date = max(laus_select$dt)
     my_query = "Total labor force as of SAMPLE"
-    labor_force = laus_sb$value[ laus_sb$measure=="Labor Force" & laus_sb$dt==recent_date & laus_sb$area==input$laus]
+    labor_force = laus_select$value[ laus_select$measure=="Labor Force" & laus_select$dt==recent_date & laus_select$msa_name==input$select_msa_emp]
     valueBox(
       format(labor_force,big.mark=",",scientific=FALSE), sub("SAMPLE",format(recent_date,"%b %d, %Y"),my_query), icon = icon("fas fa-user-graduate"),
       color = "maroon")
   })
   output$unemploymentbox = renderValueBox({ 
-    recent_date = max(laus_sb$dt)
+    recent_date = max(laus_select$dt)
     my_query = "Unemployed as of SAMPLE"
-    unemployed = laus_sb$value[ laus_sb$measure=="Unemployment" & laus_sb$dt==recent_date & laus_sb$area==input$laus]
-    unemployed_per= round(laus_sb$value[ laus_sb$measure=="Unemployment Rate" & laus_sb$dt==recent_date & laus_sb$area==input$laus],2)
+    unemployed = laus_select$value[ laus_select$measure=="Unemployment" & laus_select$dt==recent_date & laus_select$msa_name==input$select_msa_emp]
+    unemployed_per= round(laus_select$value[ laus_select$measure=="Unemployment Rate" & laus_select$dt==recent_date & laus_select$msa_name==input$select_msa_emp],2)
     valueBox(
       paste0(format(unemployed,big.mark=",",scientific=FALSE),"(",unemployed_per,"%)"), sub("SAMPLE",format(recent_date,"%b %d, %Y"),my_query), icon = icon("fas fa-percent"),
       color = "purple")

@@ -24,7 +24,8 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,00,00000000,Total Nonfarm,"South Bend-Mishawaka, IN-MI",2020-11-01,135100,148400,-13300,-0.08962264150943396
 18,43780,00,00000000,Total Nonfarm,"South Bend-Mishawaka, IN-MI",2020-12-01,134000,148500,-14500,-0.09764309764309764
 18,43780,00,00000000,Total Nonfarm,"South Bend-Mishawaka, IN-MI",2021-01-01,131600,143000,-11400,-0.07972027972027972
-18,43780,00,00000000,Total Nonfarm,"South Bend-Mishawaka, IN-MI",2021-02-01,132300,143000,-10700,-0.07482517482517483
+18,43780,00,00000000,Total Nonfarm,"South Bend-Mishawaka, IN-MI",2021-02-01,134000,143000,-9000,-0.06293706293706294
+18,43780,00,00000000,Total Nonfarm,"South Bend-Mishawaka, IN-MI",2021-03-01,134500,142100,-7600,-0.05348346235045742
 18,43780,05,05000000,Total Private,"South Bend-Mishawaka, IN-MI",2019-01-01,129500,NA,NA,NA
 18,43780,05,05000000,Total Private,"South Bend-Mishawaka, IN-MI",2019-02-01,129900,NA,NA,NA
 18,43780,05,05000000,Total Private,"South Bend-Mishawaka, IN-MI",2019-03-01,130300.00000000001,NA,NA,NA
@@ -50,7 +51,8 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,05,05000000,Total Private,"South Bend-Mishawaka, IN-MI",2020-11-01,120500,133000,-12500,-0.09398496240601503
 18,43780,05,05000000,Total Private,"South Bend-Mishawaka, IN-MI",2020-12-01,119700,133100,-13400,-0.10067618332081142
 18,43780,05,05000000,Total Private,"South Bend-Mishawaka, IN-MI",2021-01-01,117700,127700,-10000,-0.07830853563038372
-18,43780,05,05000000,Total Private,"South Bend-Mishawaka, IN-MI",2021-02-01,118000,127700,-9700,-0.0759592795614722
+18,43780,05,05000000,Total Private,"South Bend-Mishawaka, IN-MI",2021-02-01,119700,127700,-8000,-0.06264682850430697
+18,43780,05,05000000,Total Private,"South Bend-Mishawaka, IN-MI",2021-03-01,120200,126700,-6500,-0.05130228887134965
 18,43780,06,06000000,Goods Producing,"South Bend-Mishawaka, IN-MI",2019-01-01,22800,NA,NA,NA
 18,43780,06,06000000,Goods Producing,"South Bend-Mishawaka, IN-MI",2019-02-01,22800,NA,NA,NA
 18,43780,06,06000000,Goods Producing,"South Bend-Mishawaka, IN-MI",2019-03-01,22900,NA,NA,NA
@@ -76,7 +78,8 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,06,06000000,Goods Producing,"South Bend-Mishawaka, IN-MI",2020-11-01,21400,23300,-1900,-0.0815450643776824
 18,43780,06,06000000,Goods Producing,"South Bend-Mishawaka, IN-MI",2020-12-01,21400,23100,-1700,-0.0735930735930736
 18,43780,06,06000000,Goods Producing,"South Bend-Mishawaka, IN-MI",2021-01-01,20800,22400,-1600,-0.07142857142857142
-18,43780,06,06000000,Goods Producing,"South Bend-Mishawaka, IN-MI",2021-02-01,20800,22500,-1700,-0.07555555555555556
+18,43780,06,06000000,Goods Producing,"South Bend-Mishawaka, IN-MI",2021-02-01,20900,22500,-1600,-0.07111111111111111
+18,43780,06,06000000,Goods Producing,"South Bend-Mishawaka, IN-MI",2021-03-01,21300,22500,-1200,-0.05333333333333334
 18,43780,07,07000000,Service-Providing,"South Bend-Mishawaka, IN-MI",2019-01-01,121800,NA,NA,NA
 18,43780,07,07000000,Service-Providing,"South Bend-Mishawaka, IN-MI",2019-02-01,122300,NA,NA,NA
 18,43780,07,07000000,Service-Providing,"South Bend-Mishawaka, IN-MI",2019-03-01,122700,NA,NA,NA
@@ -102,7 +105,8 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,07,07000000,Service-Providing,"South Bend-Mishawaka, IN-MI",2020-11-01,113700,125100,-11400,-0.09112709832134293
 18,43780,07,07000000,Service-Providing,"South Bend-Mishawaka, IN-MI",2020-12-01,112600,125400,-12800,-0.10207336523125997
 18,43780,07,07000000,Service-Providing,"South Bend-Mishawaka, IN-MI",2021-01-01,110800,120600,-9800,-0.0812603648424544
-18,43780,07,07000000,Service-Providing,"South Bend-Mishawaka, IN-MI",2021-02-01,111500,120500,-9000,-0.07468879668049792
+18,43780,07,07000000,Service-Providing,"South Bend-Mishawaka, IN-MI",2021-02-01,113100,120500,-7400,-0.061410788381742736
+18,43780,07,07000000,Service-Providing,"South Bend-Mishawaka, IN-MI",2021-03-01,113200,119600,-6400,-0.05351170568561873
 18,43780,08,08000000,Private Service Providing,"South Bend-Mishawaka, IN-MI",2019-01-01,106700,NA,NA,NA
 18,43780,08,08000000,Private Service Providing,"South Bend-Mishawaka, IN-MI",2019-02-01,107100,NA,NA,NA
 18,43780,08,08000000,Private Service Providing,"South Bend-Mishawaka, IN-MI",2019-03-01,107400,NA,NA,NA
@@ -128,7 +132,8 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,08,08000000,Private Service Providing,"South Bend-Mishawaka, IN-MI",2020-11-01,99100,109700,-10600,-0.09662716499544212
 18,43780,08,08000000,Private Service Providing,"South Bend-Mishawaka, IN-MI",2020-12-01,98300,110000,-11700,-0.10636363636363637
 18,43780,08,08000000,Private Service Providing,"South Bend-Mishawaka, IN-MI",2021-01-01,96900,105300,-8400,-0.07977207977207977
-18,43780,08,08000000,Private Service Providing,"South Bend-Mishawaka, IN-MI",2021-02-01,97200,105200,-8000,-0.07604562737642585
+18,43780,08,08000000,Private Service Providing,"South Bend-Mishawaka, IN-MI",2021-02-01,98800,105200,-6400,-0.060836501901140684
+18,43780,08,08000000,Private Service Providing,"South Bend-Mishawaka, IN-MI",2021-03-01,98900,104200,-5300,-0.0508637236084453
 18,43780,15,15000000,"Mining, Logging and Construction","South Bend-Mishawaka, IN-MI",2019-01-01,5400,NA,NA,NA
 18,43780,15,15000000,"Mining, Logging and Construction","South Bend-Mishawaka, IN-MI",2019-02-01,5400,NA,NA,NA
 18,43780,15,15000000,"Mining, Logging and Construction","South Bend-Mishawaka, IN-MI",2019-03-01,5600,NA,NA,NA
@@ -155,6 +160,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,15,15000000,"Mining, Logging and Construction","South Bend-Mishawaka, IN-MI",2020-12-01,5100,5900,-800,-0.13559322033898305
 18,43780,15,15000000,"Mining, Logging and Construction","South Bend-Mishawaka, IN-MI",2021-01-01,4800,5600,-800,-0.14285714285714285
 18,43780,15,15000000,"Mining, Logging and Construction","South Bend-Mishawaka, IN-MI",2021-02-01,4700,5500,-800,-0.14545454545454545
+18,43780,15,15000000,"Mining, Logging and Construction","South Bend-Mishawaka, IN-MI",2021-03-01,4800,5600,-800,-0.14285714285714285
 18,43780,30,30000000,Manufacturing,"South Bend-Mishawaka, IN-MI",2019-01-01,17400,NA,NA,NA
 18,43780,30,30000000,Manufacturing,"South Bend-Mishawaka, IN-MI",2019-02-01,17400,NA,NA,NA
 18,43780,30,30000000,Manufacturing,"South Bend-Mishawaka, IN-MI",2019-03-01,17300,NA,NA,NA
@@ -180,7 +186,8 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,30,30000000,Manufacturing,"South Bend-Mishawaka, IN-MI",2020-11-01,16000,17200,-1200,-0.06976744186046512
 18,43780,30,30000000,Manufacturing,"South Bend-Mishawaka, IN-MI",2020-12-01,16300,17200,-900,-0.05232558139534884
 18,43780,30,30000000,Manufacturing,"South Bend-Mishawaka, IN-MI",2021-01-01,16000,16800,-800,-0.047619047619047616
-18,43780,30,30000000,Manufacturing,"South Bend-Mishawaka, IN-MI",2021-02-01,16100.000000000002,17000,-899.9999999999982,-0.05294117647058813
+18,43780,30,30000000,Manufacturing,"South Bend-Mishawaka, IN-MI",2021-02-01,16200,17000,-800,-0.047058823529411764
+18,43780,30,30000000,Manufacturing,"South Bend-Mishawaka, IN-MI",2021-03-01,16500,16900,-400,-0.023668639053254437
 18,43780,40,40000000,"Trade, Transportation, and Utilities","South Bend-Mishawaka, IN-MI",2019-01-01,25800,NA,NA,NA
 18,43780,40,40000000,"Trade, Transportation, and Utilities","South Bend-Mishawaka, IN-MI",2019-02-01,25600,NA,NA,NA
 18,43780,40,40000000,"Trade, Transportation, and Utilities","South Bend-Mishawaka, IN-MI",2019-03-01,25700,NA,NA,NA
@@ -207,6 +214,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,40,40000000,"Trade, Transportation, and Utilities","South Bend-Mishawaka, IN-MI",2020-12-01,26000,27000,-1000,-0.037037037037037035
 18,43780,40,40000000,"Trade, Transportation, and Utilities","South Bend-Mishawaka, IN-MI",2021-01-01,25300,25700,-400,-0.01556420233463035
 18,43780,40,40000000,"Trade, Transportation, and Utilities","South Bend-Mishawaka, IN-MI",2021-02-01,25200,25400,-200,-0.007874015748031496
+18,43780,40,40000000,"Trade, Transportation, and Utilities","South Bend-Mishawaka, IN-MI",2021-03-01,25100,25600,-500,-0.01953125
 18,43780,41,41000000,Wholesale Trade,"South Bend-Mishawaka, IN-MI",2019-01-01,6800,NA,NA,NA
 18,43780,41,41000000,Wholesale Trade,"South Bend-Mishawaka, IN-MI",2019-02-01,6800,NA,NA,NA
 18,43780,41,41000000,Wholesale Trade,"South Bend-Mishawaka, IN-MI",2019-03-01,6800,NA,NA,NA
@@ -233,6 +241,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,41,41000000,Wholesale Trade,"South Bend-Mishawaka, IN-MI",2020-12-01,6400,6800,-400,-0.058823529411764705
 18,43780,41,41000000,Wholesale Trade,"South Bend-Mishawaka, IN-MI",2021-01-01,6400,6700,-300,-0.04477611940298507
 18,43780,41,41000000,Wholesale Trade,"South Bend-Mishawaka, IN-MI",2021-02-01,6400,6700,-300,-0.04477611940298507
+18,43780,41,41000000,Wholesale Trade,"South Bend-Mishawaka, IN-MI",2021-03-01,6400,6800,-400,-0.058823529411764705
 18,43780,42,42000000,Retail Trade,"South Bend-Mishawaka, IN-MI",2019-01-01,14800,NA,NA,NA
 18,43780,42,42000000,Retail Trade,"South Bend-Mishawaka, IN-MI",2019-02-01,14600,NA,NA,NA
 18,43780,42,42000000,Retail Trade,"South Bend-Mishawaka, IN-MI",2019-03-01,14700,NA,NA,NA
@@ -259,6 +268,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,42,42000000,Retail Trade,"South Bend-Mishawaka, IN-MI",2020-12-01,14800,15500,-700,-0.04516129032258064
 18,43780,42,42000000,Retail Trade,"South Bend-Mishawaka, IN-MI",2021-01-01,14300,14700,-400,-0.027210884353741496
 18,43780,42,42000000,Retail Trade,"South Bend-Mishawaka, IN-MI",2021-02-01,14300,14500,-200,-0.013793103448275862
+18,43780,42,42000000,Retail Trade,"South Bend-Mishawaka, IN-MI",2021-03-01,14100,14500,-400,-0.027586206896551724
 18,43780,42,42452000,General Merchandise Stores,"South Bend-Mishawaka, IN-MI",2019-01-01,3600,NA,NA,NA
 18,43780,42,42452000,General Merchandise Stores,"South Bend-Mishawaka, IN-MI",2019-02-01,3400,NA,NA,NA
 18,43780,42,42452000,General Merchandise Stores,"South Bend-Mishawaka, IN-MI",2019-03-01,3400,NA,NA,NA
@@ -285,6 +295,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,42,42452000,General Merchandise Stores,"South Bend-Mishawaka, IN-MI",2020-12-01,3800,3800,0,0
 18,43780,42,42452000,General Merchandise Stores,"South Bend-Mishawaka, IN-MI",2021-01-01,3500,3400,100,0.029411764705882353
 18,43780,42,42452000,General Merchandise Stores,"South Bend-Mishawaka, IN-MI",2021-02-01,3400,3300,100,0.030303030303030304
+18,43780,42,42452000,General Merchandise Stores,"South Bend-Mishawaka, IN-MI",2021-03-01,3300,3400,-100,-0.029411764705882353
 18,43780,43,43000000,"Transportation, Warehousing, and Utilities","South Bend-Mishawaka, IN-MI",2019-01-01,4200,NA,NA,NA
 18,43780,43,43000000,"Transportation, Warehousing, and Utilities","South Bend-Mishawaka, IN-MI",2019-02-01,4200,NA,NA,NA
 18,43780,43,43000000,"Transportation, Warehousing, and Utilities","South Bend-Mishawaka, IN-MI",2019-03-01,4200,NA,NA,NA
@@ -311,6 +322,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,43,43000000,"Transportation, Warehousing, and Utilities","South Bend-Mishawaka, IN-MI",2020-12-01,4800,4700,100,0.02127659574468085
 18,43780,43,43000000,"Transportation, Warehousing, and Utilities","South Bend-Mishawaka, IN-MI",2021-01-01,4600,4300,300,0.06976744186046512
 18,43780,43,43000000,"Transportation, Warehousing, and Utilities","South Bend-Mishawaka, IN-MI",2021-02-01,4500,4200,300,0.07142857142857142
+18,43780,43,43000000,"Transportation, Warehousing, and Utilities","South Bend-Mishawaka, IN-MI",2021-03-01,4600,4300,300,0.06976744186046512
 18,43780,50,50000000,Information,"South Bend-Mishawaka, IN-MI",2019-01-01,1400,NA,NA,NA
 18,43780,50,50000000,Information,"South Bend-Mishawaka, IN-MI",2019-02-01,1400,NA,NA,NA
 18,43780,50,50000000,Information,"South Bend-Mishawaka, IN-MI",2019-03-01,1400,NA,NA,NA
@@ -337,6 +349,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,50,50000000,Information,"South Bend-Mishawaka, IN-MI",2020-12-01,1200,1400,-200,-0.14285714285714285
 18,43780,50,50000000,Information,"South Bend-Mishawaka, IN-MI",2021-01-01,1200,1300,-100,-0.07692307692307693
 18,43780,50,50000000,Information,"South Bend-Mishawaka, IN-MI",2021-02-01,1200,1400,-200,-0.14285714285714285
+18,43780,50,50000000,Information,"South Bend-Mishawaka, IN-MI",2021-03-01,1200,1300,-100,-0.07692307692307693
 18,43780,55,55000000,Financial Activities,"South Bend-Mishawaka, IN-MI",2019-01-01,6000,NA,NA,NA
 18,43780,55,55000000,Financial Activities,"South Bend-Mishawaka, IN-MI",2019-02-01,6100,NA,NA,NA
 18,43780,55,55000000,Financial Activities,"South Bend-Mishawaka, IN-MI",2019-03-01,6000,NA,NA,NA
@@ -363,6 +376,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,55,55000000,Financial Activities,"South Bend-Mishawaka, IN-MI",2020-12-01,5900,6000,-100,-0.016666666666666666
 18,43780,55,55000000,Financial Activities,"South Bend-Mishawaka, IN-MI",2021-01-01,5800,6000,-200,-0.03333333333333333
 18,43780,55,55000000,Financial Activities,"South Bend-Mishawaka, IN-MI",2021-02-01,5800,6000,-200,-0.03333333333333333
+18,43780,55,55000000,Financial Activities,"South Bend-Mishawaka, IN-MI",2021-03-01,5800,6000,-200,-0.03333333333333333
 18,43780,60,60000000,Professional and Business Services,"South Bend-Mishawaka, IN-MI",2019-01-01,13800,NA,NA,NA
 18,43780,60,60000000,Professional and Business Services,"South Bend-Mishawaka, IN-MI",2019-02-01,13700,NA,NA,NA
 18,43780,60,60000000,Professional and Business Services,"South Bend-Mishawaka, IN-MI",2019-03-01,13600,NA,NA,NA
@@ -388,7 +402,8 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,60,60000000,Professional and Business Services,"South Bend-Mishawaka, IN-MI",2020-11-01,13500,14500,-1000,-0.06896551724137931
 18,43780,60,60000000,Professional and Business Services,"South Bend-Mishawaka, IN-MI",2020-12-01,13500,14400,-900,-0.0625
 18,43780,60,60000000,Professional and Business Services,"South Bend-Mishawaka, IN-MI",2021-01-01,13500,14000,-500,-0.03571428571428571
-18,43780,60,60000000,Professional and Business Services,"South Bend-Mishawaka, IN-MI",2021-02-01,13400,14000,-600,-0.04285714285714286
+18,43780,60,60000000,Professional and Business Services,"South Bend-Mishawaka, IN-MI",2021-02-01,13500,14000,-500,-0.03571428571428571
+18,43780,60,60000000,Professional and Business Services,"South Bend-Mishawaka, IN-MI",2021-03-01,13500,14000,-500,-0.03571428571428571
 18,43780,65,65000000,Education and Health Services,"South Bend-Mishawaka, IN-MI",2019-01-01,39500,NA,NA,NA
 18,43780,65,65000000,Education and Health Services,"South Bend-Mishawaka, IN-MI",2019-02-01,40200,NA,NA,NA
 18,43780,65,65000000,Education and Health Services,"South Bend-Mishawaka, IN-MI",2019-03-01,40300,NA,NA,NA
@@ -414,7 +429,8 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,65,65000000,Education and Health Services,"South Bend-Mishawaka, IN-MI",2020-11-01,35700,40000,-4300,-0.1075
 18,43780,65,65000000,Education and Health Services,"South Bend-Mishawaka, IN-MI",2020-12-01,35500,40200,-4700,-0.11691542288557213
 18,43780,65,65000000,Education and Health Services,"South Bend-Mishawaka, IN-MI",2021-01-01,35500,38000,-2500,-0.06578947368421052
-18,43780,65,65000000,Education and Health Services,"South Bend-Mishawaka, IN-MI",2021-02-01,35700,38000,-2300,-0.060526315789473685
+18,43780,65,65000000,Education and Health Services,"South Bend-Mishawaka, IN-MI",2021-02-01,36700,38000,-1300,-0.034210526315789476
+18,43780,65,65000000,Education and Health Services,"South Bend-Mishawaka, IN-MI",2021-03-01,36500,37700,-1200,-0.03183023872679045
 18,43780,65,65622000,Hospitals,"South Bend-Mishawaka, IN-MI",2019-01-01,6500,NA,NA,NA
 18,43780,65,65622000,Hospitals,"South Bend-Mishawaka, IN-MI",2019-02-01,6500,NA,NA,NA
 18,43780,65,65622000,Hospitals,"South Bend-Mishawaka, IN-MI",2019-03-01,6600,NA,NA,NA
@@ -441,6 +457,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,65,65622000,Hospitals,"South Bend-Mishawaka, IN-MI",2020-12-01,6200,6500,-300,-0.046153846153846156
 18,43780,65,65622000,Hospitals,"South Bend-Mishawaka, IN-MI",2021-01-01,6200,6300,-100,-0.015873015873015872
 18,43780,65,65622000,Hospitals,"South Bend-Mishawaka, IN-MI",2021-02-01,6200,6300,-100,-0.015873015873015872
+18,43780,65,65622000,Hospitals,"South Bend-Mishawaka, IN-MI",2021-03-01,6200,6300,-100,-0.015873015873015872
 18,43780,70,70000000,Leisure and Hospitality,"South Bend-Mishawaka, IN-MI",2019-01-01,14200,NA,NA,NA
 18,43780,70,70000000,Leisure and Hospitality,"South Bend-Mishawaka, IN-MI",2019-02-01,14200,NA,NA,NA
 18,43780,70,70000000,Leisure and Hospitality,"South Bend-Mishawaka, IN-MI",2019-03-01,14400,NA,NA,NA
@@ -466,7 +483,8 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,70,70000000,Leisure and Hospitality,"South Bend-Mishawaka, IN-MI",2020-11-01,12100,14400,-2300,-0.1597222222222222
 18,43780,70,70000000,Leisure and Hospitality,"South Bend-Mishawaka, IN-MI",2020-12-01,11400,14400,-3000,-0.20833333333333334
 18,43780,70,70000000,Leisure and Hospitality,"South Bend-Mishawaka, IN-MI",2021-01-01,11000,14100,-3100,-0.2198581560283688
-18,43780,70,70000000,Leisure and Hospitality,"South Bend-Mishawaka, IN-MI",2021-02-01,11300,14200,-2900,-0.20422535211267606
+18,43780,70,70000000,Leisure and Hospitality,"South Bend-Mishawaka, IN-MI",2021-02-01,11800,14200,-2400,-0.16901408450704225
+18,43780,70,70000000,Leisure and Hospitality,"South Bend-Mishawaka, IN-MI",2021-03-01,12200,13900,-1700,-0.1223021582733813
 18,43780,70,70722000,Food Services and Drinking Places,"South Bend-Mishawaka, IN-MI",2019-01-01,11300,NA,NA,NA
 18,43780,70,70722000,Food Services and Drinking Places,"South Bend-Mishawaka, IN-MI",2019-02-01,11300,NA,NA,NA
 18,43780,70,70722000,Food Services and Drinking Places,"South Bend-Mishawaka, IN-MI",2019-03-01,11500,NA,NA,NA
@@ -493,6 +511,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,70,70722000,Food Services and Drinking Places,"South Bend-Mishawaka, IN-MI",2020-12-01,9300,11400,-2100,-0.18421052631578946
 18,43780,70,70722000,Food Services and Drinking Places,"South Bend-Mishawaka, IN-MI",2021-01-01,9000,11200,-2200,-0.19642857142857142
 18,43780,70,70722000,Food Services and Drinking Places,"South Bend-Mishawaka, IN-MI",2021-02-01,9100,11200,-2100,-0.1875
+18,43780,70,70722000,Food Services and Drinking Places,"South Bend-Mishawaka, IN-MI",2021-03-01,9300,10900,-1600,-0.14678899082568808
 18,43780,80,80000000,Other Services,"South Bend-Mishawaka, IN-MI",2019-01-01,6000,NA,NA,NA
 18,43780,80,80000000,Other Services,"South Bend-Mishawaka, IN-MI",2019-02-01,5900,NA,NA,NA
 18,43780,80,80000000,Other Services,"South Bend-Mishawaka, IN-MI",2019-03-01,6000,NA,NA,NA
@@ -519,6 +538,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,80,80000000,Other Services,"South Bend-Mishawaka, IN-MI",2020-12-01,4800,6600,-1800,-0.2727272727272727
 18,43780,80,80000000,Other Services,"South Bend-Mishawaka, IN-MI",2021-01-01,4600,6200,-1600,-0.25806451612903225
 18,43780,80,80000000,Other Services,"South Bend-Mishawaka, IN-MI",2021-02-01,4600,6200,-1600,-0.25806451612903225
+18,43780,80,80000000,Other Services,"South Bend-Mishawaka, IN-MI",2021-03-01,4600,5700,-1100,-0.19298245614035087
 18,43780,90,90000000,Government,"South Bend-Mishawaka, IN-MI",2019-01-01,15100,NA,NA,NA
 18,43780,90,90000000,Government,"South Bend-Mishawaka, IN-MI",2019-02-01,15200,NA,NA,NA
 18,43780,90,90000000,Government,"South Bend-Mishawaka, IN-MI",2019-03-01,15300,NA,NA,NA
@@ -545,6 +565,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,90,90000000,Government,"South Bend-Mishawaka, IN-MI",2020-12-01,14300,15400,-1100,-0.07142857142857142
 18,43780,90,90000000,Government,"South Bend-Mishawaka, IN-MI",2021-01-01,13900,15300,-1400,-0.0915032679738562
 18,43780,90,90000000,Government,"South Bend-Mishawaka, IN-MI",2021-02-01,14300,15300,-1000,-0.06535947712418301
+18,43780,90,90000000,Government,"South Bend-Mishawaka, IN-MI",2021-03-01,14300,15400,-1100,-0.07142857142857142
 18,43780,90,90910000,Federal Government,"South Bend-Mishawaka, IN-MI",2019-01-01,900,NA,NA,NA
 18,43780,90,90910000,Federal Government,"South Bend-Mishawaka, IN-MI",2019-02-01,900,NA,NA,NA
 18,43780,90,90910000,Federal Government,"South Bend-Mishawaka, IN-MI",2019-03-01,900,NA,NA,NA
@@ -571,6 +592,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,90,90910000,Federal Government,"South Bend-Mishawaka, IN-MI",2020-12-01,900,900,0,0
 18,43780,90,90910000,Federal Government,"South Bend-Mishawaka, IN-MI",2021-01-01,900,900,0,0
 18,43780,90,90910000,Federal Government,"South Bend-Mishawaka, IN-MI",2021-02-01,900,900,0,0
+18,43780,90,90910000,Federal Government,"South Bend-Mishawaka, IN-MI",2021-03-01,900,900,0,0
 18,43780,90,90920000,State Government,"South Bend-Mishawaka, IN-MI",2019-01-01,2100,NA,NA,NA
 18,43780,90,90920000,State Government,"South Bend-Mishawaka, IN-MI",2019-02-01,2200,NA,NA,NA
 18,43780,90,90920000,State Government,"South Bend-Mishawaka, IN-MI",2019-03-01,2200,NA,NA,NA
@@ -597,6 +619,7 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,90,90920000,State Government,"South Bend-Mishawaka, IN-MI",2020-12-01,2000,2200,-200,-0.09090909090909091
 18,43780,90,90920000,State Government,"South Bend-Mishawaka, IN-MI",2021-01-01,1800,2200,-400,-0.18181818181818182
 18,43780,90,90920000,State Government,"South Bend-Mishawaka, IN-MI",2021-02-01,2000,2200,-200,-0.09090909090909091
+18,43780,90,90920000,State Government,"South Bend-Mishawaka, IN-MI",2021-03-01,2000,2200,-200,-0.09090909090909091
 18,43780,90,90930000,Local Government,"South Bend-Mishawaka, IN-MI",2019-01-01,12100,NA,NA,NA
 18,43780,90,90930000,Local Government,"South Bend-Mishawaka, IN-MI",2019-02-01,12100,NA,NA,NA
 18,43780,90,90930000,Local Government,"South Bend-Mishawaka, IN-MI",2019-03-01,12200,NA,NA,NA
@@ -623,3 +646,4 @@ state_code,area_code,supersector_code,industry_code,industry_name,area_name,dt,t
 18,43780,90,90930000,Local Government,"South Bend-Mishawaka, IN-MI",2020-12-01,11400,12300,-900,-0.07317073170731707
 18,43780,90,90930000,Local Government,"South Bend-Mishawaka, IN-MI",2021-01-01,11200,12200,-1000,-0.08196721311475409
 18,43780,90,90930000,Local Government,"South Bend-Mishawaka, IN-MI",2021-02-01,11400,12200,-800,-0.06557377049180328
+18,43780,90,90930000,Local Government,"South Bend-Mishawaka, IN-MI",2021-03-01,11400,12300,-900,-0.07317073170731707

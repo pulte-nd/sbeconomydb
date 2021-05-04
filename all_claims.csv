@@ -1,26 +1,818 @@
 NaicsTitle,dt,claim_type,claims,times_change
-All Industries,2020-12-19,Continued,NA,NA
-Accommodation and Food Services,2020-12-19,Continued,NA,NA
-Administrative and Support and Waste Management,2020-12-19,Continued,NA,NA
-"Agriculture, Forestry, Fishing and Hunting",2020-12-19,Continued,NA,NA
-"Arts, Entertainment, and Recreation",2020-12-19,Continued,NA,NA
-Construction,2020-12-19,Continued,NA,NA
-Educational Services,2020-12-19,Continued,NA,NA
-Finance and Insurance,2020-12-19,Continued,NA,NA
-Health Care and Social Assistance,2020-12-19,Continued,NA,NA
-Information,2020-12-19,Continued,NA,NA
-Management of Companies and Enterprises,2020-12-19,Continued,NA,NA
-Manufacturing,2020-12-19,Continued,NA,NA
-"Mining, Quarrying, and Oil and Gas Extraction",2020-12-19,Continued,NA,NA
-Other Services (except Public Administration),2020-12-19,Continued,NA,NA
-"Professional, Scientific, and Technical Services",2020-12-19,Continued,NA,NA
-Public Administration,2020-12-19,Continued,NA,NA
-Real Estate and Rental and Leasing,2020-12-19,Continued,NA,NA
-Retail Trade,2020-12-19,Continued,NA,NA
-Transportation and Warehousing,2020-12-19,Continued,NA,NA
-Unclassified,2020-12-19,Continued,NA,NA
+All Industries,2021-04-24,Continued,NA,NA
+Accommodation and Food Services,2021-04-24,Continued,NA,NA
+Administrative and Support and Waste Management,2021-04-24,Continued,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-04-24,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-04-24,Continued,NA,NA
+Construction,2021-04-24,Continued,NA,NA
+Educational Services,2021-04-24,Continued,NA,NA
+Finance and Insurance,2021-04-24,Continued,NA,NA
+Health Care and Social Assistance,2021-04-24,Continued,NA,NA
+Information,2021-04-24,Continued,NA,NA
+Management of Companies and Enterprises,2021-04-24,Continued,NA,NA
+Manufacturing,2021-04-24,Continued,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-04-24,Continued,NA,NA
+Other Services (except Public Administration),2021-04-24,Continued,NA,NA
+"Professional, Scientific, and Technical Services",2021-04-24,Continued,NA,NA
+Public Administration,2021-04-24,Continued,NA,NA
+Real Estate and Rental and Leasing,2021-04-24,Continued,NA,NA
+Retail Trade,2021-04-24,Continued,NA,NA
+Transportation and Warehousing,2021-04-24,Continued,NA,NA
+Unclassified,2021-04-24,Continued,NA,NA
+Utilities,2021-04-24,Continued,NA,NA
+Wholesale Trade,2021-04-24,Continued,NA,NA
+All Industries,2021-04-24,Initial,868,7.890909090909091
+Accommodation and Food Services,2021-04-24,Initial,98,Inf
+Administrative and Support and Waste Management,2021-04-24,Initial,84,Inf
+"Agriculture, Forestry, Fishing and Hunting",2021-04-24,Initial,NA,NA
+"Arts, Entertainment, and Recreation",2021-04-24,Initial,0,NA
+Construction,2021-04-24,Initial,35,1.4583333333333333
+Educational Services,2021-04-24,Initial,14,Inf
+Finance and Insurance,2021-04-24,Initial,0,NA
+Health Care and Social Assistance,2021-04-24,Initial,57,5.7
+Information,2021-04-24,Initial,0,NA
+Management of Companies and Enterprises,2021-04-24,Initial,37,Inf
+Manufacturing,2021-04-24,Initial,124,4.275862068965517
+"Mining, Quarrying, and Oil and Gas Extraction",2021-04-24,Initial,NA,NA
+Other Services (except Public Administration),2021-04-24,Initial,23,Inf
+"Professional, Scientific, and Technical Services",2021-04-24,Initial,31,Inf
+Public Administration,2021-04-24,Initial,0,NA
+Real Estate and Rental and Leasing,2021-04-24,Initial,0,NA
+Retail Trade,2021-04-24,Initial,55,Inf
+Transportation and Warehousing,2021-04-24,Initial,26,Inf
+Unclassified,2021-04-24,Initial,231,Inf
+Utilities,2021-04-24,Initial,NA,NA
+Wholesale Trade,2021-04-24,Initial,29,Inf
+All Industries,2021-04-17,Continued,1702,1.6460348162475822
+Accommodation and Food Services,2021-04-17,Continued,166,4.742857142857143
+Administrative and Support and Waste Management,2021-04-17,Continued,145,1.4356435643564356
+"Agriculture, Forestry, Fishing and Hunting",2021-04-17,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-04-17,Continued,14,1
+Construction,2021-04-17,Continued,153,0.5795454545454546
+Educational Services,2021-04-17,Continued,58,3.2222222222222223
+Finance and Insurance,2021-04-17,Continued,15,0.8333333333333334
+Health Care and Social Assistance,2021-04-17,Continued,172,2.9152542372881354
+Information,2021-04-17,Continued,19,Inf
+Management of Companies and Enterprises,2021-04-17,Continued,25,Inf
+Manufacturing,2021-04-17,Continued,416,1.7333333333333334
+"Mining, Quarrying, and Oil and Gas Extraction",2021-04-17,Continued,NA,NA
+Other Services (except Public Administration),2021-04-17,Continued,28,1.0769230769230769
+"Professional, Scientific, and Technical Services",2021-04-17,Continued,48,1.411764705882353
+Public Administration,2021-04-17,Continued,25,Inf
+Real Estate and Rental and Leasing,2021-04-17,Continued,21,0.875
+Retail Trade,2021-04-17,Continued,115,2.017543859649123
+Transportation and Warehousing,2021-04-17,Continued,85,1.4655172413793103
+Unclassified,2021-04-17,Continued,145,5.576923076923077
+Utilities,2021-04-17,Continued,NA,NA
+Wholesale Trade,2021-04-17,Continued,52,1.368421052631579
+All Industries,2021-04-17,Initial,2531,23.009090909090908
+Accommodation and Food Services,2021-04-17,Initial,305,Inf
+Administrative and Support and Waste Management,2021-04-17,Initial,190,Inf
+"Agriculture, Forestry, Fishing and Hunting",2021-04-17,Initial,0,NA
+"Arts, Entertainment, and Recreation",2021-04-17,Initial,22,Inf
+Construction,2021-04-17,Initial,78,3.25
+Educational Services,2021-04-17,Initial,29,Inf
+Finance and Insurance,2021-04-17,Initial,12,Inf
+Health Care and Social Assistance,2021-04-17,Initial,140,14
+Information,2021-04-17,Initial,0,NA
+Management of Companies and Enterprises,2021-04-17,Initial,148,Inf
+Manufacturing,2021-04-17,Initial,260,8.96551724137931
+"Mining, Quarrying, and Oil and Gas Extraction",2021-04-17,Initial,NA,NA
+Other Services (except Public Administration),2021-04-17,Initial,51,Inf
+"Professional, Scientific, and Technical Services",2021-04-17,Initial,35,Inf
+Public Administration,2021-04-17,Initial,0,NA
+Real Estate and Rental and Leasing,2021-04-17,Initial,23,Inf
+Retail Trade,2021-04-17,Initial,166,Inf
+Transportation and Warehousing,2021-04-17,Initial,78,Inf
+Unclassified,2021-04-17,Initial,920,Inf
+Utilities,2021-04-17,Initial,NA,NA
+Wholesale Trade,2021-04-17,Initial,56,Inf
+All Industries,2021-04-10,Continued,1740,1.6827852998065764
+Accommodation and Food Services,2021-04-10,Continued,156,4.457142857142857
+Administrative and Support and Waste Management,2021-04-10,Continued,151,1.495049504950495
+"Agriculture, Forestry, Fishing and Hunting",2021-04-10,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-04-10,Continued,23,1.6428571428571428
+Construction,2021-04-10,Continued,166,0.6287878787878788
+Educational Services,2021-04-10,Continued,58,3.2222222222222223
+Finance and Insurance,2021-04-10,Continued,16,0.8888888888888888
+Health Care and Social Assistance,2021-04-10,Continued,170,2.8813559322033897
+Information,2021-04-10,Continued,19,Inf
+Management of Companies and Enterprises,2021-04-10,Continued,44,Inf
+Manufacturing,2021-04-10,Continued,394,1.6416666666666666
+"Mining, Quarrying, and Oil and Gas Extraction",2021-04-10,Continued,NA,NA
+Other Services (except Public Administration),2021-04-10,Continued,28,1.0769230769230769
+"Professional, Scientific, and Technical Services",2021-04-10,Continued,48,1.411764705882353
+Public Administration,2021-04-10,Continued,26,Inf
+Real Estate and Rental and Leasing,2021-04-10,Continued,23,0.9583333333333334
+Retail Trade,2021-04-10,Continued,120,2.1052631578947367
+Transportation and Warehousing,2021-04-10,Continued,92,1.5862068965517242
+Unclassified,2021-04-10,Continued,155,5.961538461538462
+Utilities,2021-04-10,Continued,NA,NA
+Wholesale Trade,2021-04-10,Continued,51,1.3421052631578947
+All Industries,2021-04-10,Initial,4249,38.627272727272725
+Accommodation and Food Services,2021-04-10,Initial,450,Inf
+Administrative and Support and Waste Management,2021-04-10,Initial,364,Inf
+"Agriculture, Forestry, Fishing and Hunting",2021-04-10,Initial,NA,NA
+"Arts, Entertainment, and Recreation",2021-04-10,Initial,40,Inf
+Construction,2021-04-10,Initial,78,3.25
+Educational Services,2021-04-10,Initial,68,Inf
+Finance and Insurance,2021-04-10,Initial,24,Inf
+Health Care and Social Assistance,2021-04-10,Initial,243,24.3
+Information,2021-04-10,Initial,10,Inf
+Management of Companies and Enterprises,2021-04-10,Initial,86,Inf
+Manufacturing,2021-04-10,Initial,402,13.862068965517242
+"Mining, Quarrying, and Oil and Gas Extraction",2021-04-10,Initial,NA,NA
+Other Services (except Public Administration),2021-04-10,Initial,73,Inf
+"Professional, Scientific, and Technical Services",2021-04-10,Initial,53,Inf
+Public Administration,2021-04-10,Initial,0,NA
+Real Estate and Rental and Leasing,2021-04-10,Initial,31,Inf
+Retail Trade,2021-04-10,Initial,301,Inf
+Transportation and Warehousing,2021-04-10,Initial,128,Inf
+Unclassified,2021-04-10,Initial,1813,Inf
+Utilities,2021-04-10,Initial,0,NA
+Wholesale Trade,2021-04-10,Initial,76,Inf
+All Industries,2021-04-03,Continued,1628,1.574468085106383
+Accommodation and Food Services,2021-04-03,Continued,149,4.257142857142857
+Administrative and Support and Waste Management,2021-04-03,Continued,160,1.5841584158415842
+"Agriculture, Forestry, Fishing and Hunting",2021-04-03,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-04-03,Continued,19,1.3571428571428572
+Construction,2021-04-03,Continued,180,0.6818181818181818
+Educational Services,2021-04-03,Continued,63,3.5
+Finance and Insurance,2021-04-03,Continued,14,0.7777777777777778
+Health Care and Social Assistance,2021-04-03,Continued,163,2.76271186440678
+Information,2021-04-03,Continued,18,Inf
+Management of Companies and Enterprises,2021-04-03,Continued,19,Inf
+Manufacturing,2021-04-03,Continued,335,1.3958333333333333
+"Mining, Quarrying, and Oil and Gas Extraction",2021-04-03,Continued,NA,NA
+Other Services (except Public Administration),2021-04-03,Continued,26,1
+"Professional, Scientific, and Technical Services",2021-04-03,Continued,51,1.5
+Public Administration,2021-04-03,Continued,25,Inf
+Real Estate and Rental and Leasing,2021-04-03,Continued,18,0.75
+Retail Trade,2021-04-03,Continued,113,1.9824561403508771
+Transportation and Warehousing,2021-04-03,Continued,91,1.5689655172413792
+Unclassified,2021-04-03,Continued,137,5.269230769230769
+Utilities,2021-04-03,Continued,NA,NA
+Wholesale Trade,2021-04-03,Continued,47,1.236842105263158
+All Industries,2021-04-03,Initial,580,5.2727272727272725
+Accommodation and Food Services,2021-04-03,Initial,84,Inf
+Administrative and Support and Waste Management,2021-04-03,Initial,40,Inf
+"Agriculture, Forestry, Fishing and Hunting",2021-04-03,Initial,NA,NA
+"Arts, Entertainment, and Recreation",2021-04-03,Initial,0,NA
+Construction,2021-04-03,Initial,24,1
+Educational Services,2021-04-03,Initial,10,Inf
+Finance and Insurance,2021-04-03,Initial,0,NA
+Health Care and Social Assistance,2021-04-03,Initial,48,4.8
+Information,2021-04-03,Initial,NA,NA
+Management of Companies and Enterprises,2021-04-03,Initial,18,Inf
+Manufacturing,2021-04-03,Initial,109,3.7586206896551726
+"Mining, Quarrying, and Oil and Gas Extraction",2021-04-03,Initial,NA,NA
+Other Services (except Public Administration),2021-04-03,Initial,18,Inf
+"Professional, Scientific, and Technical Services",2021-04-03,Initial,0,NA
+Public Administration,2021-04-03,Initial,0,NA
+Real Estate and Rental and Leasing,2021-04-03,Initial,0,NA
+Retail Trade,2021-04-03,Initial,68,Inf
+Transportation and Warehousing,2021-04-03,Initial,21,Inf
+Unclassified,2021-04-03,Initial,86,Inf
+Utilities,2021-04-03,Initial,NA,NA
+Wholesale Trade,2021-04-03,Initial,24,Inf
+All Industries,2021-03-27,Continued,1806,1.746615087040619
+Accommodation and Food Services,2021-03-27,Continued,157,4.485714285714286
+Administrative and Support and Waste Management,2021-03-27,Continued,175,1.7326732673267327
+"Agriculture, Forestry, Fishing and Hunting",2021-03-27,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-03-27,Continued,22,1.5714285714285714
+Construction,2021-03-27,Continued,229,0.8674242424242424
+Educational Services,2021-03-27,Continued,68,3.7777777777777777
+Finance and Insurance,2021-03-27,Continued,15,0.8333333333333334
+Health Care and Social Assistance,2021-03-27,Continued,181,3.0677966101694913
+Information,2021-03-27,Continued,17,Inf
+Management of Companies and Enterprises,2021-03-27,Continued,21,Inf
+Manufacturing,2021-03-27,Continued,400,1.6666666666666667
+"Mining, Quarrying, and Oil and Gas Extraction",2021-03-27,Continued,NA,NA
+Other Services (except Public Administration),2021-03-27,Continued,36,1.3846153846153846
+"Professional, Scientific, and Technical Services",2021-03-27,Continued,53,1.5588235294117647
+Public Administration,2021-03-27,Continued,21,Inf
+Real Estate and Rental and Leasing,2021-03-27,Continued,18,0.75
+Retail Trade,2021-03-27,Continued,116,2.0350877192982457
+Transportation and Warehousing,2021-03-27,Continued,100,1.7241379310344827
+Unclassified,2021-03-27,Continued,134,5.153846153846154
+Utilities,2021-03-27,Continued,NA,NA
+Wholesale Trade,2021-03-27,Continued,43,1.131578947368421
+All Industries,2021-03-27,Initial,624,5.672727272727273
+Accommodation and Food Services,2021-03-27,Initial,61,Inf
+Administrative and Support and Waste Management,2021-03-27,Initial,45,Inf
+"Agriculture, Forestry, Fishing and Hunting",2021-03-27,Initial,NA,NA
+"Arts, Entertainment, and Recreation",2021-03-27,Initial,0,NA
+Construction,2021-03-27,Initial,21,0.875
+Educational Services,2021-03-27,Initial,18,Inf
+Finance and Insurance,2021-03-27,Initial,0,NA
+Health Care and Social Assistance,2021-03-27,Initial,65,6.5
+Information,2021-03-27,Initial,0,NA
+Management of Companies and Enterprises,2021-03-27,Initial,31,Inf
+Manufacturing,2021-03-27,Initial,119,4.103448275862069
+"Mining, Quarrying, and Oil and Gas Extraction",2021-03-27,Initial,NA,NA
+Other Services (except Public Administration),2021-03-27,Initial,0,NA
+"Professional, Scientific, and Technical Services",2021-03-27,Initial,0,NA
+Public Administration,2021-03-27,Initial,0,NA
+Real Estate and Rental and Leasing,2021-03-27,Initial,0,NA
+Retail Trade,2021-03-27,Initial,60,Inf
+Transportation and Warehousing,2021-03-27,Initial,11,Inf
+Unclassified,2021-03-27,Initial,147,Inf
+Utilities,2021-03-27,Initial,NA,NA
+Wholesale Trade,2021-03-27,Initial,12,Inf
+All Industries,2021-03-20,Continued,2011,1.9448742746615086
+Accommodation and Food Services,2021-03-20,Continued,168,4.8
+Administrative and Support and Waste Management,2021-03-20,Continued,195,1.9306930693069306
+"Agriculture, Forestry, Fishing and Hunting",2021-03-20,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-03-20,Continued,23,1.6428571428571428
+Construction,2021-03-20,Continued,280,1.0606060606060606
+Educational Services,2021-03-20,Continued,74,4.111111111111111
+Finance and Insurance,2021-03-20,Continued,16,0.8888888888888888
+Health Care and Social Assistance,2021-03-20,Continued,185,3.135593220338983
+Information,2021-03-20,Continued,19,Inf
+Management of Companies and Enterprises,2021-03-20,Continued,28,Inf
+Manufacturing,2021-03-20,Continued,450,1.875
+"Mining, Quarrying, and Oil and Gas Extraction",2021-03-20,Continued,NA,NA
+Other Services (except Public Administration),2021-03-20,Continued,33,1.2692307692307692
+"Professional, Scientific, and Technical Services",2021-03-20,Continued,54,1.588235294117647
+Public Administration,2021-03-20,Continued,22,Inf
+Real Estate and Rental and Leasing,2021-03-20,Continued,24,1
+Retail Trade,2021-03-20,Continued,129,2.263157894736842
+Transportation and Warehousing,2021-03-20,Continued,107,1.8448275862068966
+Unclassified,2021-03-20,Continued,158,6.076923076923077
+Utilities,2021-03-20,Continued,NA,NA
+Wholesale Trade,2021-03-20,Continued,46,1.2105263157894737
+All Industries,2021-03-20,Initial,734,6.672727272727273
+Accommodation and Food Services,2021-03-20,Initial,95,Inf
+Administrative and Support and Waste Management,2021-03-20,Initial,38,Inf
+"Agriculture, Forestry, Fishing and Hunting",2021-03-20,Initial,0,NA
+"Arts, Entertainment, and Recreation",2021-03-20,Initial,0,NA
+Construction,2021-03-20,Initial,33,1.375
+Educational Services,2021-03-20,Initial,30,Inf
+Finance and Insurance,2021-03-20,Initial,0,NA
+Health Care and Social Assistance,2021-03-20,Initial,39,3.9
+Information,2021-03-20,Initial,0,NA
+Management of Companies and Enterprises,2021-03-20,Initial,34,Inf
+Manufacturing,2021-03-20,Initial,73,2.5172413793103448
+"Mining, Quarrying, and Oil and Gas Extraction",2021-03-20,Initial,NA,NA
+Other Services (except Public Administration),2021-03-20,Initial,18,Inf
+"Professional, Scientific, and Technical Services",2021-03-20,Initial,14,Inf
+Public Administration,2021-03-20,Initial,0,NA
+Real Estate and Rental and Leasing,2021-03-20,Initial,0,NA
+Retail Trade,2021-03-20,Initial,47,Inf
+Transportation and Warehousing,2021-03-20,Initial,29,Inf
+Unclassified,2021-03-20,Initial,242,Inf
+Utilities,2021-03-20,Initial,0,NA
+Wholesale Trade,2021-03-20,Initial,13,Inf
+All Industries,2021-03-13,Continued,1359,1.31431334622824
+Accommodation and Food Services,2021-03-13,Continued,128,3.657142857142857
+Administrative and Support and Waste Management,2021-03-13,Continued,149,1.4752475247524752
+"Agriculture, Forestry, Fishing and Hunting",2021-03-13,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-03-13,Continued,15,1.0714285714285714
+Construction,2021-03-13,Continued,183,0.6931818181818182
+Educational Services,2021-03-13,Continued,58,3.2222222222222223
+Finance and Insurance,2021-03-13,Continued,11,0.6111111111111112
+Health Care and Social Assistance,2021-03-13,Continued,114,1.9322033898305084
+Information,2021-03-13,Continued,12,Inf
+Management of Companies and Enterprises,2021-03-13,Continued,28,Inf
+Manufacturing,2021-03-13,Continued,231,0.9625
+"Mining, Quarrying, and Oil and Gas Extraction",2021-03-13,Continued,NA,NA
+Other Services (except Public Administration),2021-03-13,Continued,21,0.8076923076923077
+"Professional, Scientific, and Technical Services",2021-03-13,Continued,34,1
+Public Administration,2021-03-13,Continued,10,Inf
+Real Estate and Rental and Leasing,2021-03-13,Continued,13,0.5416666666666666
+Retail Trade,2021-03-13,Continued,102,1.7894736842105263
+Transportation and Warehousing,2021-03-13,Continued,80,1.3793103448275863
+Unclassified,2021-03-13,Continued,135,5.1923076923076925
+Utilities,2021-03-13,Continued,NA,NA
+Wholesale Trade,2021-03-13,Continued,35,0.9210526315789473
+All Industries,2021-03-13,Initial,665,6.045454545454546
+Accommodation and Food Services,2021-03-13,Initial,77,Inf
+Administrative and Support and Waste Management,2021-03-13,Initial,67,Inf
+"Agriculture, Forestry, Fishing and Hunting",2021-03-13,Initial,0,NA
+"Arts, Entertainment, and Recreation",2021-03-13,Initial,0,NA
+Construction,2021-03-13,Initial,28,1.1666666666666667
+Educational Services,2021-03-13,Initial,14,Inf
+Finance and Insurance,2021-03-13,Initial,17,Inf
+Health Care and Social Assistance,2021-03-13,Initial,42,4.2
+Information,2021-03-13,Initial,0,NA
+Management of Companies and Enterprises,2021-03-13,Initial,16,Inf
+Manufacturing,2021-03-13,Initial,79,2.7241379310344827
+"Mining, Quarrying, and Oil and Gas Extraction",2021-03-13,Initial,NA,NA
+Other Services (except Public Administration),2021-03-13,Initial,15,Inf
+"Professional, Scientific, and Technical Services",2021-03-13,Initial,12,Inf
+Public Administration,2021-03-13,Initial,0,NA
+Real Estate and Rental and Leasing,2021-03-13,Initial,0,NA
+Retail Trade,2021-03-13,Initial,81,Inf
+Transportation and Warehousing,2021-03-13,Initial,20,Inf
+Unclassified,2021-03-13,Initial,155,Inf
+Utilities,2021-03-13,Initial,NA,NA
+Wholesale Trade,2021-03-13,Initial,21,Inf
+All Industries,2021-03-06,Continued,2179,2.107350096711799
+Accommodation and Food Services,2021-03-06,Continued,177,5.057142857142857
+Administrative and Support and Waste Management,2021-03-06,Continued,218,2.1584158415841586
+"Agriculture, Forestry, Fishing and Hunting",2021-03-06,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-03-06,Continued,28,2
+Construction,2021-03-06,Continued,314,1.1893939393939394
+Educational Services,2021-03-06,Continued,71,3.9444444444444446
+Finance and Insurance,2021-03-06,Continued,26,1.4444444444444444
+Health Care and Social Assistance,2021-03-06,Continued,193,3.2711864406779663
+Information,2021-03-06,Continued,19,Inf
+Management of Companies and Enterprises,2021-03-06,Continued,24,Inf
+Manufacturing,2021-03-06,Continued,478,1.9916666666666667
+"Mining, Quarrying, and Oil and Gas Extraction",2021-03-06,Continued,NA,NA
+Other Services (except Public Administration),2021-03-06,Continued,33,1.2692307692307692
+"Professional, Scientific, and Technical Services",2021-03-06,Continued,56,1.6470588235294117
+Public Administration,2021-03-06,Continued,24,Inf
+Real Estate and Rental and Leasing,2021-03-06,Continued,33,1.375
+Retail Trade,2021-03-06,Continued,147,2.5789473684210527
+Transportation and Warehousing,2021-03-06,Continued,113,1.9482758620689655
+Unclassified,2021-03-06,Continued,175,6.730769230769231
+Utilities,2021-03-06,Continued,NA,NA
+Wholesale Trade,2021-03-06,Continued,50,1.3157894736842106
+All Industries,2021-03-06,Initial,554,5.036363636363636
+Accommodation and Food Services,2021-03-06,Initial,54,Inf
+Administrative and Support and Waste Management,2021-03-06,Initial,44,Inf
+"Agriculture, Forestry, Fishing and Hunting",2021-03-06,Initial,NA,NA
+"Arts, Entertainment, and Recreation",2021-03-06,Initial,0,NA
+Construction,2021-03-06,Initial,30,1.25
+Educational Services,2021-03-06,Initial,10,Inf
+Finance and Insurance,2021-03-06,Initial,0,NA
+Health Care and Social Assistance,2021-03-06,Initial,31,3.1
+Information,2021-03-06,Initial,0,NA
+Management of Companies and Enterprises,2021-03-06,Initial,18,Inf
+Manufacturing,2021-03-06,Initial,121,4.172413793103448
+"Mining, Quarrying, and Oil and Gas Extraction",2021-03-06,Initial,NA,NA
+Other Services (except Public Administration),2021-03-06,Initial,25,Inf
+"Professional, Scientific, and Technical Services",2021-03-06,Initial,0,NA
+Public Administration,2021-03-06,Initial,0,NA
+Real Estate and Rental and Leasing,2021-03-06,Initial,0,NA
+Retail Trade,2021-03-06,Initial,52,Inf
+Transportation and Warehousing,2021-03-06,Initial,23,Inf
+Unclassified,2021-03-06,Initial,105,Inf
+Utilities,2021-03-06,Initial,NA,NA
+Wholesale Trade,2021-03-06,Initial,14,Inf
+All Industries,2021-02-27,Continued,2284,2.2088974854932304
+Accommodation and Food Services,2021-02-27,Continued,194,5.542857142857143
+Administrative and Support and Waste Management,2021-02-27,Continued,210,2.0792079207920793
+"Agriculture, Forestry, Fishing and Hunting",2021-02-27,Continued,0,NA
+"Arts, Entertainment, and Recreation",2021-02-27,Continued,30,2.142857142857143
+Construction,2021-02-27,Continued,340,1.2878787878787878
+Educational Services,2021-02-27,Continued,74,4.111111111111111
+Finance and Insurance,2021-02-27,Continued,27,1.5
+Health Care and Social Assistance,2021-02-27,Continued,203,3.440677966101695
+Information,2021-02-27,Continued,18,Inf
+Management of Companies and Enterprises,2021-02-27,Continued,23,Inf
+Manufacturing,2021-02-27,Continued,521,2.1708333333333334
+"Mining, Quarrying, and Oil and Gas Extraction",2021-02-27,Continued,NA,NA
+Other Services (except Public Administration),2021-02-27,Continued,39,1.5
+"Professional, Scientific, and Technical Services",2021-02-27,Continued,57,1.6764705882352942
+Public Administration,2021-02-27,Continued,25,Inf
+Real Estate and Rental and Leasing,2021-02-27,Continued,32,1.3333333333333333
+Retail Trade,2021-02-27,Continued,147,2.5789473684210527
+Transportation and Warehousing,2021-02-27,Continued,106,1.8275862068965518
+Unclassified,2021-02-27,Continued,187,7.1923076923076925
+Utilities,2021-02-27,Continued,NA,NA
+Wholesale Trade,2021-02-27,Continued,50,1.3157894736842106
+All Industries,2021-02-27,Initial,570,5.181818181818182
+Accommodation and Food Services,2021-02-27,Initial,66,Inf
+Administrative and Support and Waste Management,2021-02-27,Initial,50,Inf
+"Agriculture, Forestry, Fishing and Hunting",2021-02-27,Initial,0,NA
+"Arts, Entertainment, and Recreation",2021-02-27,Initial,0,NA
+Construction,2021-02-27,Initial,40,1.6666666666666667
+Educational Services,2021-02-27,Initial,10,Inf
+Finance and Insurance,2021-02-27,Initial,0,NA
+Health Care and Social Assistance,2021-02-27,Initial,40,4
+Information,2021-02-27,Initial,0,NA
+Management of Companies and Enterprises,2021-02-27,Initial,22,Inf
+Manufacturing,2021-02-27,Initial,78,2.689655172413793
+"Mining, Quarrying, and Oil and Gas Extraction",2021-02-27,Initial,NA,NA
+Other Services (except Public Administration),2021-02-27,Initial,11,Inf
+"Professional, Scientific, and Technical Services",2021-02-27,Initial,12,Inf
+Public Administration,2021-02-27,Initial,0,NA
+Real Estate and Rental and Leasing,2021-02-27,Initial,0,NA
+Retail Trade,2021-02-27,Initial,59,Inf
+Transportation and Warehousing,2021-02-27,Initial,16,Inf
+Unclassified,2021-02-27,Initial,123,Inf
+Utilities,2021-02-27,Initial,0,NA
+Wholesale Trade,2021-02-27,Initial,20,Inf
+All Industries,2021-02-20,Continued,2293,2.2176015473887816
+Accommodation and Food Services,2021-02-20,Continued,206,5.885714285714286
+Administrative and Support and Waste Management,2021-02-20,Continued,222,2.198019801980198
+"Agriculture, Forestry, Fishing and Hunting",2021-02-20,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-02-20,Continued,35,2.5
+Construction,2021-02-20,Continued,381,1.4431818181818181
+Educational Services,2021-02-20,Continued,77,4.277777777777778
+Finance and Insurance,2021-02-20,Continued,32,1.7777777777777777
+Health Care and Social Assistance,2021-02-20,Continued,210,3.559322033898305
+Information,2021-02-20,Continued,18,Inf
+Management of Companies and Enterprises,2021-02-20,Continued,29,Inf
+Manufacturing,2021-02-20,Continued,414,1.725
+"Mining, Quarrying, and Oil and Gas Extraction",2021-02-20,Continued,NA,NA
+Other Services (except Public Administration),2021-02-20,Continued,41,1.5769230769230769
+"Professional, Scientific, and Technical Services",2021-02-20,Continued,61,1.7941176470588236
+Public Administration,2021-02-20,Continued,23,Inf
+Real Estate and Rental and Leasing,2021-02-20,Continued,30,1.25
+Retail Trade,2021-02-20,Continued,146,2.56140350877193
+Transportation and Warehousing,2021-02-20,Continued,114,1.9655172413793103
+Unclassified,2021-02-20,Continued,200,7.6923076923076925
+Utilities,2021-02-20,Continued,NA,NA
+Wholesale Trade,2021-02-20,Continued,54,1.4210526315789473
+All Industries,2021-02-20,Initial,NA,NA
+Accommodation and Food Services,2021-02-20,Initial,NA,NA
+Administrative and Support and Waste Management,2021-02-20,Initial,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-02-20,Initial,NA,NA
+"Arts, Entertainment, and Recreation",2021-02-20,Initial,NA,NA
+Construction,2021-02-20,Initial,NA,NA
+Educational Services,2021-02-20,Initial,NA,NA
+Finance and Insurance,2021-02-20,Initial,NA,NA
+Health Care and Social Assistance,2021-02-20,Initial,NA,NA
+Information,2021-02-20,Initial,NA,NA
+Management of Companies and Enterprises,2021-02-20,Initial,NA,NA
+Manufacturing,2021-02-20,Initial,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-02-20,Initial,NA,NA
+Other Services (except Public Administration),2021-02-20,Initial,NA,NA
+"Professional, Scientific, and Technical Services",2021-02-20,Initial,NA,NA
+Public Administration,2021-02-20,Initial,NA,NA
+Real Estate and Rental and Leasing,2021-02-20,Initial,NA,NA
+Retail Trade,2021-02-20,Initial,NA,NA
+Transportation and Warehousing,2021-02-20,Initial,NA,NA
+Unclassified,2021-02-20,Initial,NA,NA
+Utilities,2021-02-20,Initial,NA,NA
+Wholesale Trade,2021-02-20,Initial,NA,NA
+All Industries,2021-02-13,Continued,NA,NA
+Accommodation and Food Services,2021-02-13,Continued,NA,NA
+Administrative and Support and Waste Management,2021-02-13,Continued,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-02-13,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-02-13,Continued,NA,NA
+Construction,2021-02-13,Continued,NA,NA
+Educational Services,2021-02-13,Continued,NA,NA
+Finance and Insurance,2021-02-13,Continued,NA,NA
+Health Care and Social Assistance,2021-02-13,Continued,NA,NA
+Information,2021-02-13,Continued,NA,NA
+Management of Companies and Enterprises,2021-02-13,Continued,NA,NA
+Manufacturing,2021-02-13,Continued,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-02-13,Continued,NA,NA
+Other Services (except Public Administration),2021-02-13,Continued,NA,NA
+"Professional, Scientific, and Technical Services",2021-02-13,Continued,NA,NA
+Public Administration,2021-02-13,Continued,NA,NA
+Real Estate and Rental and Leasing,2021-02-13,Continued,NA,NA
+Retail Trade,2021-02-13,Continued,NA,NA
+Transportation and Warehousing,2021-02-13,Continued,NA,NA
+Unclassified,2021-02-13,Continued,NA,NA
+Utilities,2021-02-13,Continued,NA,NA
+Wholesale Trade,2021-02-13,Continued,NA,NA
+All Industries,2021-02-13,Initial,NA,NA
+Accommodation and Food Services,2021-02-13,Initial,NA,NA
+Administrative and Support and Waste Management,2021-02-13,Initial,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-02-13,Initial,NA,NA
+"Arts, Entertainment, and Recreation",2021-02-13,Initial,NA,NA
+Construction,2021-02-13,Initial,NA,NA
+Educational Services,2021-02-13,Initial,NA,NA
+Finance and Insurance,2021-02-13,Initial,NA,NA
+Health Care and Social Assistance,2021-02-13,Initial,NA,NA
+Information,2021-02-13,Initial,NA,NA
+Management of Companies and Enterprises,2021-02-13,Initial,NA,NA
+Manufacturing,2021-02-13,Initial,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-02-13,Initial,NA,NA
+Other Services (except Public Administration),2021-02-13,Initial,NA,NA
+"Professional, Scientific, and Technical Services",2021-02-13,Initial,NA,NA
+Public Administration,2021-02-13,Initial,NA,NA
+Real Estate and Rental and Leasing,2021-02-13,Initial,NA,NA
+Retail Trade,2021-02-13,Initial,NA,NA
+Transportation and Warehousing,2021-02-13,Initial,NA,NA
+Unclassified,2021-02-13,Initial,NA,NA
+Utilities,2021-02-13,Initial,NA,NA
+Wholesale Trade,2021-02-13,Initial,NA,NA
+All Industries,2021-02-06,Continued,NA,NA
+Accommodation and Food Services,2021-02-06,Continued,NA,NA
+Administrative and Support and Waste Management,2021-02-06,Continued,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-02-06,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-02-06,Continued,NA,NA
+Construction,2021-02-06,Continued,NA,NA
+Educational Services,2021-02-06,Continued,NA,NA
+Finance and Insurance,2021-02-06,Continued,NA,NA
+Health Care and Social Assistance,2021-02-06,Continued,NA,NA
+Information,2021-02-06,Continued,NA,NA
+Management of Companies and Enterprises,2021-02-06,Continued,NA,NA
+Manufacturing,2021-02-06,Continued,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-02-06,Continued,NA,NA
+Other Services (except Public Administration),2021-02-06,Continued,NA,NA
+"Professional, Scientific, and Technical Services",2021-02-06,Continued,NA,NA
+Public Administration,2021-02-06,Continued,NA,NA
+Real Estate and Rental and Leasing,2021-02-06,Continued,NA,NA
+Retail Trade,2021-02-06,Continued,NA,NA
+Transportation and Warehousing,2021-02-06,Continued,NA,NA
+Unclassified,2021-02-06,Continued,NA,NA
+Utilities,2021-02-06,Continued,NA,NA
+Wholesale Trade,2021-02-06,Continued,NA,NA
+All Industries,2021-02-06,Initial,NA,NA
+Accommodation and Food Services,2021-02-06,Initial,NA,NA
+Administrative and Support and Waste Management,2021-02-06,Initial,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-02-06,Initial,NA,NA
+"Arts, Entertainment, and Recreation",2021-02-06,Initial,NA,NA
+Construction,2021-02-06,Initial,NA,NA
+Educational Services,2021-02-06,Initial,NA,NA
+Finance and Insurance,2021-02-06,Initial,NA,NA
+Health Care and Social Assistance,2021-02-06,Initial,NA,NA
+Information,2021-02-06,Initial,NA,NA
+Management of Companies and Enterprises,2021-02-06,Initial,NA,NA
+Manufacturing,2021-02-06,Initial,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-02-06,Initial,NA,NA
+Other Services (except Public Administration),2021-02-06,Initial,NA,NA
+"Professional, Scientific, and Technical Services",2021-02-06,Initial,NA,NA
+Public Administration,2021-02-06,Initial,NA,NA
+Real Estate and Rental and Leasing,2021-02-06,Initial,NA,NA
+Retail Trade,2021-02-06,Initial,NA,NA
+Transportation and Warehousing,2021-02-06,Initial,NA,NA
+Unclassified,2021-02-06,Initial,NA,NA
+Utilities,2021-02-06,Initial,NA,NA
+Wholesale Trade,2021-02-06,Initial,NA,NA
+All Industries,2021-01-30,Continued,NA,NA
+Accommodation and Food Services,2021-01-30,Continued,NA,NA
+Administrative and Support and Waste Management,2021-01-30,Continued,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-01-30,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-01-30,Continued,NA,NA
+Construction,2021-01-30,Continued,NA,NA
+Educational Services,2021-01-30,Continued,NA,NA
+Finance and Insurance,2021-01-30,Continued,NA,NA
+Health Care and Social Assistance,2021-01-30,Continued,NA,NA
+Information,2021-01-30,Continued,NA,NA
+Management of Companies and Enterprises,2021-01-30,Continued,NA,NA
+Manufacturing,2021-01-30,Continued,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-01-30,Continued,NA,NA
+Other Services (except Public Administration),2021-01-30,Continued,NA,NA
+"Professional, Scientific, and Technical Services",2021-01-30,Continued,NA,NA
+Public Administration,2021-01-30,Continued,NA,NA
+Real Estate and Rental and Leasing,2021-01-30,Continued,NA,NA
+Retail Trade,2021-01-30,Continued,NA,NA
+Transportation and Warehousing,2021-01-30,Continued,NA,NA
+Unclassified,2021-01-30,Continued,NA,NA
+Utilities,2021-01-30,Continued,NA,NA
+Wholesale Trade,2021-01-30,Continued,NA,NA
+All Industries,2021-01-30,Initial,NA,NA
+Accommodation and Food Services,2021-01-30,Initial,NA,NA
+Administrative and Support and Waste Management,2021-01-30,Initial,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-01-30,Initial,NA,NA
+"Arts, Entertainment, and Recreation",2021-01-30,Initial,NA,NA
+Construction,2021-01-30,Initial,NA,NA
+Educational Services,2021-01-30,Initial,NA,NA
+Finance and Insurance,2021-01-30,Initial,NA,NA
+Health Care and Social Assistance,2021-01-30,Initial,NA,NA
+Information,2021-01-30,Initial,NA,NA
+Management of Companies and Enterprises,2021-01-30,Initial,NA,NA
+Manufacturing,2021-01-30,Initial,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-01-30,Initial,NA,NA
+Other Services (except Public Administration),2021-01-30,Initial,NA,NA
+"Professional, Scientific, and Technical Services",2021-01-30,Initial,NA,NA
+Public Administration,2021-01-30,Initial,NA,NA
+Real Estate and Rental and Leasing,2021-01-30,Initial,NA,NA
+Retail Trade,2021-01-30,Initial,NA,NA
+Transportation and Warehousing,2021-01-30,Initial,NA,NA
+Unclassified,2021-01-30,Initial,NA,NA
+Utilities,2021-01-30,Initial,NA,NA
+Wholesale Trade,2021-01-30,Initial,NA,NA
+All Industries,2021-01-23,Continued,NA,NA
+Accommodation and Food Services,2021-01-23,Continued,NA,NA
+Administrative and Support and Waste Management,2021-01-23,Continued,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-01-23,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-01-23,Continued,NA,NA
+Construction,2021-01-23,Continued,NA,NA
+Educational Services,2021-01-23,Continued,NA,NA
+Finance and Insurance,2021-01-23,Continued,NA,NA
+Health Care and Social Assistance,2021-01-23,Continued,NA,NA
+Information,2021-01-23,Continued,NA,NA
+Management of Companies and Enterprises,2021-01-23,Continued,NA,NA
+Manufacturing,2021-01-23,Continued,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-01-23,Continued,NA,NA
+Other Services (except Public Administration),2021-01-23,Continued,NA,NA
+"Professional, Scientific, and Technical Services",2021-01-23,Continued,NA,NA
+Public Administration,2021-01-23,Continued,NA,NA
+Real Estate and Rental and Leasing,2021-01-23,Continued,NA,NA
+Retail Trade,2021-01-23,Continued,NA,NA
+Transportation and Warehousing,2021-01-23,Continued,NA,NA
+Unclassified,2021-01-23,Continued,NA,NA
+Utilities,2021-01-23,Continued,NA,NA
+Wholesale Trade,2021-01-23,Continued,NA,NA
+All Industries,2021-01-23,Initial,NA,NA
+Accommodation and Food Services,2021-01-23,Initial,NA,NA
+Administrative and Support and Waste Management,2021-01-23,Initial,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-01-23,Initial,NA,NA
+"Arts, Entertainment, and Recreation",2021-01-23,Initial,NA,NA
+Construction,2021-01-23,Initial,NA,NA
+Educational Services,2021-01-23,Initial,NA,NA
+Finance and Insurance,2021-01-23,Initial,NA,NA
+Health Care and Social Assistance,2021-01-23,Initial,NA,NA
+Information,2021-01-23,Initial,NA,NA
+Management of Companies and Enterprises,2021-01-23,Initial,NA,NA
+Manufacturing,2021-01-23,Initial,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-01-23,Initial,NA,NA
+Other Services (except Public Administration),2021-01-23,Initial,NA,NA
+"Professional, Scientific, and Technical Services",2021-01-23,Initial,NA,NA
+Public Administration,2021-01-23,Initial,NA,NA
+Real Estate and Rental and Leasing,2021-01-23,Initial,NA,NA
+Retail Trade,2021-01-23,Initial,NA,NA
+Transportation and Warehousing,2021-01-23,Initial,NA,NA
+Unclassified,2021-01-23,Initial,NA,NA
+Utilities,2021-01-23,Initial,NA,NA
+Wholesale Trade,2021-01-23,Initial,NA,NA
+All Industries,2021-01-16,Continued,NA,NA
+Accommodation and Food Services,2021-01-16,Continued,NA,NA
+Administrative and Support and Waste Management,2021-01-16,Continued,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-01-16,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-01-16,Continued,NA,NA
+Construction,2021-01-16,Continued,NA,NA
+Educational Services,2021-01-16,Continued,NA,NA
+Finance and Insurance,2021-01-16,Continued,NA,NA
+Health Care and Social Assistance,2021-01-16,Continued,NA,NA
+Information,2021-01-16,Continued,NA,NA
+Management of Companies and Enterprises,2021-01-16,Continued,NA,NA
+Manufacturing,2021-01-16,Continued,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-01-16,Continued,NA,NA
+Other Services (except Public Administration),2021-01-16,Continued,NA,NA
+"Professional, Scientific, and Technical Services",2021-01-16,Continued,NA,NA
+Public Administration,2021-01-16,Continued,NA,NA
+Real Estate and Rental and Leasing,2021-01-16,Continued,NA,NA
+Retail Trade,2021-01-16,Continued,NA,NA
+Transportation and Warehousing,2021-01-16,Continued,NA,NA
+Unclassified,2021-01-16,Continued,NA,NA
+Utilities,2021-01-16,Continued,NA,NA
+Wholesale Trade,2021-01-16,Continued,NA,NA
+All Industries,2021-01-16,Initial,NA,NA
+Accommodation and Food Services,2021-01-16,Initial,NA,NA
+Administrative and Support and Waste Management,2021-01-16,Initial,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-01-16,Initial,NA,NA
+"Arts, Entertainment, and Recreation",2021-01-16,Initial,NA,NA
+Construction,2021-01-16,Initial,NA,NA
+Educational Services,2021-01-16,Initial,NA,NA
+Finance and Insurance,2021-01-16,Initial,NA,NA
+Health Care and Social Assistance,2021-01-16,Initial,NA,NA
+Information,2021-01-16,Initial,NA,NA
+Management of Companies and Enterprises,2021-01-16,Initial,NA,NA
+Manufacturing,2021-01-16,Initial,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-01-16,Initial,NA,NA
+Other Services (except Public Administration),2021-01-16,Initial,NA,NA
+"Professional, Scientific, and Technical Services",2021-01-16,Initial,NA,NA
+Public Administration,2021-01-16,Initial,NA,NA
+Real Estate and Rental and Leasing,2021-01-16,Initial,NA,NA
+Retail Trade,2021-01-16,Initial,NA,NA
+Transportation and Warehousing,2021-01-16,Initial,NA,NA
+Unclassified,2021-01-16,Initial,NA,NA
+Utilities,2021-01-16,Initial,NA,NA
+Wholesale Trade,2021-01-16,Initial,NA,NA
+All Industries,2021-01-09,Continued,NA,NA
+Accommodation and Food Services,2021-01-09,Continued,NA,NA
+Administrative and Support and Waste Management,2021-01-09,Continued,NA,NA
+"Agriculture, Forestry, Fishing and Hunting",2021-01-09,Continued,NA,NA
+"Arts, Entertainment, and Recreation",2021-01-09,Continued,NA,NA
+Construction,2021-01-09,Continued,NA,NA
+Educational Services,2021-01-09,Continued,NA,NA
+Finance and Insurance,2021-01-09,Continued,NA,NA
+Health Care and Social Assistance,2021-01-09,Continued,NA,NA
+Information,2021-01-09,Continued,NA,NA
+Management of Companies and Enterprises,2021-01-09,Continued,NA,NA
+Manufacturing,2021-01-09,Continued,NA,NA
+"Mining, Quarrying, and Oil and Gas Extraction",2021-01-09,Continued,NA,NA
+Other Services (except Public Administration),2021-01-09,Continued,NA,NA
+"Professional, Scientific, and Technical Services",2021-01-09,Continued,NA,NA
+Public Administration,2021-01-09,Continued,NA,NA
+Real Estate and Rental and Leasing,2021-01-09,Continued,NA,NA
+Retail Trade,2021-01-09,Continued,NA,NA
+Transportation and Warehousing,2021-01-09,Continued,NA,NA
+Unclassified,2021-01-09,Continued,NA,NA
+Utilities,2021-01-09,Continued,NA,NA
+Wholesale Trade,2021-01-09,Continued,NA,NA
+All Industries,2021-01-09,Initial,3765,34.22727272727273
+Accommodation and Food Services,2021-01-09,Initial,352,Inf
+Administrative and Support and Waste Management,2021-01-09,Initial,387,Inf
+"Agriculture, Forestry, Fishing and Hunting",2021-01-09,Initial,0,NA
+"Arts, Entertainment, and Recreation",2021-01-09,Initial,26,Inf
+Construction,2021-01-09,Initial,124,5.166666666666667
+Educational Services,2021-01-09,Initial,73,Inf
+Finance and Insurance,2021-01-09,Initial,19,Inf
+Health Care and Social Assistance,2021-01-09,Initial,168,16.8
+Information,2021-01-09,Initial,12,Inf
+Management of Companies and Enterprises,2021-01-09,Initial,50,Inf
+Manufacturing,2021-01-09,Initial,322,11.10344827586207
+"Mining, Quarrying, and Oil and Gas Extraction",2021-01-09,Initial,0,NA
+Other Services (except Public Administration),2021-01-09,Initial,55,Inf
+"Professional, Scientific, and Technical Services",2021-01-09,Initial,52,Inf
+Public Administration,2021-01-09,Initial,15,Inf
+Real Estate and Rental and Leasing,2021-01-09,Initial,29,Inf
+Retail Trade,2021-01-09,Initial,204,Inf
+Transportation and Warehousing,2021-01-09,Initial,147,Inf
+Unclassified,2021-01-09,Initial,1676,Inf
+Utilities,2021-01-09,Initial,0,NA
+Wholesale Trade,2021-01-09,Initial,52,Inf
+All Industries,2021-01-02,Continued,3160,3.0560928433268857
+Accommodation and Food Services,2021-01-02,Continued,402,11.485714285714286
+Administrative and Support and Waste Management,2021-01-02,Continued,346,3.4257425742574257
+"Agriculture, Forestry, Fishing and Hunting",2021-01-02,Continued,0,NA
+"Arts, Entertainment, and Recreation",2021-01-02,Continued,42,3
+Construction,2021-01-02,Continued,286,1.0833333333333333
+Educational Services,2021-01-02,Continued,151,8.38888888888889
+Finance and Insurance,2021-01-02,Continued,32,1.7777777777777777
+Health Care and Social Assistance,2021-01-02,Continued,353,5.983050847457627
+Information,2021-01-02,Continued,21,Inf
+Management of Companies and Enterprises,2021-01-02,Continued,38,Inf
+Manufacturing,2021-01-02,Continued,577,2.404166666666667
+"Mining, Quarrying, and Oil and Gas Extraction",2021-01-02,Continued,0,NA
+Other Services (except Public Administration),2021-01-02,Continued,60,2.3076923076923075
+"Professional, Scientific, and Technical Services",2021-01-02,Continued,82,2.411764705882353
+Public Administration,2021-01-02,Continued,22,Inf
+Real Estate and Rental and Leasing,2021-01-02,Continued,41,1.7083333333333333
+Retail Trade,2021-01-02,Continued,260,4.56140350877193
+Transportation and Warehousing,2021-01-02,Continued,118,2.0344827586206895
+Unclassified,2021-01-02,Continued,240,9.23076923076923
+Utilities,2021-01-02,Continued,NA,NA
+Wholesale Trade,2021-01-02,Continued,89,2.3421052631578947
+All Industries,2021-01-02,Initial,642,5.836363636363636
+Accommodation and Food Services,2021-01-02,Initial,55,Inf
+Administrative and Support and Waste Management,2021-01-02,Initial,63,Inf
+"Agriculture, Forestry, Fishing and Hunting",2021-01-02,Initial,0,NA
+"Arts, Entertainment, and Recreation",2021-01-02,Initial,0,NA
+Construction,2021-01-02,Initial,59,2.4583333333333335
+Educational Services,2021-01-02,Initial,15,Inf
+Finance and Insurance,2021-01-02,Initial,0,NA
+Health Care and Social Assistance,2021-01-02,Initial,34,3.4
+Information,2021-01-02,Initial,0,NA
+Management of Companies and Enterprises,2021-01-02,Initial,31,Inf
+Manufacturing,2021-01-02,Initial,162,5.586206896551724
+"Mining, Quarrying, and Oil and Gas Extraction",2021-01-02,Initial,0,NA
+Other Services (except Public Administration),2021-01-02,Initial,11,Inf
+"Professional, Scientific, and Technical Services",2021-01-02,Initial,0,NA
+Public Administration,2021-01-02,Initial,0,NA
+Real Estate and Rental and Leasing,2021-01-02,Initial,0,NA
+Retail Trade,2021-01-02,Initial,38,Inf
+Transportation and Warehousing,2021-01-02,Initial,21,Inf
+Unclassified,2021-01-02,Initial,104,Inf
+Utilities,2021-01-02,Initial,NA,NA
+Wholesale Trade,2021-01-02,Initial,17,Inf
+All Industries,2020-12-26,Continued,2564,2.479690522243714
+Accommodation and Food Services,2020-12-26,Continued,306,8.742857142857142
+Administrative and Support and Waste Management,2020-12-26,Continued,246,2.4356435643564356
+"Agriculture, Forestry, Fishing and Hunting",2020-12-26,Continued,0,NA
+"Arts, Entertainment, and Recreation",2020-12-26,Continued,35,2.5
+Construction,2020-12-26,Continued,230,0.8712121212121212
+Educational Services,2020-12-26,Continued,137,7.611111111111111
+Finance and Insurance,2020-12-26,Continued,31,1.7222222222222223
+Health Care and Social Assistance,2020-12-26,Continued,256,4.338983050847458
+Information,2020-12-26,Continued,14,Inf
+Management of Companies and Enterprises,2020-12-26,Continued,83,Inf
+Manufacturing,2020-12-26,Continued,490,2.0416666666666665
+"Mining, Quarrying, and Oil and Gas Extraction",2020-12-26,Continued,0,NA
+Other Services (except Public Administration),2020-12-26,Continued,47,1.8076923076923077
+"Professional, Scientific, and Technical Services",2020-12-26,Continued,72,2.1176470588235294
+Public Administration,2020-12-26,Continued,15,Inf
+Real Estate and Rental and Leasing,2020-12-26,Continued,33,1.375
+Retail Trade,2020-12-26,Continued,196,3.43859649122807
+Transportation and Warehousing,2020-12-26,Continued,84,1.4482758620689655
+Unclassified,2020-12-26,Continued,216,8.307692307692308
+Utilities,2020-12-26,Continued,NA,NA
+Wholesale Trade,2020-12-26,Continued,73,1.9210526315789473
+All Industries,2020-12-26,Initial,535,4.863636363636363
+Accommodation and Food Services,2020-12-26,Initial,48,Inf
+Administrative and Support and Waste Management,2020-12-26,Initial,71,Inf
+"Agriculture, Forestry, Fishing and Hunting",2020-12-26,Initial,0,NA
+"Arts, Entertainment, and Recreation",2020-12-26,Initial,0,NA
+Construction,2020-12-26,Initial,52,2.1666666666666665
+Educational Services,2020-12-26,Initial,18,Inf
+Finance and Insurance,2020-12-26,Initial,0,NA
+Health Care and Social Assistance,2020-12-26,Initial,33,3.3
+Information,2020-12-26,Initial,0,NA
+Management of Companies and Enterprises,2020-12-26,Initial,0,NA
+Manufacturing,2020-12-26,Initial,89,3.0689655172413794
+"Mining, Quarrying, and Oil and Gas Extraction",2020-12-26,Initial,0,NA
+Other Services (except Public Administration),2020-12-26,Initial,10,Inf
+"Professional, Scientific, and Technical Services",2020-12-26,Initial,0,NA
+Public Administration,2020-12-26,Initial,0,NA
+Real Estate and Rental and Leasing,2020-12-26,Initial,0,NA
+Retail Trade,2020-12-26,Initial,39,Inf
+Transportation and Warehousing,2020-12-26,Initial,22,Inf
+Unclassified,2020-12-26,Initial,106,Inf
+Utilities,2020-12-26,Initial,NA,NA
+Wholesale Trade,2020-12-26,Initial,0,NA
+All Industries,2020-12-19,Continued,2450,2.369439071566731
+Accommodation and Food Services,2020-12-19,Continued,285,8.142857142857142
+Administrative and Support and Waste Management,2020-12-19,Continued,238,2.3564356435643563
+"Agriculture, Forestry, Fishing and Hunting",2020-12-19,Continued,0,NA
+"Arts, Entertainment, and Recreation",2020-12-19,Continued,33,2.357142857142857
+Construction,2020-12-19,Continued,199,0.7537878787878788
+Educational Services,2020-12-19,Continued,143,7.944444444444445
+Finance and Insurance,2020-12-19,Continued,35,1.9444444444444444
+Health Care and Social Assistance,2020-12-19,Continued,273,4.627118644067797
+Information,2020-12-19,Continued,13,Inf
+Management of Companies and Enterprises,2020-12-19,Continued,42,Inf
+Manufacturing,2020-12-19,Continued,466,1.9416666666666667
+"Mining, Quarrying, and Oil and Gas Extraction",2020-12-19,Continued,0,NA
+Other Services (except Public Administration),2020-12-19,Continued,47,1.8076923076923077
+"Professional, Scientific, and Technical Services",2020-12-19,Continued,69,2.0294117647058822
+Public Administration,2020-12-19,Continued,22,Inf
+Real Estate and Rental and Leasing,2020-12-19,Continued,36,1.5
+Retail Trade,2020-12-19,Continued,186,3.263157894736842
+Transportation and Warehousing,2020-12-19,Continued,82,1.4137931034482758
+Unclassified,2020-12-19,Continued,200,7.6923076923076925
 Utilities,2020-12-19,Continued,NA,NA
-Wholesale Trade,2020-12-19,Continued,NA,NA
+Wholesale Trade,2020-12-19,Continued,81,2.1315789473684212
 All Industries,2020-12-19,Initial,598,5.4363636363636365
 Accommodation and Food Services,2020-12-19,Initial,66,Inf
 Administrative and Support and Waste Management,2020-12-19,Initial,51,Inf
