@@ -571,6 +571,10 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                      #br(),br(),
                                      #a(href="my-report.pdf", "Download PDF", download=NA, target="_blank"),
                                      br(),br(),
+                                     "Download newsletter ",tags$a(href = "my-report.pdf", "here"),
+                                     #br(),br(),
+                                     #a(href="my-report.pdf", "Download PDF", download=NA, target="_blank"),
+                                     br(),br(),
                                      "References",
                                      br(),
                                      "   Hausmann, R., Hidalgo, C. A., Bustos, S., Coscia, M., and Simoes, A. (2014). The atlas of economic complexity: Mapping paths to prosperity. MIT Press.",
@@ -716,6 +720,7 @@ server = function(input, output, session) {
       filter(indicator=="industry",
              msa==input$select_msa) %>%
       filter(dt==max(dt)) %>%
+      filter(dt==max(dt), indicator=="industry") %>%
       mutate(per=`Job Openings`/sum(`Job Openings`)) %>%
       plot_ly(
         labels = ~ paste0(var," (",round(per*100,0),"%",")"),
@@ -728,6 +733,7 @@ server = function(input, output, session) {
       ) %>%
       layout(autosize = TRUE,
              title = paste0("Job Openings by Industry in ",input$select_msa," as of ",format(latest_date,"%b %d, %Y")),
+             title = paste0("Job Openings by Industry in South Bend-Mishawaka MSA as of ",format(latest_date,"%b %d, %Y")),
              margin = list(l = 0, r = 0, t = 30, b = 30),
              annotations = list(text = "Source: www.indianacareerconnect.com",
                                 font = list(size = 12),
@@ -779,6 +785,7 @@ server = function(input, output, session) {
       filter(indicator=="Occupation Group",
              msa==input$select_msa) %>%
       filter(dt==max(dt)) %>%
+      filter(dt==max(dt), indicator=="Occupation Group") %>%
       mutate(per=Candidates/sum(Candidates)) %>%
       plot_ly(
         labels = ~ paste0(var," (",round(per*100,0),"%",")"),
@@ -791,6 +798,7 @@ server = function(input, output, session) {
       ) %>%
       layout(autosize = TRUE,
              title = paste0("Candidates by Occupation in ",input$select_msa," as of ",format(latest_date,"%b %d, %Y")),
+             title = paste0("Candidates by Occupation in South Bend-Mishawaka MSA as of ",format(latest_date,"%b %d, %Y")),
              margin = list(l = 0, r = 0, t = 30, b = 30),
              annotations = list(text = "Source: www.indianacareerconnect.com",
                                 font = list(size = 12),
