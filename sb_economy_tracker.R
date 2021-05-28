@@ -35,7 +35,7 @@ sb_naics_sector <- read_csv("sb_naics_sector.csv")
 sb_oes <- read_csv("sb_oes.csv")
 sb_elk_ces_sup <- read_csv("sb_elk_ces_sup.csv")
 laus_select <- read_csv("laus_select.csv")
-housing_sb <- read_csv("housing_sb.csv")
+housing_sb <- read_rds("housing_sb.Rds")
 sb_weekly_evictions <- read_rds("sb_weekly_evictions.Rds")
 
 # claimants files
@@ -375,7 +375,7 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                    p("The graph shows the number of business licenses issued in South Bend, IN.", 
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6)
                                ),
-                               fluidRow(box(wordcloud2Output(outputId = 'employers_wordcloud'),
+                               fluidRow(box(wordcloud2Output(outputId = 'employers_wordcloud'), # wordcloud 0.2.1 seems to supress running plotly. do not update this package
                                             width=6),
                                         box(plotlyOutput(outputId = 'businessactivityPlot'),
                                             width=6)
@@ -1049,8 +1049,7 @@ server = function(input, output, session) {
   
   output$businessactivityPlot <- renderPlotly({
     fig <- sb_business_licenses %>%
-      filter(mnth>=ymd("2015-02-01"),
-             #var==input$ind,
+      filter(mnth>=ymd("2015-02-01")
       ) %>%
       plot_ly(x=~mnth, y=~issues,#y=~get(input$abs_per), 
               type="scatter",mode="lines",
