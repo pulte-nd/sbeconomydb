@@ -8558,7 +8558,6 @@ dt,Candidates,msa,indicator,per_change,var
 2020-12-25,6,South Bend - Mishawaka,education,0,"Specialized Degree (e.g. MD, DDS)"
 2020-12-25,0,South Bend - Mishawaka,education,NA,Not Specified
 2020-12-28,7203,South Bend - Mishawaka,Total Candidates,0.008682257386920599,Total Candidates
-2020-12-28,7203,Elkhart - Goshen,Total Candidates,0.08136916378922084,Total Candidates
 2020-12-28,1487,South Bend - Mishawaka,Occupation Group,0.008819538670284939,Production Occupations
 2020-12-28,973,South Bend - Mishawaka,Occupation Group,0.014598540145985401,Office and Administrative Support Occupations
 2020-12-28,844,South Bend - Mishawaka,Occupation Group,0.013205282112845138,Management Occupations
@@ -8582,29 +8581,6 @@ dt,Candidates,msa,indicator,per_change,var
 2020-12-28,34,South Bend - Mishawaka,Occupation Group,0.030303030303030304,Legal Occupations
 2020-12-28,20,South Bend - Mishawaka,Occupation Group,0.05263157894736842,"Farming, Fishing, and Forestry Occupations"
 2020-12-28,16,South Bend - Mishawaka,Occupation Group,0,Military Specific Occupations
-2020-12-28,1487,Elkhart - Goshen,Occupation Group,0.058362989323843414,Production Occupations
-2020-12-28,973,Elkhart - Goshen,Occupation Group,0.05189189189189189,Office and Administrative Support Occupations
-2020-12-28,844,Elkhart - Goshen,Occupation Group,0.08205128205128205,Management Occupations
-2020-12-28,721,Elkhart - Goshen,Occupation Group,0.10923076923076923,Transportation and Material Moving Occupations
-2020-12-28,463,Elkhart - Goshen,Occupation Group,0.1076555023923445,Construction and Extraction Occupations
-2020-12-28,454,Elkhart - Goshen,Occupation Group,0.11274509803921569,Sales and Related Occupations
-2020-12-28,408,Elkhart - Goshen,Occupation Group,0.14285714285714285,"Installation, Maintenance, and Repair Occupations"
-2020-12-28,353,Elkhart - Goshen,Occupation Group,0.06006006006006006,Architecture and Engineering Occupations
-2020-12-28,282,Elkhart - Goshen,Occupation Group,0.010752688172043012,Business and Financial Operations Occupations
-2020-12-28,261,Elkhart - Goshen,Occupation Group,0.14977973568281938,Healthcare Support Occupations
-2020-12-28,261,Elkhart - Goshen,Occupation Group,0.14977973568281938,Food Preparation and Serving Related Occupations
-2020-12-28,234,Elkhart - Goshen,Occupation Group,0.05405405405405406,Computer and Mathematical Occupations
-2020-12-28,225,Elkhart - Goshen,Occupation Group,0.10837438423645321,Healthcare Practitioners and Technical Occupations
-2020-12-28,194,Elkhart - Goshen,Occupation Group,0.031914893617021274,"Arts, Design, Entertainment, Sports, and Media Occ"
-2020-12-28,177,Elkhart - Goshen,Occupation Group,0.1568627450980392,Building & Grounds Cleaning & Maintenance Occup.
-2020-12-28,126,Elkhart - Goshen,Occupation Group,0.11504424778761062,Personal Care and Service Occupations
-2020-12-28,121,Elkhart - Goshen,Occupation Group,0.14150943396226415,Community and Social Services Occupations
-2020-12-28,106,Elkhart - Goshen,Occupation Group,0.04950495049504951,"Life, Physical, and Social Science Occupations"
-2020-12-28,104,Elkhart - Goshen,Occupation Group,0.050505050505050504,"Education, Training, and Library Occupations"
-2020-12-28,98,Elkhart - Goshen,Occupation Group,0.18072289156626506,Protective Service Occupations
-2020-12-28,34,Elkhart - Goshen,Occupation Group,0.25925925925925924,Legal Occupations
-2020-12-28,20,Elkhart - Goshen,Occupation Group,0.1111111111111111,"Farming, Fishing, and Forestry Occupations"
-2020-12-28,16,Elkhart - Goshen,Occupation Group,-0.058823529411764705,Military Specific Occupations
 2020-12-28,0,South Bend - Mishawaka,education,NA,No Minimum Education Requirement
 2020-12-28,386,South Bend - Mishawaka,education,0.010471204188481676,Less than High School
 2020-12-28,2882,South Bend - Mishawaka,education,0.009457092819614711,High School Diploma or Equivalent
@@ -8618,19 +8594,6 @@ dt,Candidates,msa,indicator,per_change,var
 2020-12-28,58,South Bend - Mishawaka,education,0,Doctorate Degree
 2020-12-28,6,South Bend - Mishawaka,education,0,"Specialized Degree (e.g. MD, DDS)"
 2020-12-28,0,South Bend - Mishawaka,education,NA,Not Specified
-2020-12-28,0,Elkhart - Goshen,education,NA,No Minimum Education Requirement
-2020-12-28,386,Elkhart - Goshen,education,-0.05853658536585366,Less than High School
-2020-12-28,2882,Elkhart - Goshen,education,0.06780288995924416,High School Diploma or Equivalent
-2020-12-28,0,Elkhart - Goshen,education,NA,1 Year of College or a Technical or Vocational School
-2020-12-28,0,Elkhart - Goshen,education,NA,2 Years of College or a Technical or Vocational School
-2020-12-28,0,Elkhart - Goshen,education,NA,3 Years of College or a Technical or Vocational School
-2020-12-28,273,Elkhart - Goshen,education,0.19736842105263158,Vocational School Certificate
-2020-12-28,678,Elkhart - Goshen,education,0.10784313725490197,Associate's Degree
-2020-12-28,1174,Elkhart - Goshen,education,0.0931098696461825,Bachelor's Degree
-2020-12-28,354,Elkhart - Goshen,education,0.059880239520958084,Master's Degree
-2020-12-28,58,Elkhart - Goshen,education,0.2608695652173913,Doctorate Degree
-2020-12-28,6,Elkhart - Goshen,education,0.2,"Specialized Degree (e.g. MD, DDS)"
-2020-12-28,0,Elkhart - Goshen,education,NA,Not Specified
 2020-12-29,7194,South Bend - Mishawaka,Total Candidates,0.007421929701722448,Total Candidates
 2020-12-29,1485,South Bend - Mishawaka,Occupation Group,0.007462686567164179,Production Occupations
 2020-12-29,969,South Bend - Mishawaka,Occupation Group,0.010427528675703858,Office and Administrative Support Occupations
@@ -14377,3 +14340,186 @@ dt,Candidates,msa,indicator,per_change,var
 2021-05-26,32,Elkhart - Goshen,education,-0.30434782608695654,Doctorate Degree
 2021-05-26,6,Elkhart - Goshen,education,0.2,"Specialized Degree (e.g. MD, DDS)"
 2021-05-26,0,Elkhart - Goshen,education,NA,Not Specified
+2021-05-27,5356,South Bend - Mishawaka,Total Candidates,-0.24996499089763338,Total Candidates
+2021-05-27,1302,South Bend - Mishawaka,Occupation Group,-0.11668928086838534,Production Occupations
+2021-05-27,671,South Bend - Mishawaka,Occupation Group,-0.30031282586027114,Office and Administrative Support Occupations
+2021-05-27,586,South Bend - Mishawaka,Occupation Group,-0.17812061711079943,Transportation and Material Moving Occupations
+2021-05-27,494,South Bend - Mishawaka,Occupation Group,-0.4069627851140456,Management Occupations
+2021-05-27,368,South Bend - Mishawaka,Occupation Group,-0.2,Construction and Extraction Occupations
+2021-05-27,333,South Bend - Mishawaka,Occupation Group,-0.18581907090464547,"Installation, Maintenance, and Repair Occupations"
+2021-05-27,310,South Bend - Mishawaka,Occupation Group,-0.3141592920353982,Sales and Related Occupations
+2021-05-27,237,South Bend - Mishawaka,Occupation Group,-0.3209169054441261,Architecture and Engineering Occupations
+2021-05-27,203,South Bend - Mishawaka,Occupation Group,-0.21621621621621623,Healthcare Support Occupations
+2021-05-27,187,South Bend - Mishawaka,Occupation Group,-0.3249097472924188,Business and Financial Operations Occupations
+2021-05-27,182,South Bend - Mishawaka,Occupation Group,-0.2972972972972973,Food Preparation and Serving Related Occupations
+2021-05-27,160,South Bend - Mishawaka,Occupation Group,-0.3133047210300429,Computer and Mathematical Occupations
+2021-05-27,151,South Bend - Mishawaka,Occupation Group,-0.33480176211453744,Healthcare Practitioners and Technical Occupations
+2021-05-27,140,South Bend - Mishawaka,Occupation Group,-0.20454545454545456,Building & Grounds Cleaning & Maintenance Occup.
+2021-05-27,130,South Bend - Mishawaka,Occupation Group,-0.32642487046632124,"Arts, Design, Entertainment, Sports, and Media Occ"
+2021-05-27,97,South Bend - Mishawaka,Occupation Group,-0.19834710743801653,Community and Social Services Occupations
+2021-05-27,96,South Bend - Mishawaka,Occupation Group,-0.2440944881889764,Personal Care and Service Occupations
+2021-05-27,83,South Bend - Mishawaka,Occupation Group,-0.11702127659574468,Protective Service Occupations
+2021-05-27,75,South Bend - Mishawaka,Occupation Group,-0.27884615384615385,"Life, Physical, and Social Science Occupations"
+2021-05-27,70,South Bend - Mishawaka,Occupation Group,-0.3269230769230769,"Education, Training, and Library Occupations"
+2021-05-27,15,South Bend - Mishawaka,Occupation Group,-0.21052631578947367,"Farming, Fishing, and Forestry Occupations"
+2021-05-27,11,South Bend - Mishawaka,Occupation Group,-0.6666666666666666,Legal Occupations
+2021-05-27,7,South Bend - Mishawaka,Occupation Group,-0.5625,Military Specific Occupations
+2021-05-27,0,South Bend - Mishawaka,education,NA,No Minimum Education Requirement
+2021-05-27,274,South Bend - Mishawaka,education,-0.28272251308900526,Less than High School
+2021-05-27,2251,South Bend - Mishawaka,education,-0.21155866900175133,High School Diploma or Equivalent
+2021-05-27,0,South Bend - Mishawaka,education,NA,1 Year of College or a Technical or Vocational School
+2021-05-27,0,South Bend - Mishawaka,education,NA,2 Years of College or a Technical or Vocational School
+2021-05-27,0,South Bend - Mishawaka,education,NA,3 Years of College or a Technical or Vocational School
+2021-05-27,247,South Bend - Mishawaka,education,-0.08178438661710037,Vocational School Certificate
+2021-05-27,509,South Bend - Mishawaka,education,-0.2481536189069424,Associate's Degree
+2021-05-27,793,South Bend - Mishawaka,education,-0.3163793103448276,Bachelor's Degree
+2021-05-27,250,South Bend - Mishawaka,education,-0.2897727272727273,Master's Degree
+2021-05-27,34,South Bend - Mishawaka,education,-0.41379310344827586,Doctorate Degree
+2021-05-27,7,South Bend - Mishawaka,education,0.16666666666666666,"Specialized Degree (e.g. MD, DDS)"
+2021-05-27,0,South Bend - Mishawaka,education,NA,Not Specified
+2021-05-28,5365,South Bend - Mishawaka,Total Candidates,-0.24870466321243523,Total Candidates
+2021-05-28,4906,Elkhart - Goshen,Total Candidates,-0.2634739528599309,Total Candidates
+2021-05-28,1306,South Bend - Mishawaka,Occupation Group,-0.11397557666214382,Production Occupations
+2021-05-28,671,South Bend - Mishawaka,Occupation Group,-0.30031282586027114,Office and Administrative Support Occupations
+2021-05-28,587,South Bend - Mishawaka,Occupation Group,-0.1767180925666199,Transportation and Material Moving Occupations
+2021-05-28,496,South Bend - Mishawaka,Occupation Group,-0.40456182472989194,Management Occupations
+2021-05-28,368,South Bend - Mishawaka,Occupation Group,-0.2,Construction and Extraction Occupations
+2021-05-28,332,South Bend - Mishawaka,Occupation Group,-0.1882640586797066,"Installation, Maintenance, and Repair Occupations"
+2021-05-28,310,South Bend - Mishawaka,Occupation Group,-0.3141592920353982,Sales and Related Occupations
+2021-05-28,236,South Bend - Mishawaka,Occupation Group,-0.3237822349570201,Architecture and Engineering Occupations
+2021-05-28,204,South Bend - Mishawaka,Occupation Group,-0.21235521235521235,Healthcare Support Occupations
+2021-05-28,189,South Bend - Mishawaka,Occupation Group,-0.3176895306859206,Business and Financial Operations Occupations
+2021-05-28,182,South Bend - Mishawaka,Occupation Group,-0.2972972972972973,Food Preparation and Serving Related Occupations
+2021-05-28,160,South Bend - Mishawaka,Occupation Group,-0.3133047210300429,Computer and Mathematical Occupations
+2021-05-28,151,South Bend - Mishawaka,Occupation Group,-0.33480176211453744,Healthcare Practitioners and Technical Occupations
+2021-05-28,139,South Bend - Mishawaka,Occupation Group,-0.21022727272727273,Building & Grounds Cleaning & Maintenance Occup.
+2021-05-28,130,South Bend - Mishawaka,Occupation Group,-0.32642487046632124,"Arts, Design, Entertainment, Sports, and Media Occ"
+2021-05-28,97,South Bend - Mishawaka,Occupation Group,-0.19834710743801653,Community and Social Services Occupations
+2021-05-28,96,South Bend - Mishawaka,Occupation Group,-0.2440944881889764,Personal Care and Service Occupations
+2021-05-28,83,South Bend - Mishawaka,Occupation Group,-0.11702127659574468,Protective Service Occupations
+2021-05-28,75,South Bend - Mishawaka,Occupation Group,-0.27884615384615385,"Life, Physical, and Social Science Occupations"
+2021-05-28,73,South Bend - Mishawaka,Occupation Group,-0.2980769230769231,"Education, Training, and Library Occupations"
+2021-05-28,15,South Bend - Mishawaka,Occupation Group,-0.21052631578947367,"Farming, Fishing, and Forestry Occupations"
+2021-05-28,11,South Bend - Mishawaka,Occupation Group,-0.6666666666666666,Legal Occupations
+2021-05-28,7,South Bend - Mishawaka,Occupation Group,-0.5625,Military Specific Occupations
+2021-05-28,1160,Elkhart - Goshen,Occupation Group,-0.17437722419928825,Production Occupations
+2021-05-28,623,Elkhart - Goshen,Occupation Group,-0.3264864864864865,Office and Administrative Support Occupations
+2021-05-28,521,Elkhart - Goshen,Occupation Group,-0.19846153846153847,Transportation and Material Moving Occupations
+2021-05-28,472,Elkhart - Goshen,Occupation Group,-0.39487179487179486,Management Occupations
+2021-05-28,326,Elkhart - Goshen,Occupation Group,-0.22009569377990432,Construction and Extraction Occupations
+2021-05-28,296,Elkhart - Goshen,Occupation Group,-0.17086834733893558,"Installation, Maintenance, and Repair Occupations"
+2021-05-28,273,Elkhart - Goshen,Occupation Group,-0.33088235294117646,Sales and Related Occupations
+2021-05-28,217,Elkhart - Goshen,Occupation Group,-0.3483483483483483,Architecture and Engineering Occupations
+2021-05-28,188,Elkhart - Goshen,Occupation Group,-0.32616487455197135,Business and Financial Operations Occupations
+2021-05-28,174,Elkhart - Goshen,Occupation Group,-0.23348017621145375,Healthcare Support Occupations
+2021-05-28,165,Elkhart - Goshen,Occupation Group,-0.27312775330396477,Food Preparation and Serving Related Occupations
+2021-05-28,159,Elkhart - Goshen,Occupation Group,-0.28378378378378377,Computer and Mathematical Occupations
+2021-05-28,137,Elkhart - Goshen,Occupation Group,-0.3251231527093596,Healthcare Practitioners and Technical Occupations
+2021-05-28,131,Elkhart - Goshen,Occupation Group,-0.30319148936170215,"Arts, Design, Entertainment, Sports, and Media Occ"
+2021-05-28,119,Elkhart - Goshen,Occupation Group,-0.2222222222222222,Building & Grounds Cleaning & Maintenance Occup.
+2021-05-28,94,Elkhart - Goshen,Occupation Group,-0.168141592920354,Personal Care and Service Occupations
+2021-05-28,84,Elkhart - Goshen,Occupation Group,-0.20754716981132076,Community and Social Services Occupations
+2021-05-28,77,Elkhart - Goshen,Occupation Group,-0.2376237623762376,"Life, Physical, and Social Science Occupations"
+2021-05-28,76,Elkhart - Goshen,Occupation Group,-0.08433734939759036,Protective Service Occupations
+2021-05-28,70,Elkhart - Goshen,Occupation Group,-0.29292929292929293,"Education, Training, and Library Occupations"
+2021-05-28,12,Elkhart - Goshen,Occupation Group,-0.5555555555555556,Legal Occupations
+2021-05-28,10,Elkhart - Goshen,Occupation Group,-0.4444444444444444,"Farming, Fishing, and Forestry Occupations"
+2021-05-28,5,Elkhart - Goshen,Occupation Group,-0.7058823529411765,Military Specific Occupations
+2021-05-28,0,South Bend - Mishawaka,education,NA,No Minimum Education Requirement
+2021-05-28,274,South Bend - Mishawaka,education,-0.28272251308900526,Less than High School
+2021-05-28,2254,South Bend - Mishawaka,education,-0.210507880910683,High School Diploma or Equivalent
+2021-05-28,0,South Bend - Mishawaka,education,NA,1 Year of College or a Technical or Vocational School
+2021-05-28,0,South Bend - Mishawaka,education,NA,2 Years of College or a Technical or Vocational School
+2021-05-28,0,South Bend - Mishawaka,education,NA,3 Years of College or a Technical or Vocational School
+2021-05-28,248,South Bend - Mishawaka,education,-0.07806691449814127,Vocational School Certificate
+2021-05-28,509,South Bend - Mishawaka,education,-0.2481536189069424,Associate's Degree
+2021-05-28,794,South Bend - Mishawaka,education,-0.31551724137931036,Bachelor's Degree
+2021-05-28,252,South Bend - Mishawaka,education,-0.2840909090909091,Master's Degree
+2021-05-28,35,South Bend - Mishawaka,education,-0.39655172413793105,Doctorate Degree
+2021-05-28,7,South Bend - Mishawaka,education,0.16666666666666666,"Specialized Degree (e.g. MD, DDS)"
+2021-05-28,0,South Bend - Mishawaka,education,NA,Not Specified
+2021-05-28,0,Elkhart - Goshen,education,NA,No Minimum Education Requirement
+2021-05-28,278,Elkhart - Goshen,education,-0.32195121951219513,Less than High School
+2021-05-28,2062,Elkhart - Goshen,education,-0.2360133382734346,High School Diploma or Equivalent
+2021-05-28,0,Elkhart - Goshen,education,NA,1 Year of College or a Technical or Vocational School
+2021-05-28,0,Elkhart - Goshen,education,NA,3 Years of College or a Technical or Vocational School
+2021-05-28,208,Elkhart - Goshen,education,-0.08771929824561403,Vocational School Certificate
+2021-05-28,450,Elkhart - Goshen,education,-0.2647058823529412,Associate's Degree
+2021-05-28,749,Elkhart - Goshen,education,-0.3026070763500931,Bachelor's Degree
+2021-05-28,232,Elkhart - Goshen,education,-0.30538922155688625,Master's Degree
+2021-05-28,33,Elkhart - Goshen,education,-0.2826086956521739,Doctorate Degree
+2021-05-28,6,Elkhart - Goshen,education,0.2,"Specialized Degree (e.g. MD, DDS)"
+2021-05-28,0,Elkhart - Goshen,education,NA,Not Specified
+2021-06-01,5363,South Bend - Mishawaka,Total Candidates,-0.24898473603136814,Total Candidates
+2021-06-01,4902,Elkhart - Goshen,Total Candidates,-0.26407446329379974,Total Candidates
+2021-06-01,1306,South Bend - Mishawaka,Occupation Group,-0.11397557666214382,Production Occupations
+2021-06-01,670,South Bend - Mishawaka,Occupation Group,-0.3013555787278415,Office and Administrative Support Occupations
+2021-06-01,585,South Bend - Mishawaka,Occupation Group,-0.17952314165497896,Transportation and Material Moving Occupations
+2021-06-01,500,South Bend - Mishawaka,Occupation Group,-0.3997599039615846,Management Occupations
+2021-06-01,370,South Bend - Mishawaka,Occupation Group,-0.1956521739130435,Construction and Extraction Occupations
+2021-06-01,333,South Bend - Mishawaka,Occupation Group,-0.18581907090464547,"Installation, Maintenance, and Repair Occupations"
+2021-06-01,305,South Bend - Mishawaka,Occupation Group,-0.3252212389380531,Sales and Related Occupations
+2021-06-01,235,South Bend - Mishawaka,Occupation Group,-0.32664756446991405,Architecture and Engineering Occupations
+2021-06-01,203,South Bend - Mishawaka,Occupation Group,-0.21621621621621623,Healthcare Support Occupations
+2021-06-01,186,South Bend - Mishawaka,Occupation Group,-0.3285198555956679,Business and Financial Operations Occupations
+2021-06-01,183,South Bend - Mishawaka,Occupation Group,-0.29343629343629346,Food Preparation and Serving Related Occupations
+2021-06-01,161,South Bend - Mishawaka,Occupation Group,-0.3090128755364807,Computer and Mathematical Occupations
+2021-06-01,151,South Bend - Mishawaka,Occupation Group,-0.33480176211453744,Healthcare Practitioners and Technical Occupations
+2021-06-01,141,South Bend - Mishawaka,Occupation Group,-0.19886363636363635,Building & Grounds Cleaning & Maintenance Occup.
+2021-06-01,129,South Bend - Mishawaka,Occupation Group,-0.3316062176165803,"Arts, Design, Entertainment, Sports, and Media Occ"
+2021-06-01,98,South Bend - Mishawaka,Occupation Group,-0.19008264462809918,Community and Social Services Occupations
+2021-06-01,95,South Bend - Mishawaka,Occupation Group,-0.25196850393700787,Personal Care and Service Occupations
+2021-06-01,83,South Bend - Mishawaka,Occupation Group,-0.11702127659574468,Protective Service Occupations
+2021-06-01,76,South Bend - Mishawaka,Occupation Group,-0.2692307692307692,"Life, Physical, and Social Science Occupations"
+2021-06-01,72,South Bend - Mishawaka,Occupation Group,-0.3076923076923077,"Education, Training, and Library Occupations"
+2021-06-01,15,South Bend - Mishawaka,Occupation Group,-0.21052631578947367,"Farming, Fishing, and Forestry Occupations"
+2021-06-01,11,South Bend - Mishawaka,Occupation Group,-0.6666666666666666,Legal Occupations
+2021-06-01,7,South Bend - Mishawaka,Occupation Group,-0.5625,Military Specific Occupations
+2021-06-01,1160,Elkhart - Goshen,Occupation Group,-0.17437722419928825,Production Occupations
+2021-06-01,620,Elkhart - Goshen,Occupation Group,-0.32972972972972975,Office and Administrative Support Occupations
+2021-06-01,520,Elkhart - Goshen,Occupation Group,-0.2,Transportation and Material Moving Occupations
+2021-06-01,478,Elkhart - Goshen,Occupation Group,-0.3871794871794872,Management Occupations
+2021-06-01,328,Elkhart - Goshen,Occupation Group,-0.215311004784689,Construction and Extraction Occupations
+2021-06-01,296,Elkhart - Goshen,Occupation Group,-0.17086834733893558,"Installation, Maintenance, and Repair Occupations"
+2021-06-01,269,Elkhart - Goshen,Occupation Group,-0.34068627450980393,Sales and Related Occupations
+2021-06-01,215,Elkhart - Goshen,Occupation Group,-0.35435435435435436,Architecture and Engineering Occupations
+2021-06-01,186,Elkhart - Goshen,Occupation Group,-0.3333333333333333,Business and Financial Operations Occupations
+2021-06-01,173,Elkhart - Goshen,Occupation Group,-0.23788546255506607,Healthcare Support Occupations
+2021-06-01,165,Elkhart - Goshen,Occupation Group,-0.27312775330396477,Food Preparation and Serving Related Occupations
+2021-06-01,160,Elkhart - Goshen,Occupation Group,-0.27927927927927926,Computer and Mathematical Occupations
+2021-06-01,136,Elkhart - Goshen,Occupation Group,-0.33004926108374383,Healthcare Practitioners and Technical Occupations
+2021-06-01,130,Elkhart - Goshen,Occupation Group,-0.30851063829787234,"Arts, Design, Entertainment, Sports, and Media Occ"
+2021-06-01,119,Elkhart - Goshen,Occupation Group,-0.2222222222222222,Building & Grounds Cleaning & Maintenance Occup.
+2021-06-01,95,Elkhart - Goshen,Occupation Group,-0.1592920353982301,Personal Care and Service Occupations
+2021-06-01,85,Elkhart - Goshen,Occupation Group,-0.19811320754716982,Community and Social Services Occupations
+2021-06-01,78,Elkhart - Goshen,Occupation Group,-0.22772277227722773,"Life, Physical, and Social Science Occupations"
+2021-06-01,76,Elkhart - Goshen,Occupation Group,-0.08433734939759036,Protective Service Occupations
+2021-06-01,69,Elkhart - Goshen,Occupation Group,-0.30303030303030304,"Education, Training, and Library Occupations"
+2021-06-01,12,Elkhart - Goshen,Occupation Group,-0.5555555555555556,Legal Occupations
+2021-06-01,10,Elkhart - Goshen,Occupation Group,-0.4444444444444444,"Farming, Fishing, and Forestry Occupations"
+2021-06-01,5,Elkhart - Goshen,Occupation Group,-0.7058823529411765,Military Specific Occupations
+2021-06-01,0,South Bend - Mishawaka,education,NA,No Minimum Education Requirement
+2021-06-01,275,South Bend - Mishawaka,education,-0.2801047120418848,Less than High School
+2021-06-01,2260,South Bend - Mishawaka,education,-0.2084063047285464,High School Diploma or Equivalent
+2021-06-01,0,South Bend - Mishawaka,education,NA,1 Year of College or a Technical or Vocational School
+2021-06-01,0,South Bend - Mishawaka,education,NA,2 Years of College or a Technical or Vocational School
+2021-06-01,0,South Bend - Mishawaka,education,NA,3 Years of College or a Technical or Vocational School
+2021-06-01,247,South Bend - Mishawaka,education,-0.08178438661710037,Vocational School Certificate
+2021-06-01,506,South Bend - Mishawaka,education,-0.25258493353028066,Associate's Degree
+2021-06-01,790,South Bend - Mishawaka,education,-0.31896551724137934,Bachelor's Degree
+2021-06-01,253,South Bend - Mishawaka,education,-0.28125,Master's Degree
+2021-06-01,34,South Bend - Mishawaka,education,-0.41379310344827586,Doctorate Degree
+2021-06-01,6,South Bend - Mishawaka,education,0,"Specialized Degree (e.g. MD, DDS)"
+2021-06-01,0,South Bend - Mishawaka,education,NA,Not Specified
+2021-06-01,0,Elkhart - Goshen,education,NA,No Minimum Education Requirement
+2021-06-01,277,Elkhart - Goshen,education,-0.32439024390243903,Less than High School
+2021-06-01,2070,Elkhart - Goshen,education,-0.23304927751018895,High School Diploma or Equivalent
+2021-06-01,0,Elkhart - Goshen,education,NA,1 Year of College or a Technical or Vocational School
+2021-06-01,0,Elkhart - Goshen,education,NA,2 Years of College or a Technical or Vocational School
+2021-06-01,207,Elkhart - Goshen,education,-0.09210526315789473,Vocational School Certificate
+2021-06-01,446,Elkhart - Goshen,education,-0.27124183006535946,Associate's Degree
+2021-06-01,745,Elkhart - Goshen,education,-0.3063314711359404,Bachelor's Degree
+2021-06-01,233,Elkhart - Goshen,education,-0.3023952095808383,Master's Degree
+2021-06-01,32,Elkhart - Goshen,education,-0.30434782608695654,Doctorate Degree
+2021-06-01,5,Elkhart - Goshen,education,0,"Specialized Degree (e.g. MD, DDS)"
+2021-06-01,0,Elkhart - Goshen,education,NA,Not Specified
