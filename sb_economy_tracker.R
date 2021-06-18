@@ -365,6 +365,11 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                       style="text-align:justify;color:white;background-color:darkblue;padding:15px;border-radius:10px"),br(),
                                    width=12)
                                ),
+                               fluidRow(selectInput(
+                                 inputId = "select_msa",
+                                 label = "Select MSA",
+                                 choices = c("South Bend - Mishawaka", "Elkhart - Goshen")
+                               )),
                                fluidRow(
                                  column(
                                    br(),
@@ -1073,7 +1078,9 @@ server = function(input, output, session) {
   })
   
   output$employers_wordcloud <- renderWordcloud2({
-    wordcloud2(employers_jobs, size=0.3, color='random-light', 
+    employers_jobs %>%
+      filter(msa==input$select_msa) %>% select(-msa) %>%
+    wordcloud2(size=0.3, color='random-light', 
                       backgroundColor="black", minRotation = 0, maxRotation = 0, rotateRatio = 1)
   })
   

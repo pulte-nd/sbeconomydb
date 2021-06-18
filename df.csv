@@ -13506,3 +13506,205 @@ dt,Job Openings,msa,indicator,per_change,var
 2021-06-14,1,Elkhart - Goshen,education,Inf,Doctorate Degree
 2021-06-14,0,Elkhart - Goshen,education,-1,"Specialized Degree (e.g. MD, DDS)"
 2021-06-14,4066,Elkhart - Goshen,education,0.10519162815982604,Not Specified
+2021-06-15,6378,South Bend - Mishawaka,Total Openings,0.05543604170114182,Total Openings
+2021-06-15,1655,South Bend - Mishawaka,industry,0.04746835443037975,Health Care and Social Assistance
+2021-06-15,660,South Bend - Mishawaka,industry,0.08731466227347612,Retail Trade
+2021-06-15,484,South Bend - Mishawaka,industry,-0.17826825127334464,Accommodation and Food Services
+2021-06-15,296,South Bend - Mishawaka,industry,0.5913978494623656,Manufacturing
+2021-06-15,269,South Bend - Mishawaka,industry,0.7354838709677419,Educational Services
+2021-06-15,226,South Bend - Mishawaka,industry,0.0319634703196347,Administrative and Support and Waste Management and Remediation Services
+2021-06-15,184,South Bend - Mishawaka,industry,-0.2950191570881226,Transportation and Warehousing
+2021-06-15,175,South Bend - Mishawaka,industry,0.7156862745098039,Public Administration
+2021-06-15,168,South Bend - Mishawaka,industry,0.005988023952095809,"Professional, Scientific, and Technical Services"
+2021-06-15,153,South Bend - Mishawaka,industry,0.2966101694915254,Finance and Insurance
+2021-06-15,151,South Bend - Mishawaka,industry,0.7976190476190477,Wholesale Trade
+2021-06-15,70,South Bend - Mishawaka,industry,0.25,Real Estate and Rental and Leasing
+2021-06-15,65,South Bend - Mishawaka,industry,0.04838709677419355,Other Services (except Public Administration)
+2021-06-15,41,South Bend - Mishawaka,industry,0.05128205128205128,Information
+2021-06-15,36,South Bend - Mishawaka,industry,0.5652173913043478,Construction
+2021-06-15,31,South Bend - Mishawaka,industry,0.9375,Total Government
+2021-06-15,12,South Bend - Mishawaka,industry,11,Utilities
+2021-06-15,2,South Bend - Mishawaka,industry,1,"Agriculture, Forestry, Fishing and Hunting"
+2021-06-15,1,South Bend - Mishawaka,industry,-0.8,"Arts, Entertainment, and Recreation"
+2021-06-15,1,South Bend - Mishawaka,industry,-0.9565217391304348,Management of Companies and Enterprises
+2021-06-15,251,South Bend - Mishawaka,education,1.3679245283018868,No Minimum Education Requirement
+2021-06-15,0,South Bend - Mishawaka,education,NA,Less than High School
+2021-06-15,500,South Bend - Mishawaka,education,0.19904076738609114,High School Diploma or Equivalent
+2021-06-15,1,South Bend - Mishawaka,education,0,1 Year of College or a Technical or Vocational School
+2021-06-15,3,South Bend - Mishawaka,education,0,2 Years of College or a Technical or Vocational School
+2021-06-15,5,South Bend - Mishawaka,education,4,3 Years of College or a Technical or Vocational School
+2021-06-15,11,South Bend - Mishawaka,education,2.6666666666666665,Vocational School Certificate
+2021-06-15,30,South Bend - Mishawaka,education,-0.21052631578947367,Associate's Degree
+2021-06-15,242,South Bend - Mishawaka,education,0.2538860103626943,Bachelor's Degree
+2021-06-15,21,South Bend - Mishawaka,education,0.16666666666666666,Master's Degree
+2021-06-15,5,South Bend - Mishawaka,education,-0.6666666666666666,Doctorate Degree
+2021-06-15,1,South Bend - Mishawaka,education,-0.6666666666666666,"Specialized Degree (e.g. MD, DDS)"
+2021-06-15,5308,South Bend - Mishawaka,education,0.01162569087097389,Not Specified
+2021-06-16,6527,South Bend - Mishawaka,Total Openings,0.08009266920403774,Total Openings
+2021-06-16,5205,Elkhart - Goshen,Total Openings,0.24194702934860415,Total Openings
+2021-06-16,1666,South Bend - Mishawaka,industry,0.05443037974683544,Health Care and Social Assistance
+2021-06-16,656,South Bend - Mishawaka,industry,0.08072487644151564,Retail Trade
+2021-06-16,488,South Bend - Mishawaka,industry,-0.17147707979626486,Accommodation and Food Services
+2021-06-16,298,South Bend - Mishawaka,industry,0.6021505376344086,Manufacturing
+2021-06-16,289,South Bend - Mishawaka,industry,0.864516129032258,Educational Services
+2021-06-16,220,South Bend - Mishawaka,industry,0.0045662100456621,Administrative and Support and Waste Management and Remediation Services
+2021-06-16,195,South Bend - Mishawaka,industry,-0.25287356321839083,Transportation and Warehousing
+2021-06-16,175,South Bend - Mishawaka,industry,0.7156862745098039,Public Administration
+2021-06-16,174,South Bend - Mishawaka,industry,0.041916167664670656,"Professional, Scientific, and Technical Services"
+2021-06-16,159,South Bend - Mishawaka,industry,0.3474576271186441,Finance and Insurance
+2021-06-16,155,South Bend - Mishawaka,industry,0.8452380952380952,Wholesale Trade
+2021-06-16,71,South Bend - Mishawaka,industry,0.26785714285714285,Real Estate and Rental and Leasing
+2021-06-16,69,South Bend - Mishawaka,industry,0.11290322580645161,Other Services (except Public Administration)
+2021-06-16,39,South Bend - Mishawaka,industry,0,Information
+2021-06-16,37,South Bend - Mishawaka,industry,0.6086956521739131,Construction
+2021-06-16,28,South Bend - Mishawaka,industry,0.75,Total Government
+2021-06-16,20,South Bend - Mishawaka,industry,3,"Arts, Entertainment, and Recreation"
+2021-06-16,12,South Bend - Mishawaka,industry,11,Utilities
+2021-06-16,6,South Bend - Mishawaka,industry,5,"Agriculture, Forestry, Fishing and Hunting"
+2021-06-16,1,South Bend - Mishawaka,industry,-0.9565217391304348,Management of Companies and Enterprises
+2021-06-16,1183,Elkhart - Goshen,industry,0.1331417624521073,Health Care and Social Assistance
+2021-06-16,881,Elkhart - Goshen,industry,0.772635814889336,Manufacturing
+2021-06-16,560,Elkhart - Goshen,industry,0.7834394904458599,Educational Services
+2021-06-16,381,Elkhart - Goshen,industry,0.3003412969283277,Wholesale Trade
+2021-06-16,372,Elkhart - Goshen,industry,0.30985915492957744,Retail Trade
+2021-06-16,235,Elkhart - Goshen,industry,-0.2878787878787879,Accommodation and Food Services
+2021-06-16,150,Elkhart - Goshen,industry,0,Administrative and Support and Waste Management and Remediation Services
+2021-06-16,71,Elkhart - Goshen,industry,-0.3238095238095238,Transportation and Warehousing
+2021-06-16,68,Elkhart - Goshen,industry,0.44680851063829785,Finance and Insurance
+2021-06-16,58,Elkhart - Goshen,industry,1.5217391304347827,Real Estate and Rental and Leasing
+2021-06-16,56,Elkhart - Goshen,industry,0.5135135135135135,Public Administration
+2021-06-16,54,Elkhart - Goshen,industry,-0.3493975903614458,"Professional, Scientific, and Technical Services"
+2021-06-16,38,Elkhart - Goshen,industry,0.6521739130434783,Construction
+2021-06-16,27,Elkhart - Goshen,industry,0.08,Total Government
+2021-06-16,20,Elkhart - Goshen,industry,0.05263157894736842,Other Services (except Public Administration)
+2021-06-16,11,Elkhart - Goshen,industry,2.6666666666666665,"Agriculture, Forestry, Fishing and Hunting"
+2021-06-16,7,Elkhart - Goshen,industry,6,Utilities
+2021-06-16,6,Elkhart - Goshen,industry,2,Management of Companies and Enterprises
+2021-06-16,4,Elkhart - Goshen,industry,-0.42857142857142855,Information
+2021-06-16,263,South Bend - Mishawaka,education,1.4811320754716981,No Minimum Education Requirement
+2021-06-16,0,South Bend - Mishawaka,education,NA,Less than High School
+2021-06-16,488,South Bend - Mishawaka,education,0.17026378896882494,High School Diploma or Equivalent
+2021-06-16,1,South Bend - Mishawaka,education,0,1 Year of College or a Technical or Vocational School
+2021-06-16,3,South Bend - Mishawaka,education,0,2 Years of College or a Technical or Vocational School
+2021-06-16,5,South Bend - Mishawaka,education,4,3 Years of College or a Technical or Vocational School
+2021-06-16,11,South Bend - Mishawaka,education,2.6666666666666665,Vocational School Certificate
+2021-06-16,32,South Bend - Mishawaka,education,-0.15789473684210525,Associate's Degree
+2021-06-16,242,South Bend - Mishawaka,education,0.2538860103626943,Bachelor's Degree
+2021-06-16,21,South Bend - Mishawaka,education,0.16666666666666666,Master's Degree
+2021-06-16,5,South Bend - Mishawaka,education,-0.6666666666666666,Doctorate Degree
+2021-06-16,1,South Bend - Mishawaka,education,-0.6666666666666666,"Specialized Degree (e.g. MD, DDS)"
+2021-06-16,5455,South Bend - Mishawaka,education,0.03964170001905851,Not Specified
+2021-06-16,349,Elkhart - Goshen,education,2.06140350877193,No Minimum Education Requirement
+2021-06-16,0,Elkhart - Goshen,education,NA,Less than High School
+2021-06-16,458,Elkhart - Goshen,education,0.832,High School Diploma or Equivalent
+2021-06-16,1,Elkhart - Goshen,education,0,1 Year of College or a Technical or Vocational School
+2021-06-16,2,Elkhart - Goshen,education,1,2 Years of College or a Technical or Vocational School
+2021-06-16,1,Elkhart - Goshen,education,0,3 Years of College or a Technical or Vocational School
+2021-06-16,31,Elkhart - Goshen,education,0.4090909090909091,Vocational School Certificate
+2021-06-16,28,Elkhart - Goshen,education,0.2727272727272727,Associate's Degree
+2021-06-16,153,Elkhart - Goshen,education,0.6105263157894737,Bachelor's Degree
+2021-06-16,9,Elkhart - Goshen,education,0.8,Master's Degree
+2021-06-16,1,Elkhart - Goshen,education,Inf,Doctorate Degree
+2021-06-16,0,Elkhart - Goshen,education,-1,"Specialized Degree (e.g. MD, DDS)"
+2021-06-16,4172,Elkhart - Goshen,education,0.13400380538189727,Not Specified
+2021-06-17,6527,South Bend - Mishawaka,Total Openings,0.08009266920403774,Total Openings
+2021-06-17,1666,South Bend - Mishawaka,industry,0.05443037974683544,Health Care and Social Assistance
+2021-06-17,656,South Bend - Mishawaka,industry,0.08072487644151564,Retail Trade
+2021-06-17,488,South Bend - Mishawaka,industry,-0.17147707979626486,Accommodation and Food Services
+2021-06-17,298,South Bend - Mishawaka,industry,0.6021505376344086,Manufacturing
+2021-06-17,289,South Bend - Mishawaka,industry,0.864516129032258,Educational Services
+2021-06-17,220,South Bend - Mishawaka,industry,0.0045662100456621,Administrative and Support and Waste Management and Remediation Services
+2021-06-17,195,South Bend - Mishawaka,industry,-0.25287356321839083,Transportation and Warehousing
+2021-06-17,175,South Bend - Mishawaka,industry,0.7156862745098039,Public Administration
+2021-06-17,174,South Bend - Mishawaka,industry,0.041916167664670656,"Professional, Scientific, and Technical Services"
+2021-06-17,159,South Bend - Mishawaka,industry,0.3474576271186441,Finance and Insurance
+2021-06-17,155,South Bend - Mishawaka,industry,0.8452380952380952,Wholesale Trade
+2021-06-17,71,South Bend - Mishawaka,industry,0.26785714285714285,Real Estate and Rental and Leasing
+2021-06-17,69,South Bend - Mishawaka,industry,0.11290322580645161,Other Services (except Public Administration)
+2021-06-17,39,South Bend - Mishawaka,industry,0,Information
+2021-06-17,37,South Bend - Mishawaka,industry,0.6086956521739131,Construction
+2021-06-17,28,South Bend - Mishawaka,industry,0.75,Total Government
+2021-06-17,20,South Bend - Mishawaka,industry,3,"Arts, Entertainment, and Recreation"
+2021-06-17,12,South Bend - Mishawaka,industry,11,Utilities
+2021-06-17,6,South Bend - Mishawaka,industry,5,"Agriculture, Forestry, Fishing and Hunting"
+2021-06-17,1,South Bend - Mishawaka,industry,-0.9565217391304348,Management of Companies and Enterprises
+2021-06-17,263,South Bend - Mishawaka,education,1.4811320754716981,No Minimum Education Requirement
+2021-06-17,0,South Bend - Mishawaka,education,NA,Less than High School
+2021-06-17,488,South Bend - Mishawaka,education,0.17026378896882494,High School Diploma or Equivalent
+2021-06-17,1,South Bend - Mishawaka,education,0,1 Year of College or a Technical or Vocational School
+2021-06-17,3,South Bend - Mishawaka,education,0,2 Years of College or a Technical or Vocational School
+2021-06-17,5,South Bend - Mishawaka,education,4,3 Years of College or a Technical or Vocational School
+2021-06-17,11,South Bend - Mishawaka,education,2.6666666666666665,Vocational School Certificate
+2021-06-17,32,South Bend - Mishawaka,education,-0.15789473684210525,Associate's Degree
+2021-06-17,242,South Bend - Mishawaka,education,0.2538860103626943,Bachelor's Degree
+2021-06-17,21,South Bend - Mishawaka,education,0.16666666666666666,Master's Degree
+2021-06-17,5,South Bend - Mishawaka,education,-0.6666666666666666,Doctorate Degree
+2021-06-17,1,South Bend - Mishawaka,education,-0.6666666666666666,"Specialized Degree (e.g. MD, DDS)"
+2021-06-17,5455,South Bend - Mishawaka,education,0.03964170001905851,Not Specified
+2021-06-18,6483,South Bend - Mishawaka,Total Openings,0.07281151745821612,Total Openings
+2021-06-18,5117,Elkhart - Goshen,Total Openings,0.22094965402052016,Total Openings
+2021-06-18,1623,South Bend - Mishawaka,industry,0.02721518987341772,Health Care and Social Assistance
+2021-06-18,649,South Bend - Mishawaka,industry,0.06919275123558484,Retail Trade
+2021-06-18,493,South Bend - Mishawaka,industry,-0.16298811544991512,Accommodation and Food Services
+2021-06-18,300,South Bend - Mishawaka,industry,0.6129032258064516,Manufacturing
+2021-06-18,291,South Bend - Mishawaka,industry,0.8774193548387097,Educational Services
+2021-06-18,229,South Bend - Mishawaka,industry,0.045662100456621,Administrative and Support and Waste Management and Remediation Services
+2021-06-18,192,South Bend - Mishawaka,industry,-0.26436781609195403,Transportation and Warehousing
+2021-06-18,177,South Bend - Mishawaka,industry,0.7352941176470589,Public Administration
+2021-06-18,172,South Bend - Mishawaka,industry,0.029940119760479042,"Professional, Scientific, and Technical Services"
+2021-06-18,155,South Bend - Mishawaka,industry,0.3135593220338983,Finance and Insurance
+2021-06-18,154,South Bend - Mishawaka,industry,0.8333333333333334,Wholesale Trade
+2021-06-18,76,South Bend - Mishawaka,industry,0.35714285714285715,Real Estate and Rental and Leasing
+2021-06-18,70,South Bend - Mishawaka,industry,0.12903225806451613,Other Services (except Public Administration)
+2021-06-18,40,South Bend - Mishawaka,industry,0.02564102564102564,Information
+2021-06-18,36,South Bend - Mishawaka,industry,0.5652173913043478,Construction
+2021-06-18,28,South Bend - Mishawaka,industry,0.75,Total Government
+2021-06-18,24,South Bend - Mishawaka,industry,3.8,"Arts, Entertainment, and Recreation"
+2021-06-18,12,South Bend - Mishawaka,industry,11,Utilities
+2021-06-18,6,South Bend - Mishawaka,industry,5,"Agriculture, Forestry, Fishing and Hunting"
+2021-06-18,2,South Bend - Mishawaka,industry,-0.9130434782608695,Management of Companies and Enterprises
+2021-06-18,1071,Elkhart - Goshen,industry,0.02586206896551724,Health Care and Social Assistance
+2021-06-18,869,Elkhart - Goshen,industry,0.7484909456740443,Manufacturing
+2021-06-18,575,Elkhart - Goshen,industry,0.8312101910828026,Educational Services
+2021-06-18,388,Elkhart - Goshen,industry,0.3242320819112628,Wholesale Trade
+2021-06-18,374,Elkhart - Goshen,industry,0.31690140845070425,Retail Trade
+2021-06-18,235,Elkhart - Goshen,industry,-0.2878787878787879,Accommodation and Food Services
+2021-06-18,153,Elkhart - Goshen,industry,0.02,Administrative and Support and Waste Management and Remediation Services
+2021-06-18,72,Elkhart - Goshen,industry,-0.3142857142857143,Transportation and Warehousing
+2021-06-18,66,Elkhart - Goshen,industry,0.40425531914893614,Finance and Insurance
+2021-06-18,58,Elkhart - Goshen,industry,1.5217391304347827,Real Estate and Rental and Leasing
+2021-06-18,57,Elkhart - Goshen,industry,0.5405405405405406,Public Administration
+2021-06-18,54,Elkhart - Goshen,industry,-0.3493975903614458,"Professional, Scientific, and Technical Services"
+2021-06-18,38,Elkhart - Goshen,industry,0.6521739130434783,Construction
+2021-06-18,27,Elkhart - Goshen,industry,0.08,Total Government
+2021-06-18,21,Elkhart - Goshen,industry,0.10526315789473684,Other Services (except Public Administration)
+2021-06-18,11,Elkhart - Goshen,industry,2.6666666666666665,"Agriculture, Forestry, Fishing and Hunting"
+2021-06-18,7,Elkhart - Goshen,industry,6,Utilities
+2021-06-18,6,Elkhart - Goshen,industry,2,Management of Companies and Enterprises
+2021-06-18,4,Elkhart - Goshen,industry,-0.42857142857142855,Information
+2021-06-18,258,South Bend - Mishawaka,education,1.4339622641509433,No Minimum Education Requirement
+2021-06-18,0,South Bend - Mishawaka,education,NA,Less than High School
+2021-06-18,496,South Bend - Mishawaka,education,0.18944844124700239,High School Diploma or Equivalent
+2021-06-18,1,South Bend - Mishawaka,education,0,1 Year of College or a Technical or Vocational School
+2021-06-18,3,South Bend - Mishawaka,education,0,2 Years of College or a Technical or Vocational School
+2021-06-18,5,South Bend - Mishawaka,education,4,3 Years of College or a Technical or Vocational School
+2021-06-18,11,South Bend - Mishawaka,education,2.6666666666666665,Vocational School Certificate
+2021-06-18,32,South Bend - Mishawaka,education,-0.15789473684210525,Associate's Degree
+2021-06-18,238,South Bend - Mishawaka,education,0.23316062176165803,Bachelor's Degree
+2021-06-18,20,South Bend - Mishawaka,education,0.1111111111111111,Master's Degree
+2021-06-18,5,South Bend - Mishawaka,education,-0.6666666666666666,Doctorate Degree
+2021-06-18,1,South Bend - Mishawaka,education,-0.6666666666666666,"Specialized Degree (e.g. MD, DDS)"
+2021-06-18,5413,South Bend - Mishawaka,education,0.03163712597674862,Not Specified
+2021-06-18,332,Elkhart - Goshen,education,1.912280701754386,No Minimum Education Requirement
+2021-06-18,0,Elkhart - Goshen,education,NA,Less than High School
+2021-06-18,460,Elkhart - Goshen,education,0.84,High School Diploma or Equivalent
+2021-06-18,1,Elkhart - Goshen,education,0,1 Year of College or a Technical or Vocational School
+2021-06-18,2,Elkhart - Goshen,education,1,2 Years of College or a Technical or Vocational School
+2021-06-18,1,Elkhart - Goshen,education,0,3 Years of College or a Technical or Vocational School
+2021-06-18,29,Elkhart - Goshen,education,0.3181818181818182,Vocational School Certificate
+2021-06-18,25,Elkhart - Goshen,education,0.13636363636363635,Associate's Degree
+2021-06-18,153,Elkhart - Goshen,education,0.6105263157894737,Bachelor's Degree
+2021-06-18,9,Elkhart - Goshen,education,0.8,Master's Degree
+2021-06-18,1,Elkhart - Goshen,education,Inf,Doctorate Degree
+2021-06-18,0,Elkhart - Goshen,education,-1,"Specialized Degree (e.g. MD, DDS)"
+2021-06-18,4104,Elkhart - Goshen,education,0.11552052188094591,Not Specified
