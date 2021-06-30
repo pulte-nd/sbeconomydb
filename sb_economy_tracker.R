@@ -35,8 +35,10 @@ sb_naics_sector <- read_csv("sb_naics_sector.csv")
 sb_oes <- read_csv("sb_oes.csv")
 sb_elk_ces_sup <- read_csv("sb_elk_ces_sup.csv")
 laus_select <- read_csv("laus_select.csv")
+
 housing_sb <- read_rds("housing_sb.Rds")
 sb_weekly_evictions <- read_rds("sb_weekly_evictions.Rds")
+home_prices_in <- read_rds("home_prices_in.Rds")
 
 # claimants files
 age <- read_csv("claimants_age.csv")
@@ -357,7 +359,31 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                                            "Percentage Change"="per_change"), inline = T),
                                             width=6),
                                         box(plotlyOutput(outputId = 'evictionPlot'),width=6)
+                               ),
+                               fluidRow(selectInput(
+                                 inputId = "select_msa_homevalue",
+                                 label = "Select MSA",
+                                 choices = c("South Bend - Mishawaka", "Elkhart - Goshen")
                                )),
+                               fluidRow(
+                                 valueBoxOutput("homevaluebox", width = 3),
+                                 valueBoxOutput("homevaluechangebox", width = 3)
+                               ),
+                               fluidRow(
+                                 column(
+                                   br(),
+                                   p("The graph shows the home values.",
+                                     style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),
+                                   width=6)
+                               ),
+                               fluidRow(box(plotlyOutput(outputId = 'homevaluePlot'),
+                                            radioButtons("abs_per_homevalue", "Select Y axis",
+                                                         c("Value"="value",
+                                                           "Percentage Change"="per_change"), inline = T),
+                                            width=6)#,
+                                        #box(plotlyOutput(outputId = 'evictionPlot'),width=6)
+                               ),
+                               ),
                        tabItem(tabName = "business_activity",
                                fluidRow(
                                  column(
@@ -576,10 +602,6 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                      #br(),br(),
                                      #a(href="my-report.pdf", "Download PDF", download=NA, target="_blank"),
                                      br(),br(),
-                                     "Download newsletter ",tags$a(href = "my-report.pdf", "here"),
-                                     #br(),br(),
-                                     #a(href="my-report.pdf", "Download PDF", download=NA, target="_blank"),
-                                     br(),br(),
                                      "References",
                                      br(),
                                      "   Hausmann, R., Hidalgo, C. A., Bustos, S., Coscia, M., and Simoes, A. (2014). The atlas of economic complexity: Mapping paths to prosperity. MIT Press.",
@@ -601,15 +623,16 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                    #br(),
                                    p("Data on this website is sourced from publicly available databases including",
                                      br(),br(),
-                                     "U.S. Bureau of Labor Statistics (https://www.bls.gov/)",br(),
-                                     "U.S. Bureau of Economic Analysis (https://www.bea.gov/)",br(), 
-                                     "Indiana Career Connect (https://www.indianacareerconnect.com/)",br(),
-                                     "U.S. Census Bureau (https://www.census.gov/)",br(),
-                                     "Hoosiers by the Numbers (http://www.hoosierdata.in.gov/)",br(),
-                                     "Indiana Department of Workforce Development (https://www.in.gov/dwd/)",br(),
-                                     "The Eviction Lab (https://evictionlab.org/)",br(),
-                                     "The City of South Bend",
-                  
+                                     tags$a(href = "https://www.bls.gov/", "U.S. Bureau of Labor Statistics"),br(),
+                                     tags$a(href = "https://www.bea.gov/", "U.S. Bureau of Economic Analysis"),br(),
+                                     tags$a(href = "https://www.indianacareerconnect.com/", "Indiana Career Connect"),br(),
+                                     tags$a(href = "https://www.census.gov/", "U.S. Census Bureau"),br(),
+                                     tags$a(href = "http://www.hoosierdata.in.gov/", "Hoosiers by the Numbers"),br(),
+                                     tags$a(href = "https://www.in.gov/dwd/", "Indiana Department of Workforce Development"),br(),
+                                     tags$a(href = "https://evictionlab.org/", "The Eviction Lab"),br(),
+                                     tags$a(href = "https://southbendin.gov/", "The City of South Bend"),br(),
+                                     tags$a(href = "https://www.zillow.com/", "Zillow"),br(),
+                                     
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),
                                    width=12)
                                )
@@ -1048,6 +1071,37 @@ server = function(input, output, session) {
       fig <- fig%>% 
         layout(yaxis = list(tickformat = "%"))
     }
+    
+    fig
+  })
+  
+  output$homevaluePlot <- renderPlotly( {
+    fig <- home_prices_in %>%
+      filter(msa==input$select_msa_homevalue) %>%
+      plot_ly(x=~dt, y=~get(input$abs_per_homevalue), 
+              type="scatter",mode="lines",
+              line = list(shape = 'spline'), # more data would make this look nicer
+              hoverinfo = 'text',
+              text=~paste('</br> Date: ', dt,
+                          '</br> Home value: ', `value`,
+                          '</br> Percentage Change: ', paste(round(per_change*100,2),"%"))) %>% 
+      layout(showlegend = FALSE,
+             title = paste0("Home values in ",input$select_msa_homevalue," Metropolitan Statistical Area"),
+             xaxis = list(title = ""), # use zeroline = FALSE to remove zero line :)
+             yaxis = list(title = ""),
+             margin = list(l = 50, r = 50, t = 60, b = 60),
+             annotations = list(text = "Source: www.zillow.com",
+                                font = list(size = 12),
+                                showarrow = FALSE,
+                                xref = 'paper', x = -0.03,
+                                yref = 'paper', y = -0.2)
+      )
+    
+    if(input$abs_per_homevalue=="per_change") {
+      fig <- fig%>% 
+        layout(yaxis = list(tickformat = "%"))
+    }
+    
     
     fig
   })
@@ -1491,6 +1545,25 @@ output$myImage2 <- renderImage({
       color = "purple")
    
   })
+  
+  output$homevaluebox = renderValueBox({
+    recent_date = max(home_prices_in$dt)
+    my_query = "Home value as of SAMPLE"
+    home_value = home_prices_in$value[home_prices_in$dt==recent_date & home_prices_in$msa==input$select_msa_homevalue ]
+    valueBox(
+      paste0(format(home_value,big.mark=",",scientific=FALSE)), sub("SAMPLE",format(recent_date,"%b %d, %Y"),my_query), icon = icon("home"),
+      color = "yellow")
+  }) 
+  
+  output$homevaluechangebox = renderValueBox({
+    recent_date = max(home_prices_in$dt)
+    homevaluechange = paste0(round(home_prices_in$per_change[ home_prices_in$dt==recent_date & home_prices_in$msa==input$select_msa_homevalue]*100,2),"%")
+    valueBox(
+      paste0(homevaluechange), "Change compared to the year before", icon = icon("fas fa-percent"),
+      color = "green")
+  })
+  
+  
   
 #evictions boxes
   output$totalevictionbox = renderValueBox({ 
