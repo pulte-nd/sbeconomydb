@@ -60,6 +60,8 @@ sb_mi_msa <- read_rds("sb_mi_msa.Rds")
 # business licenses
 sb_business_licenses <- read_rds("sb_business_licenses.Rds")
 
+tools_jobs <- read_rds("tools_jobs.Rds")
+skills_jobs <- read_rds("skills_jobs.Rds")
 
 #setwd("C:/Users/Swapnil PC/OneDrive - nd.edu/notre dame research/citi foundation grant/Economic complexity/ECI Dashboard (shared with CRC)/data and code/")
 
@@ -392,7 +394,7 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                    width=12)
                                ),
                                fluidRow(selectInput(
-                                 inputId = "select_msa",
+                                 inputId = "select_msa_ba",
                                  label = "Select MSA",
                                  choices = c("South Bend - Mishawaka", "Elkhart - Goshen")
                                )),
@@ -410,7 +412,22 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                             width=6),
                                         box(plotlyOutput(outputId = 'businessactivityPlot'),
                                             width=6)
-                                        )
+                                        ),
+                               fluidRow(
+                                 column(
+                                   br(),
+                                   p("Top 10 Job skills in demand.", 
+                                     style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6),
+                                 column(
+                                   br(),
+                                   p("Top 10 Tools and Technology in demand.", 
+                                     style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6)
+                               ),
+                               fluidRow(box(plotlyOutput(outputId = 'skillsPlot'),
+                                            width=6),
+                                        box(plotlyOutput(outputId = 'toolsPlot'),
+                                            width=6)
+                               )
                               ),
                        tabItem(tabName = "structural",
                                fluidRow(
@@ -1133,9 +1150,51 @@ server = function(input, output, session) {
   
   output$employers_wordcloud <- renderWordcloud2({
     employers_jobs %>%
-      filter(msa==input$select_msa) %>% select(-msa) %>%
+      filter(msa==input$select_msa_ba) %>% select(-msa) %>%
     wordcloud2(size=0.3, color='random-light', 
                       backgroundColor="black", minRotation = 0, maxRotation = 0, rotateRatio = 1)
+  })
+  
+  output$skillsPlot <- renderPlotly({
+    fig <- skills_jobs %>%
+      filter(msa==input$select_msa_ba) %>%
+      mutate(`Advertised Detailed Job Skill`=factor(`Advertised Detailed Job Skill`,levels = rev(unique(`Advertised Detailed Job Skill`)))) %>%
+      plot_ly(y=~`Advertised Detailed Job Skill`, x=~`Job Opening Match Count`,
+              type = "bar", orientation="h") %>%
+      layout(showlegend = FALSE,
+             title = paste0("Job skills in demand in ",input$select_msa_ba," MSA"),
+             xaxis = list(title = "Number of jobs requiring the skill"), # use zeroline = FALSE to remove zero line :)
+             yaxis = list(title = "Job skill"),
+             margin = list(l = 50, r = 50, t = 60, b = 90),
+             annotations = list(text = "Source: www.indianacareerconnect.com",
+                                font = list(size = 12),
+                                showarrow = FALSE,
+                                xref = 'paper', x = -0.3,
+                                yref = 'paper', y = -0.35)
+      )
+    
+    fig
+  })
+  
+  output$toolsPlot <- renderPlotly({
+    fig <- tools_jobs %>%
+      filter(msa==input$select_msa_ba) %>%
+      mutate(`Advertised Detailed Tool or Technology`=factor(`Advertised Detailed Tool or Technology`,levels = rev(unique(`Advertised Detailed Tool or Technology`)))) %>%
+      plot_ly(y=~`Advertised Detailed Tool or Technology`, x=~`Job Opening Match Count`,
+              type = "bar", orientation="h") %>%
+      layout(showlegend = FALSE,
+             title = paste0("Job tool/ technology in demand in ",input$select_msa_ba," MSA"),
+             xaxis = list(title = "Number of jobs requiring the tool/technology"), # use zeroline = FALSE to remove zero line :)
+             yaxis = list(title = "Tool/technology"),
+             margin = list(l = 50, r = 50, t = 60, b = 90),
+             annotations = list(text = "Source: www.indianacareerconnect.com",
+                                font = list(size = 12),
+                                showarrow = FALSE,
+                                xref = 'paper', x = -0.4,
+                                yref = 'paper', y = -0.35)
+      )
+    
+    fig
   })
   
   
@@ -1435,7 +1494,7 @@ output$myImage2 <- renderImage({
     recent_date = max(df_cand$dt)
     my_query = "Number of candidates per job as of SAMPLE"
     candidates = df_cand$`Candidates`[ df_cand$indicator=="Total Candidates" & df_cand$dt==recent_date & df_cand$msa==input$select_msa]
-    jobs= df$`Job Openings`[ df$indicator=="Total Openings" & df$dt==recent_date & df$msa=="South Bend - Mishawaka" ]
+    jobs= df$`Job Openings`[ df$indicator=="Total Openings" & df$dt==recent_date & df$msa==input$select_msa ]
     cand_per_job=round(candidates/jobs,2)
     valueBox(
       paste0(cand_per_job), 
