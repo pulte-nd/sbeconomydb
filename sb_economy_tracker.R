@@ -41,12 +41,12 @@ sb_weekly_evictions <- read_rds("sb_weekly_evictions.Rds")
 home_prices_in <- read_rds("home_prices_in.Rds")
 
 # claimants files
-age <- read_csv("claimants_age.csv")
-gender <- read_csv("claimants_gender.csv")
-education <- read_csv("claimants_education.csv")
-industries <- read_csv("claimants_industries.csv")
-occ_grps <- read_csv("claimants_occupations.csv")
-total_claimants <- read_csv("unique_claimants.csv")
+total_claimants <- read_rds("unique_claimants.Rds")
+age <- read_rds("claimants_age.Rds")
+gender <- read_rds("claimants_gender.Rds")
+education <- read_rds("claimants_education.Rds")
+industries <- read_rds("claimants_industries.Rds")
+occ_grps <- read_rds("claimants_occupations.Rds")
 
 # spending files - census tract
 all_tracts_long <- read_csv("all_tracts_long.csv")
@@ -62,6 +62,7 @@ sb_business_licenses <- read_rds("sb_business_licenses.Rds")
 
 tools_jobs <- read_rds("tools_jobs.Rds")
 skills_jobs <- read_rds("skills_jobs.Rds")
+jobs_occupations <- read_rds("jobs_occupations.Rds")
 
 #setwd("C:/Users/Swapnil PC/OneDrive - nd.edu/notre dame research/citi foundation grant/Economic complexity/ECI Dashboard (shared with CRC)/data and code/")
 
@@ -405,12 +406,12 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6),
                                  column(
                                    br(),
-                                   p("The graph shows the number of business licenses issued in South Bend, IN.", 
+                                   p("Occupations in demand.", 
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6)
                                ),
                                fluidRow(box(wordcloud2Output(outputId = 'employers_wordcloud'), # wordcloud 0.2.1 seems to supress running plotly. do not update this package
                                             width=6),
-                                        box(plotlyOutput(outputId = 'businessactivityPlot'),
+                                        box(plotlyOutput(outputId = 'joboccPlot'),
                                             width=6)
                                         ),
                                fluidRow(
@@ -427,7 +428,16 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                             width=6),
                                         box(plotlyOutput(outputId = 'toolsPlot'),
                                             width=6)
-                               )
+                               ),
+                               fluidRow(
+                                 column(
+                                   br(),
+                                   p("The graph shows the number of business licenses issued in South Bend, IN.", 
+                                     style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6)
+                               ),
+                               fluidRow(box(plotlyOutput(outputId = 'businessactivityPlot'),
+                                            width=6)
+                               ),
                               ),
                        tabItem(tabName = "structural",
                                fluidRow(
@@ -1154,7 +1164,28 @@ server = function(input, output, session) {
     wordcloud2(size=0.3, color='random-light', 
                       backgroundColor="black", minRotation = 0, maxRotation = 0, rotateRatio = 1)
   })
-  
+
+  output$joboccPlot <- renderPlotly({
+    fig <- jobs_occupations %>%
+      filter(msa==input$select_msa_ba) %>%
+      mutate(`Occupation`=factor(`Occupation`,levels = rev(unique(`Occupation`)))) %>%
+      plot_ly(y=~`Occupation`, x=~`Job Openings`,
+              type = "bar", orientation="h") %>%
+      layout(showlegend = FALSE,
+             title = paste0("Occupations in demand in ",input$select_msa_ba," MSA"),
+             xaxis = list(title = "Number of job openings"), # use zeroline = FALSE to remove zero line :)
+             yaxis = list(title = "Occupation"),
+             margin = list(l = 350, r = 50, t = 60, b = 90),
+             annotations = list(text = "Source: www.indianacareerconnect.com",
+                                font = list(size = 12),
+                                showarrow = FALSE,
+                                xref = 'paper', x = -0.6,
+                                yref = 'paper', y = -0.35)
+      )
+    
+    fig
+  })
+    
   output$skillsPlot <- renderPlotly({
     fig <- skills_jobs %>%
       filter(msa==input$select_msa_ba) %>%
@@ -1169,7 +1200,7 @@ server = function(input, output, session) {
              annotations = list(text = "Source: www.indianacareerconnect.com",
                                 font = list(size = 12),
                                 showarrow = FALSE,
-                                xref = 'paper', x = -0.3,
+                                xref = 'paper', x = -0.2,
                                 yref = 'paper', y = -0.35)
       )
     
