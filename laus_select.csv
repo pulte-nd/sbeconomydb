@@ -26,6 +26,8 @@ state_code,area_code,measure,msa_name,area_type,area_state,dt,value,last_yr_valu
 18,MT1821140000000,Unemployment Rate,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-01-01,3.5,3,0.5,0.16666666666666666
 18,MT1821140000000,Unemployment Rate,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-02-01,3.5,2.8,0.7000000000000002,0.25000000000000006
 18,MT1821140000000,Unemployment Rate,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-03-01,3.5,3.1,0.3999999999999999,0.1290322580645161
+18,MT1821140000000,Unemployment Rate,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-04-01,3,30.8,-27.8,-0.9025974025974026
+18,MT1821140000000,Unemployment Rate,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-05-01,3.2,11.4,-8.2,-0.719298245614035
 18,MT1821140000000,Unemployment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2019-01-01,4304,NA,NA,NA
 18,MT1821140000000,Unemployment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2019-02-01,3681,NA,NA,NA
 18,MT1821140000000,Unemployment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2019-03-01,3411,NA,NA,NA
@@ -52,7 +54,9 @@ state_code,area_code,measure,msa_name,area_type,area_state,dt,value,last_yr_valu
 18,MT1821140000000,Unemployment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2020-12-01,3947,2968,979,0.32985175202156336
 18,MT1821140000000,Unemployment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-01-01,4052,3328,724,0.21754807692307693
 18,MT1821140000000,Unemployment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-02-01,3941,3096,845,0.2729328165374677
-18,MT1821140000000,Unemployment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-03-01,3940,3383,557,0.16464676322790422
+18,MT1821140000000,Unemployment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-03-01,3920,3383,537,0.1587348507242093
+18,MT1821140000000,Unemployment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-04-01,3434,31075,-27641,-0.889493161705551
+18,MT1821140000000,Unemployment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-05-01,3677,12397,-8720,-0.7033959828990884
 18,MT1821140000000,Employment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2019-01-01,110715,NA,NA,NA
 18,MT1821140000000,Employment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2019-02-01,110447,NA,NA,NA
 18,MT1821140000000,Employment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2019-03-01,110999,NA,NA,NA
@@ -79,7 +83,9 @@ state_code,area_code,measure,msa_name,area_type,area_state,dt,value,last_yr_valu
 18,MT1821140000000,Employment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2020-12-01,108706,107573,1133,0.010532382661076664
 18,MT1821140000000,Employment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-01-01,110311,107912,2399,0.022231077173993623
 18,MT1821140000000,Employment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-02-01,109072,108000,1072,0.009925925925925927
-18,MT1821140000000,Employment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-03-01,109790,106409,3381,0.03177362817054948
+18,MT1821140000000,Employment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-03-01,109596,106409,3187,0.02995047411403171
+18,MT1821140000000,Employment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-04-01,110261,69770,40491,0.5803497205102479
+18,MT1821140000000,Employment,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-05-01,111226,96390,14836,0.15391638136736177
 18,MT1821140000000,Labor Force,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2019-01-01,115019,NA,NA,NA
 18,MT1821140000000,Labor Force,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2019-02-01,114128,NA,NA,NA
 18,MT1821140000000,Labor Force,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2019-03-01,114410,NA,NA,NA
@@ -106,7 +112,9 @@ state_code,area_code,measure,msa_name,area_type,area_state,dt,value,last_yr_valu
 18,MT1821140000000,Labor Force,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2020-12-01,112653,110541,2112,0.019106033055608325
 18,MT1821140000000,Labor Force,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-01-01,114363,111240,3123,0.02807443365695793
 18,MT1821140000000,Labor Force,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-02-01,113013,111096,1917,0.017255346727154893
-18,MT1821140000000,Labor Force,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-03-01,113730,109792,3938,0.035867822792188864
+18,MT1821140000000,Labor Force,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-03-01,113516,109792,3724,0.033918682599825126
+18,MT1821140000000,Labor Force,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-04-01,113695,100845,12850,0.12742327334027467
+18,MT1821140000000,Labor Force,Elkhart - Goshen,IN Metropolitan Statistical Area (U),NA,2021-05-01,114903,108787,6116,0.056219952751707464
 18,MT1843780000000,Unemployment Rate,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-01-01,4.3,NA,NA,NA
 18,MT1843780000000,Unemployment Rate,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-02-01,4.1,NA,NA,NA
 18,MT1843780000000,Unemployment Rate,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-03-01,3.9,NA,NA,NA
@@ -134,6 +142,8 @@ state_code,area_code,measure,msa_name,area_type,area_state,dt,value,last_yr_valu
 18,MT1843780000000,Unemployment Rate,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-01-01,5.7,4,1.7000000000000002,0.42500000000000004
 18,MT1843780000000,Unemployment Rate,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-02-01,5.4,3.7,1.7000000000000002,0.4594594594594595
 18,MT1843780000000,Unemployment Rate,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-03-01,5.3,4.1,1.2000000000000002,0.2926829268292684
+18,MT1843780000000,Unemployment Rate,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-04-01,4.8,20.7,-15.899999999999999,-0.7681159420289855
+18,MT1843780000000,Unemployment Rate,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-05-01,5,13.3,-8.3,-0.6240601503759399
 18,MT1843780000000,Unemployment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-01-01,6979,NA,NA,NA
 18,MT1843780000000,Unemployment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-02-01,6593,NA,NA,NA
 18,MT1843780000000,Unemployment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-03-01,6314,NA,NA,NA
@@ -160,7 +170,9 @@ state_code,area_code,measure,msa_name,area_type,area_state,dt,value,last_yr_valu
 18,MT1843780000000,Unemployment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2020-12-01,8469,5276,3193,0.6051933282789992
 18,MT1843780000000,Unemployment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-01-01,8925,6384,2541,0.3980263157894737
 18,MT1843780000000,Unemployment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-02-01,8435,5937,2498,0.4207512211554657
-18,MT1843780000000,Unemployment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-03-01,8289,6510,1779,0.2732718894009217
+18,MT1843780000000,Unemployment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-03-01,8314,6510,1804,0.2771121351766513
+18,MT1843780000000,Unemployment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-04-01,7570,31929,-24359,-0.7629114598014344
+18,MT1843780000000,Unemployment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-05-01,7843,20963,-13120,-0.625864618613748
 18,MT1843780000000,Employment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-01-01,155790,NA,NA,NA
 18,MT1843780000000,Employment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-02-01,155993,NA,NA,NA
 18,MT1843780000000,Employment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-03-01,156618,NA,NA,NA
@@ -187,7 +199,9 @@ state_code,area_code,measure,msa_name,area_type,area_state,dt,value,last_yr_valu
 18,MT1843780000000,Employment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2020-12-01,146995,157048,-10053,-0.06401227650145179
 18,MT1843780000000,Employment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-01-01,147826,154362,-6536,-0.04234202718285589
 18,MT1843780000000,Employment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-02-01,148022,154217,-6195,-0.04017066860333167
-18,MT1843780000000,Employment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-03-01,148034,151410,-3376,-0.022297074169473616
+18,MT1843780000000,Employment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-03-01,147735,151410,-3675,-0.024271844660194174
+18,MT1843780000000,Employment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-04-01,148770,122223,26547,0.21720134508234948
+18,MT1843780000000,Employment,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-05-01,150464,136143,14321,0.10519086548702468
 18,MT1843780000000,Labor Force,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-01-01,162769,NA,NA,NA
 18,MT1843780000000,Labor Force,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-02-01,162586,NA,NA,NA
 18,MT1843780000000,Labor Force,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2019-03-01,162932,NA,NA,NA
@@ -214,4 +228,6 @@ state_code,area_code,measure,msa_name,area_type,area_state,dt,value,last_yr_valu
 18,MT1843780000000,Labor Force,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2020-12-01,155464,162324,-6860,-0.04226115669894778
 18,MT1843780000000,Labor Force,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-01-01,156751,160746,-3995,-0.02485287347741157
 18,MT1843780000000,Labor Force,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-02-01,156457,160154,-3697,-0.023084031619566167
-18,MT1843780000000,Labor Force,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-03-01,156323,157920,-1597,-0.010112715298885511
+18,MT1843780000000,Labor Force,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-03-01,156049,157920,-1871,-0.011847771023302938
+18,MT1843780000000,Labor Force,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-04-01,156340,154152,2188,0.014193782759873371
+18,MT1843780000000,Labor Force,South Bend - Mishawaka,IN-MI Metropolitan Statistical Area (U),NA,2021-05-01,158307,157106,1201,0.007644520260206485

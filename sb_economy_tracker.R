@@ -33,7 +33,7 @@ employers_jobs <- read_rds("employers_jobs.Rds")
 all_claims <- read_csv("all_claims.csv")
 sb_naics_sector <- read_csv("sb_naics_sector.csv")
 sb_oes <- read_csv("sb_oes.csv")
-sb_elk_ces_sup <- read_csv("sb_elk_ces_sup.csv")
+sb_elk_ces_sup <- read_rds("sb_elk_ces_sup.Rds")
 laus_select <- read_csv("laus_select.csv")
 
 housing_sb <- read_rds("housing_sb.Rds")
@@ -63,6 +63,7 @@ sb_business_licenses <- read_rds("sb_business_licenses.Rds")
 tools_jobs <- read_rds("tools_jobs.Rds")
 skills_jobs <- read_rds("skills_jobs.Rds")
 jobs_occupations <- read_rds("jobs_occupations.Rds")
+certifications_jobs <- read_rds("certifications_jobs.Rds")
 
 #setwd("C:/Users/Swapnil PC/OneDrive - nd.edu/notre dame research/citi foundation grant/Economic complexity/ECI Dashboard (shared with CRC)/data and code/")
 
@@ -406,7 +407,7 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6),
                                  column(
                                    br(),
-                                   p("Occupations in demand.", 
+                                   p("Occupations in demand in",format(unique(jobs_occupations$dt),"%B %d, %Y"),".", 
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6)
                                ),
                                fluidRow(box(wordcloud2Output(outputId = 'employers_wordcloud'), # wordcloud 0.2.1 seems to supress running plotly. do not update this package
@@ -417,11 +418,11 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                fluidRow(
                                  column(
                                    br(),
-                                   p("Top 10 Job skills in demand.", 
+                                   p("Top 10 Job skills in demand in",format(unique(skills_jobs$dt),"%B %Y"),".",
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6),
                                  column(
                                    br(),
-                                   p("Top 10 Tools and Technology in demand.", 
+                                   p("Top 10 Tools and Technology in demand in",format(unique(tools_jobs$dt),"%B %Y"),".", 
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6)
                                ),
                                fluidRow(box(plotlyOutput(outputId = 'skillsPlot'),
@@ -433,9 +434,15 @@ ui = dashboardPage(#skin = "black", # blue is default but not too many options
                                  column(
                                    br(),
                                    p("The graph shows the number of business licenses issued in South Bend, IN.", 
+                                     style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6),
+                                 column(
+                                   br(),
+                                   p("Top 10 Certifications in demand in",format(unique(certifications_jobs$dt),"%B %Y"),".", 
                                      style="text-align:justify;color:black;background-color:lavender;padding:15px;border-radius:10px"),width=6)
                                ),
                                fluidRow(box(plotlyOutput(outputId = 'businessactivityPlot'),
+                                            width=6),
+                                        box(plotlyOutput(outputId = 'certificationsPlot'),
                                             width=6)
                                ),
                               ),
@@ -1228,6 +1235,26 @@ server = function(input, output, session) {
     fig
   })
   
+  output$certificationsPlot <- renderPlotly({
+    fig <- certifications_jobs %>%
+      filter(msa==input$select_msa_ba) %>%
+      mutate(`Advertised Certification Group`=factor(`Advertised Certification Group`,levels = rev(unique(`Advertised Certification Group`)))) %>%
+      plot_ly(y=~`Advertised Certification Group`, x=~`Job Opening Match Count`,
+              type = "bar", orientation="h") %>%
+      layout(showlegend = FALSE,
+             title = paste0("Job certification in demand in ",input$select_msa_ba," MSA"),
+             xaxis = list(title = "Number of jobs requiring the certification"), # use zeroline = FALSE to remove zero line :)
+             yaxis = list(title = "Certification"),
+             margin = list(l = 350, r = 50, t = 60, b = 90),
+             annotations = list(text = "Source: www.indianacareerconnect.com",
+                                font = list(size = 12),
+                                showarrow = FALSE,
+                                xref = 'paper', x = -0.2,
+                                yref = 'paper', y = -0.35)
+      )
+    
+    fig
+  })
   
   output$evictionPlot <- renderPlotly({
     
